@@ -1,0 +1,38 @@
+Para converter alguma base para outra base -
+1. Converter essa base para base 10
+2. E depois converter base 10 para base desejada
+
+Exemplo de conversão de base 7 para 5.
+
+ - 241 base 7 para base 5
+
+1. Converter base 7 para base 10
+
+2 x 7²
+4 x 7¹
+1 x 7°
+
+1.1. multiplicar cada numero pela base referente elevado a posição que está
+
+2 x 49 = 98
+4 x 7 = 28
+1 x 1 = 1
+
+1.2. Somar os resultados
+
+98+28+1 = 127
+
+-= Ou seja, 241 base 7 é igual a 127 em base 10 =-
+
+2. Converter base 10 para base 5
+
+127 / 5 = 25, resta 2
+25 / 5 = 5, resta 0
+5 / 5 = 1, resta 0
+1 / 5 = 0, resta 1
+
+2.1. Dividir pela base referente até zerar, pegar o resto, do ultimo para o primeiro.
+
+=- 127 em base 10 é igual a 1002 em base 5 -=
+
+-=-=- Ou seja, 241 em base 7 é 1002 em base 5 -=-=-

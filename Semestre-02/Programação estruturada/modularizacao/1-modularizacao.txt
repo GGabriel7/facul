@@ -1,0 +1,93 @@
+1. O que é? 
+    É dividir o programa em módulos. Em vez de você ter um único programa principal, dividindo-o em subprogramas, com funções próprias, para melhorar o desempenho, manutenção e "beleza" do código, podendo fazer com que você reeutilize alguns de seus módulos.
+
+
+2. Funções:
+    Procedimentos que retornam um único valor ao final da excecução. Dividir um único programa em subprogramas, para dividir as funções, é a base da modularização.
+
+
+3. Bibliotecas:
+    - <stdio.h> (Stardard Input Output) - Entrada e saída de dados (printf(), scanf()...).
+    - <string.h> - funções para trabalhar com strings.
+    - <math.h> - Funções matamáticas
+    - <stdlib.h> - Muitas funções como: Gerar números aleatórios, alocações em memória e funções para a conversão de números em cadeias de caractere
+    - <time.h> - funções para manipular horários e datas
+    - <ctype.h> - funções para tratamento de caractere;
+    - <dos.h> - Funções de acesso as INT's da BIOS e DOS do MS-DOS.
+
+
+4. Funções de E/S (entrada e saída) padrão. <stdio.h>
+    4.1 printf():
+        printf("Exibe uma mensagem na tela");
+
+        - printf("Exibir variável de número inteiro: %d", intVar); int intVar = 2
+        - printf("Exibir variável de número com ponto flutuante: %.2f", floatVar); (o número antes do f irá indicar a quantidade de casas décimais) float floatVar ou double doubleVar - 2.44555 (%f servirá para ambos pois sempre será interpretado como double, mesmo que seja float)
+        - printf("Exibir variável com string: %s", stgVar); char stgVar[] = "Olá, mundo!"
+
+    4.2 scanf():
+        printf("Solicitar algo para ser lido com o scanf(): ");
+        scanf("%d", &variavel); (é apontado para a variavel com o &)
+
+        - printf("Um número inteiro: ");
+        scanf("%d", &intVar); 
+
+        - printf("Um número com ponto flutuante: ");
+        scanf("%f", &floatVar); (f para float e lf para double, no caso do scanf)
+        
+        printf("Uma string: ");
+        scanf("%s", stgVar); (em caso de um arrey de char, não necessita do &)
+
+
+5. Funções de manipulação de Arquivos:
+    5.1. Funções:
+        FILE *arquivo = fopen("arquivo.txt", "r"); Abre um arquivo para leitura ("r" = leitura / "w" = escrita / "a" = adicionar conteudo / "r+" = leitura e escrita) / "w+" = criar arquivo para atualizar / "a+" Adição, em arquivo para leitura e escrita
+
+        fprintf(arquivo, "Nome: %s - Idade: %d", nome, idade); Escreve dados em um arquivo (similar ao printf()).
+
+        fscanf(arquivo, "%s %d", nome, %idade); Lê dados de um arquivo (simliar ao scanf()).
+
+        fclose(arquivo); Fecha um arquivo que foi aberto.
+
+        fgetc() e fputc(): Lê e escreve, respectivamente, um caractere em um arquivo.
+
+        ungetc(): Devolve o ultimo caractere lido
+
+
+6. Manipulando tipos de dados <ctype.h>:
+    6.1 Verificação de dados:
+        if (isalpha(c)) {
+            print("Mostrará caso seja uma letra");
+        }
+
+        if (isdigit(c)) {
+            print("Mostrará caso seja uma lnúmero");
+        }
+
+        if (isspace(c)) {
+            print("Mostrará caso seja um espaço em branco");
+        }
+    
+    6.2 Transformação de dados
+        c = toupper(c); Transforma tudo em maisculo
+
+        c = tolower(c); Tranforma tudo em minúsculo
+
+
+7. Manipulação de string <string.h>:
+    - char string[] = "Exemplo String 16"
+
+    - strlen(string); Mede o tamanho de uma string (16)
+
+    - strcpy(string, stringCopiada); Ele pega o valor de uma string e duplica em um outra variavel
+
+    - if (strcmp(string, stringCopiada) == 0) {
+        print("as strings são iguais.");
+    } else {
+        print ("as string são diferentes");
+    } strcmp irá comparar duas string
+
+    - strcat(string, stringCopiada); pegará duas strings e irá contenar(junta-las).
+
+    - sprintf(string, "exemplo de texto: %d", intVal); Irá juntar duas strings também, uma na variavel e outra que foi criada.
+
+    - sscanf(string, "%s String %d", strVal, intVal); Pega a string "Exemplo String 16" e adiciona em outra variavel (strVAl = Exemplo / intVal = 16)

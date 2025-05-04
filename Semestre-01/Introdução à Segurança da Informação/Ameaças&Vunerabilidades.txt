@@ -1,0 +1,59 @@
+Ameaças e Vulnerabilidades
+
+Vunerabilidades - Fragilidades em um sistema.
+Ameaça - Qualquer coisa que possa explorar as vunerabilidades.
+
+-=-=-=- Ativos -=-=-=-
+Tangiveis - São aqueles que conseguimos medir o valor.
+- lógicos: informações ou softwares
+- físicos: equipamentos ou infraestruturas
+- Humanos: colaboradores e prestadores de serviço
+
+Intangiveis - São aqueles que NÃO conseguimos medir o valor.
+- Imagem da organizaçã/empresa
+- Marca
+- Determinados produtos de uma organização
+
+
+=-=-=-= Classificação das ameaças =-=-=-=
+Que envolbem ativos: Confidencialidade, Integridade e Disponibilidade.
+Vetor de ataque: Físico, Lógico, Humano (Colaboradores ou Hackers) e Não-Humano(Desastre natural ou de Infraestrutura)
+
+
+-=-=-= Ataques Cibernéticos =-=-=-
+Definição: Ataques cibernéticos são ações maliciosas intencionais por meio do uso de técnicas que normalmente exploram a vulnerabilidade de uma tecnologia, de um processo ou de uma metodologia.
+
+- Ataques de negação de serviço (DOS):
+Corresponde a um tipo de ataque que tem por objetivo indisponibilizar determinado   sistema ou equipamento.
+
+Exemplos: pod (ping of death), syn flood udp flood e o tcp flood.
+
+Atualmente são utilizados com mais de um agente (fonte), caracterizando assim uma nova classe de ataques, os distribuídos, que é interpretada como uma variante do DOS (DDOS)
+
+- Engenharia Social:
+Situação em que são usadas as fraquezas humanas para se obter informação (ferir a confidencialidade) de uma pessoa ou organização.
+
+O exemplo mais comum desse tipo de ataque é o phishing, comumente utilizado para obter dados de cartões de crédito, visando ao ganho financeiro.
+
+Ações de phishing podem acontecer de diversas formas. Pode ser um e-mail semelhante ao de uma instituição financeira, um SMS com um link para regularizar uma situação, uma página (ou post) em uma rede social e até mesmo um site inteiro clonado.
+
+- Pichação de Site:
+Também conhecido como defacement, Corresponde à técnica mais utilizada e se caracteriza pela alteração não autorizada de determinado site na internet. 
+
+- Botnets
+Também conhecido como rede zumbi, é um conjunto de equipamentos que sofreu um ataque, resultando no controle do equipamento pelo hacker. O ataque é realizado através de um software chamado bot, que explora uma vulnerabilidade do equipamento e faz a instalação nele. Através de botnets é possível fazer ataques de negação de serviço, envios de e-mails em massa e vários outros.
+
+- Softwares maliciosos
+Malwares são softwares maliciosos que objetivam a infecção dos ativos de TI. 
+
+Cavalo de Troia - Mascara-se um vetor de ataque, normalmente um malware, dentro de um documento ou ferramenta, enganando a vítima do ataque.
+
+Exploits e worms - são as aplicações construídas especificamente para explorar determinadas vulnerabilidades existentes e os worms, muitas vezes confundidos com os vírus, utilizam as estruturas de comunicação para sua disseminação.
+
+Vírus são os malwares que precisam de um ambiente para a sua execução.
+
+Virus spywares - por exemplo, aplicações que capturam tudo o que é digitado pelo usuário, conhecidas como keyloggers
+
+Virus adwares - aplicações que trazem propaganda para o usuário, sem sua autorização
+
+Ransomware - Visa criptografar os dados das vítimas e cobrar pagamento pelo resgate.

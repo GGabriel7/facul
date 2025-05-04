@@ -1,0 +1,29 @@
+-=-=-=-=- Dado x Informação -=-=-=-=-
+
+Dado - Valor de uma determinada medida sem uma contextualização, como notas de um aluno.
+Informação - Conjunto de dados que tenha um contexto em uma determinada situação. Como a informação se um aluno foi aprovado ou reprovado com base nos dados de sua nota.
+
+-=-=-=-=- Ciclo de vida da Informação: -=-=-=-=-
+
+- Criação
+- Transporte
+- Manuseio
+- Descarte
+
+Um motodo para dar uma melhor segurança para essas informações seria o uso de chaves virtuais. Podem ser assimetrica (diferentes chaves) ou simetricas (mesma chave) para codificar a informação e decodifica-la.
+
+-=-=-=-=- Aspectos da Segurança -=-=-=-=-
+
+Confidencialidade: Capacidade do acesso à informação apenas para quem possui autorização.
+
+Integridade: Deixar toda as informações sejam integras (não corrompidas ou danificadas), dando possibilidade de alteração da informação APENAS por pessoas ou sistemas autorizados.
+
+Disponibilidade: Poder ser acessada, em qualquer tempo, por pessoas ou sistemas autorizados para tal.
+
+Aspectos seguintes: 
+
+Autenticidade: Assegura que a informação foi gerada por pessoa ou sistema autorizado para isso.
+
+Legalidade: Alinha informação e/ou dos processos com normas, portarias, leis e quaisquer outros documentos normativos.
+
+Não-repúdi: Capacidade do emissor de negar a autoria de uma informação divulgada. Também é conhecido como irretratabilidade.

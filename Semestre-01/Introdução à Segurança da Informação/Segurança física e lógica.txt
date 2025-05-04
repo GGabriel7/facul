@@ -1,0 +1,46 @@
+Segurança Física e Lógica
+
+-=-=-=-=-=- Física =-=-=-=-=-
+Controle de entrada e saida:
+- cancela para automóveis
+- controle biométrico ou de crachá
+- senha na bios
+- configuração de botoes fisicos
+
+Monitoramento
+- Cameras
+
+Ameaças da nautera
+- Extintor de incendio
+- Controles de temperatura
+- Sprinkles 
+
+Políticas e instruções normativas
+
+Rede:
+- Redudancia
+
+Energia
+- Geradores
+- Nobreaks
+
+-=-=-=-=-=- Lógica =-=-=-=-=-
+Medidas baseadas em software
+
+- Senhas seguras
+
+- Lista de controle de acesso
+
+- Firewall e VPNs
+
+- Controle Biometrico (leitor digital, leitor facial)
+
+- APIs de segurança
+
+- Criptografia {
+  - Simétrica - Uma mesma chave para codificar e decodificar as informações.
+Exemplos: AS, RC4, 3DES e IDEA.
+  
+  - Assimétrica (mais segura) - Utiliza duas chaves, privada e publica. O usuário codifica com a chave privada e chave pública fica disponivel em um servidor confiavel, que apenas quem tem autorização pode acessar essa chave. 
+Exemplos: RSADASI e diff Hellmann.
+}

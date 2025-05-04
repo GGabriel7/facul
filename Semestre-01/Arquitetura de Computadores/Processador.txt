@@ -1,0 +1,7 @@
+O processador, também conhecido como CPU (Unidade Central de Processamento), é o cérebro do computador, responsável por executar instruções e realizar cálculos. Ele processa dados e comanda as funções do sistema, sendo fundamental para o desempenho de um computador.
+
+Clocks
+O clock de um processador refere-se à frequência com que ele executa instruções, medida em hertz (Hz). Cada "tick" do clock é uma unidade de tempo durante a qual o processador realiza uma ação, como buscar ou executar uma instrução. A frequência de clock é normalmente medida em gigahertz (GHz), significando bilhões de ciclos por segundo. Quanto maior a frequência, mais operações o processador pode realizar por segundo, o que, em geral, resulta em maior desempenho.
+
+Núcleos
+Um núcleo é uma unidade independente de processamento dentro de um processador. Os processadores modernos costumam ter múltiplos núcleos, como dual-core (2 núcleos), quad-core (4 núcleos) ou até mais. Cada núcleo pode executar instruções de forma independente, o que permite que o processador lide com várias tarefas simultaneamente (multitarefa). Processadores com mais núcleos são mais eficientes em rodar várias aplicações ao mesmo tempo ou em executar tarefas complexas, como edição de vídeo ou jogos.

@@ -1,0 +1,39 @@
+Nomas da Segurança da Informação
+
+A ISO - International Organization for Standardization (Organização Internacional de Padronização) é uma entidade fundada em 1947, sediada na Suíça e que congrega organismos de normalização nacionais. Sua principal atividade é elaborar padrões para especificações e métodos de trabalho nas mais diversas áreas da sociedade. Sua principal atividade é elaborar padrões para especificações e métodos de trabalho nas mais diversas áreas da sociedade.
+
+A norma cita alguns fatores de influência para o seu estabelecimento e a sua implementação, como:
+1. Necessidades;
+2. Objetivos;
+3. Requisitos de segurança;
+4. Processos organizacionais;
+5. Tamanho e estrutura da organização.
+
+O SGSI (Sistema de Gestão da Segurança da Informação) preserva a tríade CID (confidencialidade, integridade e disponibilidade) da informação, aplicando um processo de gestão de riscos. Com isso, as partes interessadas (stakeholders) poderão ter uma maior confiança de que os riscos serão convenientemente gerenciados.
+
+A Norma ISO/IEC 27001, em conjunto com a Norma ISO/IEC 27002 (Código de Boas Práticas da Gestão da Segurança da Informação), formam as principais referências, atualmente, para quem procura tratar a questão da segurança da informação de maneira eficiente e com eficácia.
+
+A ABNT é reconhecida pelo Estado brasileiro como o Fórum Nacional de Normalização, e as NBRs são reconhecidas formalmente como as normas brasileiras.
+As nomenclaturas das normas ISO/IEC 27001 e 27002 são, respectivamente, ABNT NBR ISO/IEC 27001 e ABNT NBR ISO/IEC 27002.
+
+Cláusula 1:	Escopo
+Cláusula 2:	Referência normativa
+Cláusula 3:	Termos e definições
+Cláusula 4:	Contexto da organização
+Cláusula 5:	Liderança
+Cláusula 6:	Planejamento
+Cláusula 7:	Suporte
+Cláusula 8:	Operação
+Cláusula 9:	Avaliação de Desempenho
+Cláusula 10:	Melhoria
+
+-=-=-=-=-  Norma ISO/IEC 27001 -=-=-=-=
+
+Conforme a ABNT NBR ISO/IEC 27001 (2013), o título da Norma ABNT NBR ISO/IEC 27001:2013 é Sistemas de Gestão da Segurança da Informação.
+
+Especifica os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão da segurança da informação dentro do contexto da organização.
+
+O leitor observará que a norma sempre indicará o que o gestor DEVERÁ fazer em relação às cláusulas das disciplinas do SGSI.
+
+-=-=-=-=-  Norma ISO/IEC 27002 -=-=-=-=
+A Norma ABNT NBR ISO/IEC 27002:2013 apresenta as melhores práticas a serem utilizadas na gestão da segurança da informação. eu título é Código de Prática para a Gestão da Segurança da Informação. A sua principal característica, ou palavra-chave, como já foi explicado anteriormente, é: CONVÉM. A versão 2013 recomenda 114 tipos de controles básicos.

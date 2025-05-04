@@ -1,0 +1,37 @@
+CISC e RISC
+
+-=-=-=- Arquitetura CISC -=-=-=-
+
+Complex Instruction Set Computer - Computador com Conjunto Complexo de Instruções
+
+O que é?
+- É uma abordagem realizada na hora de projetar a arquitetura do processador. Instruções específicas para o maior número de funções possíveis. Instruções com diferentes níveis de complexidade, buscando, muitas vezes, operandos na memória principal e retornando a ela os resultados.
+
+- Quantidade de instruções extensas
+- Controle do processador complexo (para decodificar a instrução a ser executada)
+- Acessos direto a memória
+- Soluções adequadas para problemas específicos. 
+- Uso de pipeline - processador pode realizar multiplas funções paralelas.
+- Operações aritimeticas na ULA (Unidade lógica e aritmética)
+
+-=-=-=- Arquitetura RISC -=-=-=-
+
+Reduced Instruction Set Computer - Computador com Conjunto Restrito de Instruççoes.
+
+O que é? 
+Arquitetura de um computador. Poucas instruções genéricas, com as quais se montam as operações mais complexas. Realizam operações apenas sobre os registradores, exceto nos casos de instruções específicas, que servem apaenas para buscar ou guardar dados na memória.
+
+- Prquena quantidade de instruções.
+- Unidade de Controle simples - para decodificar a instrução para ser executada.
+- Sobra espaço para mais registradores
+- Resolveu a questão de diversas operações complexas que eram pouco utilizadas pelos progrmas em processaodres anteriores (Cisc)
+
+= Quantidade de instruções: 
+A quantidade reduzida de instruções diminui o tamanho e a complexidade da Unidade de Controle para decodificação da instrução. Com isso, sobra mais espaço para registradores no processador. Enquanto os processadores CISC costumam ter até 8 registradores, é comum que os processadores RISC tenham mais de 32, chegando até a algumas centenas.
+
+= Tempo de execução: 
+A premissa de execução com duração próxima serve para facilitar a previsibilidade do processamento de cada instrução. A ideia é que cada etapa da instrução consiga ser executada em um ciclo de máquina (CLK). Como todas as instruções operam usando apenas os rápidos registradores, isso é possível. As exceções são as instruções LOAD e STORE.
+
+= Operação das instruções:
+Com a operação sobre os registradores, o pipeline executa de forma próxima ao ideal (1 etapa por ciclo), exceto pelos acessos à memória das instruções LOAD e STORE, que demandam um tempo maior de espera.
+

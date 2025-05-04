@@ -1,0 +1,64 @@
+Boas Práticas em Segurança da Informação
+
+-=-=-=- GERENCIAMENTO DE SENHAS (autenticidade) -=-=-=-
+- Não informar para ninguem.
+- Pelo menos 8 caracteres.
+- Mudar periodicamente.
+- Ter letras (mai e min), numeros e simbolos.
+- Não repetir senha em varias contas.
+
+
+-=-=-=- ATUALIZÇÔES PERIODICAS DO SISTEMA -=-=-=-
+- Atualizar os sistemas utilizados para estar de acordo com as novas regras de segurança
+
+
+-=-=-=- NÃO ABRIR LINKS OU FAZER DOWNLOADS SUSPEITOS -=-=-=-
+- Cuidado com Fishing.
+- Fazer download apenas de sites oficiais.
+
+
+-=-=-=- CONTROLES DE ACESSO, ANTIVIRUS E BACKUPS PERIODICOS -=-=-=-
+- Controle de acesso: Limitar acesso a um sistema ou a recursos físicos ou virtuais.
+DAC (adm decide quem tem permissão de acesso), MAC (acesso registro), RBAC (baseado em funções)
+
+- Virus: Vírus de arquivo, Vírus de boot, Vírus de macro, Código-fonte vírus, Mutante, Polimórfico, Cavalo de Troia (trojan), Vírus multipartite, Vírus stealth, Vírus de encapsulamento, Vírus criptografado, Vírus blindado.
+
+- Backup: Copias de segurança de arquivos devem ser realizados periodicamente. Backup completo (copia de TODOS os dados), Backup incremental (backup APENAS dos dados alterados desde o ultimo backup), Backup diferencial (pega o backup anterior e modifica o que foi modificado)
+
+
+-=-=-=- NÃO DISPONIBILAR DADOS EM LOCAIS NÃO CONFIAVEIS -=-=-=-
+- Muitos golpistas utilizam sites, apps, paginas no instagram (etc) para roubas dados pessoais.
+
+
+-=-=-=- TREINAMENTOS REGULARES -=-=-=-
+- A ISO/IEC 27002 trata de todos os aspectos necessários para garantir que as melhores práticas sejam aplicadas para a segurança da informação. (Política da Segurança da Informação; Organizando a Segurança da Informação; Gestão de Ativos; Segurança em Recursos Humanos; Segurança Física e do Ambiente; Gestão das Operações e Comunicações; Controle de Acesso; Aquisição, Desenvolvimento e Manutenção de Sistemas de Informação; Gestão de Incidentes de Segurança da Informação; Gestão da Continuidade do Negócio; Conformidade)
+
+- São sugeridas as seguintes recomendações baseadas na ISO/IEC 27002:
+
+- Obrigatoriedade do envolvimento da diretoria
+Envolvimento de toda a organização
+Criação de conteúdo para treinamento e conscientização de segurança
+Diversidade de treinamento (cursos, videos, textos, palestras, questionarios)
+Exercícios de simulação
+Periodicidade na realização do treinamento de conscientização de segurança
+
+
+-=-=-=- CRIPTOGRAFIA E CERTIFICADOS DIGITAIS -=-=-=-
+- Criptografia (simetrica, assimetrica e Hash): Codificar dados por meio de algoritimos para que apénas que tem acesso a chave possa acessa-lo.
+
+- Certigicados Digitas: Documento eletronico para identificar pessoas e instituições garantido pela autoridade certificadora. Garantir autenticidade, integridade e não-repudio. Normalmente utilizado para assinar documentos digitais. Deve conter: nome do sujeito, chave publica, numero de serie, data de validade, assinatura digital da autoridade certificadora e a mensagem, qualter outra informação relevante.
+
+
+-=-=-=- MECANISMOS DE PROTEÇÃO -=-=-=-
+- Economia de mecanismo (objetividade do mecanismo)
+- Padrões à prova de falhas
+- Mediação completa
+- Projeto aberto
+- Separação de privilégios
+- Privilégio mínimo
+- Compartilhamento mínimo
+- Aceitação psicológica
+
+
+-=-=-=- SE MANTER INFORMADO SOBRE GOLPES E SE PROTEGER DELES -=-=-=-
+- Estar sempre ciente de novos golpes e saber como se proteger deles

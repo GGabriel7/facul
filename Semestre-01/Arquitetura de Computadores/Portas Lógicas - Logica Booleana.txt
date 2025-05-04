@@ -1,0 +1,73 @@
+Portas Lógicas
+
+=-=-=-=-= Or: =-=-=-=-=
+
+0 | 0 = 0
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 1
+
+- O resultado será verdade toda vez que pelo menos uma das operações sejam verdadeiras
+- Calculo: A + B = X
+
+=-=-=-=-= And: =-=-=-=-=
+
+0 | 0 = 0
+0 | 1 = 0
+1 | 0 = 0
+1 | 1 = 1
+
+- O resultado será verdade apenas se as duas condições sejam verdadeiras
+- Calculo: A * B = X
+
+=-=-=-=-= Not: =-=-=-=-=
+
+0 = 1
+1 = 0
+
+- O resultado será o inverso da condição.
+
+=-=-=-=-= Nor (Not or): =-=-=-=-=
+
+- É a inversão dos resultados da função Or
+
+0 | 0 = 1
+0 | 1 = 0
+1 | 0 = 0
+1 | 1 = 0
+
+- Apenas será verdadeiro caso as duas condições sejam falsas. Resultado inverso ao Or.
+
+=-=-=-=-= Nand (Not and): =-=-=-=-=
+
+- É a inversão dos resultados da função And
+
+0 | 0 = 1
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 0
+
+- O resultado apenas será falso caso as duas condições sejam verdadeiras. Inverso ao And.
+
+=-=-=-=-= Xor (Or exclusivo) =-=-=-=-=
+
+- O resuiltado será verdadeiro apenas se uma das operações forem verdadeiras
+
+0 | 0 = 0
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 0
+
+=-=-=-=-= Xnor (Coisidencia) =-=-=-=-=
+
+- O resultado somente será verdade se as condições sejam todas verdadeiras ou falsas.
+
+0 | 0 = 1
+0 | 1 = 0
+1 | 0 = 0
+1 | 1 = 1
+
+=-=-=-=-= Ordem de Precedencia =-=-=-=-=
+
+Not > And (*) > Or (+) 
+

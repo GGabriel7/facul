@@ -1,0 +1,112 @@
+Plano de Continuidade de Negócio (PCN)
+
+=+=+=+=+ CONCEITO +=+=+=+=
+Determinado pela norma ABNT NBR 15999 Parte 1, consiste na elaboração preventiva de estratégias e planos de ação para identificar e preservar os serviços essenciais de uma organização caso ocorra um desastre, garantindo a recuperação, a continuidade e a retomada da situação normal de funcionamento da empresa.
+
+1. Identificar operações críticas de negócios.
+2. Identificar o risco associado a essas operações.
+3. Identificar maneiras de mitigar ou evitar o risco.
+4. Prosseguir as operações em caso de emergência ou desastre.
+5. Restabelecer os negócios novamente o mais rápido possível.
+
+O gerenciamento da continuidade dos negócios deve incluir controles para identificar e reduzir riscos, limitar as consequências de incidentes prejudiciais e garantir a retomada oportuna das operações essenciais.
+
+
+
+=+=+=+=+ TERMOS E DEFINIÇÕES +=+=+=+=
+Risco - Probabilidade de ocorrer um evento que prejudique o alcance do objetivo preestabelecido para o negócio ou algum processo.
+
+Serviço - Criação de atividade a fim de gerar valor.
+
+Disponibilidade - Executar sua função preestabelecida sempre que for requisitado.
+
+Desastre - Evento imprevisível que provoca grandes perdas ou danos a uma organização.
+
+Prática de gerenciamento de continuidade de serviço - Conjunto de ações que visa a garantir que os níveis de disponibilidade e de desempenho dos serviços estejam dentro de patamares de qualidade suficientes em caso de desastre.
+
+Planos de recuperação de desastre - Conjunto de planos definidos contendo a estratégia de recuperação de uma empresa após um desastre e de seu retorno à condição anterior a esse desastre.
+
+Análise de impacto no negócio - Identifica as principais funções do negócio e suas dependências.
+
+Garantia - Produto ou serviço funcionará de acordo com as condições expostas quando ele foi adquirido. 
+
+Avaliação de risco - Identificar, analisar e mensurar os riscos a que uma organização, processo, produto ou pessoa estejam expostos.
+
+Prática de gerenciamento de risco - Corresponde à análise, à compreensão e ao tratamento eficaz dos riscos pela organização.
+
+- Para a implementação do PCN é necessário passar por algumas etapas. O instrumento mais utilizado para isso é o *PDCA*.
+
+
+
+=+=+=+=+ CICLO PDCA +=+=+=+=
+P - Plan (planejar) - Definir os objetivos e determinar as condições e os métodos necessários para alcançá-los.
+
+D - Do (fazer) - Executar todos os planos definidos no planejamento.
+
+C - Check (checar) - Verificar se a progressão do trabalho está ocorrendo de acordo com o plano e se os resultados esperados estão sendo obtidos.
+
+A - Action (Agir) - Se o exame revelar que o trabalho não está sendo realizado de acordo com o plano ou que os resultados não estão em concordância com o que foi antecipado, medidas devem ser planejadas para realizar a ação apropriada.
+
+PDCA aplicado ao PCN:
+1. Mapeamento de negócios
+2. Análise de impacto de negócios
+3. Definições de melhores estratégias
+4. Documentação de planos
+5. Testes e simulações
+
+- Plano de Recuperação de Desastre (PRD):
+O PRD é uma ferramenta valiosa que ajuda as organizações a se prepararem contra circunstâncias fora de seu controle para garantir a capacidade de cumprir compromissos com prazo determinado, apesar dos contratempos adversos.
+
+
+
+=+=+=+=+ POLÍTICA DE GESTÂO DE CONTINUIDADE DE NEGOÍCIOS (PGCN) +=+=+=+=
+Norma: NBR 15999 (parte 1)
+Conjunto dos processos e das atividades que uma organização deve ter para garantir resistência aos diversos problemas e gerenciar adequadamente os riscos.
+
+O propósito da PGCN é fornecer uma base para que se possa entender, desenvolver e implementar a continuidade de negócios em uma organização, além de fortalecer a confiança nos negócios junto aos clientes e a outras organizações.
+
+A organização deve considerar:
+- Alocação dos recursos para gestão contínua dos negócios (GCN).
+- Definição dos princípios, dos guias e das políticas que precisem ser incluídos ou que possam ser utilizados como referência.
+- Referência às normas pertinentes, aos regulamentos, às legislações ou às políticas que tenham de ser incluídos ou que possam ser usados como parâmetro
+
+Alguns dos benefícios da sua aplicação são:
+- Identificação dos impactos e das consequências antes da ocorrência de um desastre.
+- Minimização dos efeitos de interrupções na organização.
+- Redução do risco de perdas financeiras.
+- Preservação da imagem da organização por meio da confiança na continuidade dos serviços.
+- Retorno das atividades de sistemas críticos dentro de um prazo acordado.
+- Cumprimento das obrigações legais e estatutárias.
+
+
+
+=+=+=+=+ ITIL (GERENCIAMENTO DE CONTINUIDADE) +=+=+=+=
+- Information Technology Infrastructure Library (Biblioteca de Infraestrutura de Tecnologia da Informação)
+
+- Conjunto de práticas recomendadas para garantir a continuidade dos serviços de TI em momentos de crise.
+
+Os processos da biblioteca ITIL estão incluídos em cinco publicações separadas:
+
+
+1. Estratégia de serviço
+2. Design de serviço - Avaliação dos processos de gerenciamento de negócios (nível de serviço, disponibilidade, capacidade etc.) para projetar e desenvolver novas ofertas de serviços ou melhorar as ofertas existentes.
+3. Transição de serviço
+4. Operação de serviço
+5. Melhoria contínua de serviço
+
+
+
+=+=+=+=+ Continuidade de Serviços de Tecnologia da Informação (GCSTI) +=+=+=+=
+- O objetivo do GCSTI é gerenciar riscos capazes de afetar os serviços de TI. 
+- O GCSTI garante que o prestador de serviços sempre possa fornecer os níveis mínimos de qualidade preestabelecidos. 
+
+Benefícios:
+- Em caso de acidente ou desastre, os serviços de Tecnologia da Informação e Comunicação (TIC) podem voltar a operar considerando sua ordem de importância.
+- Apoio de reação mais rápido, auxiliando na recuperação de um acidente ou desastre.
+- Atua na prevenção de acidentes, pois faz projeção de cenários de desastre com antecedência.
+
+Implementação: 
+1. Identificação dos serviços e dos ativos.
+2. Identificação dos riscos e das ameaças.
+3. Desenvolvimento de planos de contingência.
+4. Documentação do plano de recuperação.

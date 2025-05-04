@@ -1,0 +1,65 @@
+Processos da Gestão de Risco
+
+- Identificar a situação de risco e criar procedimentos para mitigá-los
+
+- ATIVOS: Algo que possui valor para a organização (informação, software, físicos, Serviços, Pessoas, Intangíveis)
+
+- AMEAÇAS: ISO/IEC 27000:2018 (item 3.74) - “a causa potencial de um incidente indesejado que pode resultar em dano para um sistema ou organização por meio da quebra de segurança”. Algo que pode levar a uma falha fisica ou logica, explorando as vulnerabilidades.
+
+- MEDIDADS DE PROTEÇÃO (CONTROLE): ISO/IEC 27000:2018 (item 3.14) - "Medida que pode modificar o risco por meio de processo, política, dispositivo, prática ou outras ações que modifiquem a ameaça e/ou a vulnerabilidade e, consequentemente, o risco". Esconder ou diminuir o acesso ou exposição para as vunerabilidades.
+
+- VULNERABILIDADADE: ISO/IEC 27000:2018 (item 3.77) - “é uma fragilidade de um ativo ou grupo de ativos que pode ser explorada por uma ou mais ameaças e, por consequência, comprometer a segurança de sistemas ou informações”.
+
+- INCIDENTE: ISO/IEC 27000:2018 (item 3.31) - "evento ou série de eventos indesejados ou inesperados que provavelmente comprometerão as operações da empresa ou ameaçam a segurança da informação". 
+
+- EVENTO: ISO/IEC 27000:2018 (item 3.30) “ocorrência identificada de um estado de rede, serviço ou sistema que indique uma possível falha da política de segurança ou falha das salvaguardas, ou mesmo uma situação até então desconhecida que pode se tornar relevante em termos de segurança”. Exemplo: O travamento não esperado de uma aplicação ou uma pessoa que acidentalmente desconecta um cabo.
+
+- IMPACTO: "mudança não desejável nos objetivos de negócios”
+
+- RISCO: ISO/IEC 27000:2018 (item 3.61) - "combinação das consequências de um evento (incluindo mudanças nas circunstâncias) e de sua probabilidade associada de ocorrência."
+
+
++=+=+=+=+ SISTEMA DE GESTÃO DE RISCOS (RGR) +=+=+=+=+
+- Conjunto de práticas e procedimentos utilizado para gerenciar os riscos.
+
+
++=+=+=+=+ SISTEMA DE GESTÃO DE SEGURANÇA DA INFORMAÇÃO (RGSI) +=+=+=+=+
+ABNT NBR ISO/IEC 27001, o processo de gestão de riscos de segurança da informação deve atender aos requisitos de um SGSI. DEVE ser realizados esses procedimentos em TODOS os ambientes da empresa.
+
+
+
++=+=+=+=+ RISCO À SEGURANÇA DA INFORMAÇÃO +=+=+=+=+
+A organização XPTO possui um servidor que executa um banco de dados com os seguintes elementos: Escopo de ativos, Vulnerabilidades identificadas, Ameaça, Medida de controle adotada, Medidas de controle não adotadas, Possível incidente de segurança da informação, Impactos e Risco.
+
+
++=+=+=+=+ GESTÂO DE RISCOS+=+=+=+=+
+Norma relacionadad à gestão de riscos que podem ser levadas em consideração:
+ABNT NBR ISO/IEC 27005 - Gestão de riscos de segurança da informação
+ABNT NBR ISO/IEC 31000 - Gestão de riscos – princípio de diretrizes
+
+Conceito: A gestão de riscos é o processo que identifica e trata os riscos de forma sistemática e contínua. Trata-se de um dos componentes mais importantes da GSI.
+
+Funcionamento: Para ter sucesso, a GR deve ser permanente, mostrando-se capaz de identificar novas vulnerabilidades e ameaças que podem afetar os três pilares de segurança da informação: confidencialidade, integridade e disponibilidade (CID).
+
+- ETAPAS DA GESTÃO DE RISCO:
+
+Identificar -> Estimar (medir o nivel dos riscos) -> Avaliar (definiar as medidas de tratamento que precisão ser tomadas)
+
+- ETAPAS DO TRATAMENTO:
+O que deve ser protegido?
+A que custo?
+De quem proteger?
+Com que riscos?
+AS medidas de segurança devem ser Preventiva, Desencorajadoras, Monitoradoras, Corretivas, Recuperadoras, Reativas, Detectoras, Limitadoras.
+
+Aceitar o risco -> Comunicar -> Monitorar e Analisar
+
+Ao todo, 6 etapas da gestão do risco
+
+
++=+=+=+=+ GOVERNANÇA, RISCO E COMPLIANCE (GRC)+=+=+=+=+
+- Ferramenta de Gestão de RISCO (GR) utilizada no mundo dos negócios.
+
+Governança: Cuida para que o controle da gestão seja tão importante quanto ela própria.
+RISCO: Gerencia o efeito da incerteza nos objetivos.
+Compliance: Adere aos padrões da legislação.

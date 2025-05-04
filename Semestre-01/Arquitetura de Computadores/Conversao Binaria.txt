@@ -1,0 +1,15 @@
+Binario para base 16
+
+110110111001
+
+Separa em gurpos de 4 (adiciona 0 a esquerda se precisar)
+
+1101 1011 1001
+ D    B    9
+
+Para base 8
+
+Separa em grupos de 3 (adiciona 0 a esquerda se precisar)
+
+110 110 111 001
+ 6   6   7   1
