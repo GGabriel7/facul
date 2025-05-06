@@ -1,0 +1,28 @@
+1. Formatação básica:
+    1.1. Passagem por valor (o valor da variavel original não será alterado):
+        void dobrarValor(int num) {
+            num *= 2;
+        }
+
+    1.2. Passagem por referencia (o valor da variavel será alterado, por meio de uso de ponteiros):
+        void dobrarValor(int *num) {
+            *num *= 2;
+        }
+
+
+2. Paramêtros: 
+    2.1. function add(x, y) - x e y são parametros formais, 
+    
+    2.2 sum = add (4,1) - 4 e 1, dentro do código principal, será os paramentros reais/atuais
+
+
+3. Prototipos de sub-rotinas:
+    3.1. É declarado um prototipo antes da função principal do código e da função em si, irá informar para o compilador que a função irá exitir. Necessário declarar o tipo, nome e parametros da função.
+
+    3.2. int funcao(int num); - É colocado esse prototipo antes da função principal, e a função será escrita depois. Serve para o código ficar bem organizado e a função principal não ficar tão para baixo.
+
+
+4. Passagem de vetores:
+    4.1. Vetores: Vetor é uma estrutura de dados que armazena uma sequência do mesmo tipo de elementos.
+
+    4.2. int nomeVetor[5]; - É um vetor de 5 número inteiros, que seu indice inicia no 0.
