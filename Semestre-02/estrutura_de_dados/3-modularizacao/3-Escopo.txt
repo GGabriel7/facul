@@ -1,0 +1,29 @@
+1. O que é?
+    O escopo de um variável define onde e como essas variaveis podem ser acessadas.
+
+2. Tipos:
+    - Variaveis globais: variaveis que podem ser acessadas em qualquer parte do código, são declaradas fora da sub-rotina, na função principal(geral) do programa. 
+    #include <stdio.h>
+    int a = 10; // variavel global
+    int main() {
+        printf("%d", a); // a pode ser acessada aqui
+    }
+
+    - Variaveis locais: variaveis que só podem ser acessadas dentro da sub-rotina onde foram declaradas.
+    #include <stdio.h>
+    void nomeFuncao() {
+        int a = 10; // variavel local
+        printf("%d", a); // a pode ser acessada somente aqui
+    }
+
+    - Parametros formal: variaveis que são passadas para uma sub-rotina, são declaradas entre os parenteses da sub-rotina. Elas podem ser acessadas dentro da sub-rotina, mas não podem ser acessadas fora dela.
+    int nomeFuncao (int a, int b) { 
+    ... 
+    } - a e b são parametros formais.
+
+    - Argumentos: variaveis que são passadas para uma sub-rotina quando ela é chamada. Elas podem ser acessadas dentro da sub-rotina, mas não podem ser acessadas fora dela.
+    int main() {
+        int a = 10, b = 20;
+        nomeFuncao(a, b); // a e b são argumentos
+    }
+
