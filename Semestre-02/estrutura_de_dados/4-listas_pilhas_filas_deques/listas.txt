@@ -1,0 +1,54 @@
+1. Alocação sequencial:
+    Alocação sequencial, como o nome já diz, é uma alocação sequencial na memória. Inicia-se com um ponteiro para o primeiro elemento (0) e, a partir dele, os outros elementos são alocados sequencialmente na memória. Isso significa que todos os elementos estão contidos em um único bloco de memória. 
+
+    int vetor[10]; // vetor de 10 inteiros
+    vetor[4] = 50; // alocando o valor 50 na posição 4 (5°) do vetor.
+
+    Compreender o que é alocação sequencial vai lhe ajudar não apenas no entendimento de como estruturas tais quais listas, filas e pilhas funcionam, mas também na compreensão do mecanismo da alocação dinâmica.
+
+
+2. Listas lineares genericas:
+    Listas lineares genéricas são listas que podem armazenar qualquer tipo de dado, até os complexos. Elas são implementadas usando ponteiros, o que permite que os elementos sejam alocados em qualquer lugar da memória. Isso significa que os elementos não precisam estar contidos em um único bloco de memória, como nas listas sequenciais. 
+
+    typedef struct {
+        void *dados; // ponteiro para os dados
+        int tamanho; // tamanho dos dados
+    } ListaGenerica;
+
+
+3. Busca binaria:
+    A busca binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. O algoritmo divide a lista em duas partes e verifica se o elemento procurado está na parte esquerda ou direita. Se estiver na parte esquerda, a busca continua nessa parte; caso contrário, continua na parte direita. Esse processo é repetido até que o elemento seja encontrado ou a lista seja reduzida a zero.
+
+    int busca_binaria(int *vetor, int tamanho, int valor) {
+        int inicio = 0;
+        int fim = tamanho - 1;
+        while (inicio <= fim) {
+            int meio = (inicio + fim) / 2;
+            if (vetor[meio] == valor) {
+                return meio; // elemento encontrado
+            } else if (vetor[meio] < valor) {
+                inicio = meio + 1; // busca na parte direita
+            } else {
+                fim = meio - 1; // busca na parte esquerda
+            }
+        }
+        return -1; // elemento não encontrado
+    }
+
+
+4. Alocação dinâmica:
+    A alocação dinâmica é um processo de alocação de memória em tempo de execução. Isso significa que a memória é alocada quando o programa está em execução, e não durante a compilação. A alocação dinâmica é útil quando o tamanho da estrutura de dados não é conhecido até o momento da execução.
+
+    int *vetor = (int *)malloc(10 * sizeof(int)); // alocando um vetor de 10 inteiros dinamicamente
+    if (vetor == NULL) {
+        printf("Erro ao alocar memória\n");
+        return 1;
+    }
+    free(vetor); // liberando a memória alocada
+
+    4.1. listas encadeadas:
+        Listas encadeadas são estruturas de dados que consistem em uma sequência de elementos, onde cada elemento contém um ponteiro para o próximo elemento da lista. Isso permite que os elementos sejam alocados em qualquer lugar da memória, tornando as listas encadeadas mais flexíveis do que os vetores. As listas encadeadas podem ser simples (com um único ponteiro para o próximo elemento) ou duplamente encadeadas (com ponteiros para o próximo e o elemento anterior).
+
+    4.2. Structs:
+        Structs são estruturas de dados que permitem agrupar diferentes tipos de dados em uma única unidade. Elas são úteis para representar objetos complexos e podem conter variáveis de diferentes tipos, incluindo outras structs. 
+    

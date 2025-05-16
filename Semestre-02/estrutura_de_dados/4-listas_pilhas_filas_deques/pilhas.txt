@@ -1,0 +1,14 @@
+1. Pilha
+    O primeiro elemento a entrar é o último a sair (LIFO - Last In First Out). As pilhas são usadas em várias aplicações, como na execução de funções, na avaliação de expressões e na implementação de algoritmos de busca. As pilhas podem ser implementadas usando listas encadeadas ou arrays.
+    As operações básicas de uma pilha são:
+        - push: adiciona um elemento ao topo da pilha.
+        - pop: remove o elemento do topo da pilha.
+        - top: retorna o elemento do topo da pilha sem removê-lo.
+        - is_empty: verifica se a pilha está vazia.
+        - size: retorna o número de elementos na pilha.
+
+    Exemplo: 
+        char pilha[6] = {'a', 'b', 'c', 'd', 'e'}; // pilha de 6 caracteres
+        pilha.pop(); // remove o elemento do topo da pilha (e)
+        pilha.push('f'); // adiciona o elemento 'f' ao topo da pilha
+        pilha agora contém {'a', 'b', 'c', 'd', 'f'}

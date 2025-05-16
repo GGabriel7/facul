@@ -1,0 +1,13 @@
+1. Filas
+    O primeiro elemento a entrar é o primeiro a sair (FIFO - First In First Out). As filas são usadas em várias aplicações, como na implementação de algoritmos de busca, na execução de tarefas e na comunicação entre processos. As filas podem ser implementadas usando listas encadeadas ou arrays (sequencias ou dinamicas).
+
+    1.1 Fila Sequencial
+        A fila sequencial é uma implementação simples de filas, onde os elementos são armazenados em um array. No entanto, essa implementação tem algumas limitações, como o desperdício de espaço quando elementos são removidos da fila. Para resolver esse problema, podemos usar um ponteiro para controlar o início e o fim da fila.
+
+    1.2 Fila Encadeada
+        A fila encadeada é uma implementação mais flexível de filas, onde os elementos são armazenados em nós encadeados. Essa implementação permite que a fila cresça e diminua dinamicamente, sem desperdício de espaço. Além disso, a fila encadeada pode ser implementada usando listas duplamente encadeadas, o que permite operações mais eficientes em ambas as extremidades da fila.
+
+    1.3 Fila Circular
+        A fila circular é uma implementação de filas que usa um array circular para armazenar os elementos. Essa implementação permite que a fila cresça e diminua dinamicamente, sem desperdício de espaço. Além disso, a fila circular pode ser implementada usando listas duplamente encadeadas, o que permite operações mais eficientes em ambas as extremidades da fila.
+
+    

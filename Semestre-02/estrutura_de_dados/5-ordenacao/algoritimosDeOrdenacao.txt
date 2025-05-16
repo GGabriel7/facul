@@ -1,0 +1,20 @@
+1. Algoritimos de Ordenação:
+    - Bolha / Bubble Sort (ordenando em ordem crescente):
+    0) 4 - 3 - 2 - 1 (vamos comparar o 4 com o 3, 2 e 1. Como ele é maior que todos, o 4 irá para o final)
+    1) 3 - 2 - 1 - 4 (Vamos comparar o 3 com o 2, 1 e 4. Como ele é maior que o 1 e 2, o 3 irá para atrás deles)
+    2) 2 - 1 - 3 - 4 (Vamos comparar o 2 com o 1, 3 e 4. Como ele é maior apenas que o 1, o 2 ficará atrás dele)
+    3) 1 - 2 - 3 - 4 (Vamos comparar o 1 com o 2, 3 e 4. Como ele é menor que todos, o 1 ficarpa na mesma posição e finalizamos a ordenação)
+    Vetor final: 1 - 2 - 3 - 4
+
+    - Seleção / Selection Sort (ordenando em ordem crescente):
+    0) 4 - 3 - 2 - 1 (Vamos comparar o 4 com o menor elemento. O menor é o 1, então vamos trocar o 4 com o 1)
+    1) 1 - 3 - 2 - 4 (Vamos comparar o 3 com o menor elemento que ainda não tenha sido ordenado. O menor é o 2, então vamos trocar o 3 com o 2)
+    2) 1 - 2 - 3 - 4 (Vamos comparar o 3 com o menor elemento que ainda não tenha sido ordenado. O menor é o 3, então não vamos trocar e finalizamos a ordenação)
+    Vetor final: 1 - 2 - 3 - 4
+
+    - Inserção / Insert Sort (ordenando em ordem crescente):
+    0) 4 - 3 - 2 - 1 (Vamos comparar o 4 com o 3 (que é o próximo). Como o 4 é maior, vamos colocar o 4 atrás do 3)
+    1) 3 - 4 - 2 - 1 (Vamos comparar o 4 com o 2 (que é o próximo). Como o 4 é maior, vamos colocar o 4 atrás do 2. E, como o 2 é menor que o 3, vamos colocar o 2 na frente do 3)
+    2) 2 - 3 - 4 - 1 (Vamos comparar o 4 com o 1 (que é o próximo). Como o 4 é maior, vamos colocar o 4 atrás do 1. E, como o 1 é menor que o 2 e que o 3, vamos colocar o 1 no início)
+    3) 1 - 2 - 3 - 4 (Como não há mais elementos para comparar, finalizamos a ordenação)
+    Vetor final: 1 - 2 - 3 - 4

@@ -1,0 +1,28 @@
+1. Ordenação:
+    Encontrar o maior e o menor elemento de um vetor, ordenando-o em ordem crescente ou decrescente. Os algoritmos de ordenaçãopodem ser classificados segundo diversos parmetros, como:
+
+        - Complexidade Computacional - Leva em consideração o tempo de execução do algoritmo em função do tamanho da entrada. A notação Big O é utilizada para expressar a complexidade computacional de um algoritmo, que pode ser classificada como (do menor tempo para o maior / mais rapido para o mais lento):
+            - 0(1) - Tempo constante.
+            - O(log n) - Tempo logarítmico
+            - O(n) - Tempo linear
+            - O(n log n) - Tempo linear logarítmico
+            - O(n^2) - Tempo quadrático
+            - O(n^3) - Tempo cúbico
+
+        - Complexidade de espaço - Leva em consideração a quantidade de memória utilizada pelo algoritmo em função do tamanho da entrada. A notação Big O é utilizada para expressar a complexidade de espaço de um algoritmo, que pode ser classificada como (do menor espaço para o maior / mais economico para o mais gastador):
+            - O(1) - Espaço constante.
+            - O(log n) - Espaço logarítmico
+            - O(n) - Espaço linear
+            - O(n log n) - Espaço linear logarítmico
+            - O(n^2) - Espaço quadrático
+            - O(n^3) - Espaço cúbico
+
+        - Ordenação interna ou externa - A ordenação interna é aquela que ocorre na memória principal do computador, enquanto a ordenação externa é aquela que ocorre em dispositivos de armazenamento externo, como discos rígidos ou fitas magnéticas.
+
+        - Carácter recursivo - Alguns algoritmos de ordenação utilizam recursão para dividir o problema em subproblemas menores, enquanto outros utilizam iteração para percorrer o vetor.
+            - Recursivo: Algoritmos que utilizam recursão para dividir o problema em subproblemas menores.
+            - Não recursivo: Algoritmos que utilizam iteração para percorrer o vetor.
+
+        - Estabilidade - A estabilidade de um algoritmo de ordenação refere-se à preservação da ordem relativa dos elementos iguais após a ordenação. Um algoritmo é considerado estável se, ao ordenar um vetor com elementos iguais, a ordem relativa desses elementos permanecer inalterada. Por exemplo, se dois elementos iguais aparecem em posições diferentes no vetor original, eles devem manter essa ordem após a ordenação.
+            - Estável: Algoritmos que preservam a ordem relativa dos elementos iguais após a ordenação.
+            - Não estável: Algoritmos que não preservam a ordem relativa dos elementos iguais após a ordenação.
