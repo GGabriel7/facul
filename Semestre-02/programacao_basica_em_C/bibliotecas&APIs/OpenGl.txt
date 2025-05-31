@@ -1,0 +1,24 @@
+1. OpenGl:
+    1.1.é uma biblioteca gráfica de baixo nível que permite a criação de gráficos 2D e 3D. É amplamente utilizada em jogos, simulações e visualizações científicas. Ela é eficiente para renderizar gráficos em tempo real e é suportada por diversas plataformas, incluindo Windows, Linux e macOS.
+
+    1.2. A biblioteca OpenGl é baseada em uma API de gráficos que fornece funções para desenhar pontos, linhas, polígonos e texturas. Ela permite o controle direto sobre a GPU, o que possibilita a criação de gráficos complexos com alta performance. Ela pode criar gráficos 3D com iluminação, sombras e efeitos especiais.
+   
+    1.3. OpenGl é uma API de baixo nível, o que significa que ela oferece um controle detalhado sobre o hardware gráfico, mas requer mais conhecimento técnico para ser utilizada efetivamente. É frequentemente usada em conjunto com outras bibliotecas, como GLFW ou SDL, para gerenciar janelas e entrada de usuário.
+
+
+2. Pipeline: O pipeline de renderização do OpenGl é dividido em várias etapas, incluindo a transformação de vértices, aplicação de texturas, iluminação e rasterização. Cada etapa pode ser personalizada através de shaders, que são pequenos programas executados na GPU. 
+
+
+4. Shaders: Shaders são escritos em uma linguagem específica chamada GLSL (OpenGL Shading Language). Eles permitem que os desenvolvedores definam como os vértices e pixels devem ser processados. Existem diferentes tipos de shaders, como vertex shaders, fragment shaders e geometry shaders, cada um com uma função específica no pipeline de renderização.
+
+
+5. GLUT (OpenGL Utility Toolkit) é uma biblioteca que facilita a criação de janelas e o gerenciamento de eventos em aplicações OpenGL.
+
+    5.1. Ela fornece funções para criar janelas, lidar com entrada do teclado e mouse, e gerenciar o loop de renderização. Embora seja uma biblioteca mais antiga, ainda é amplamente utilizada para protótipos e aplicações simples.
+
+    5.2 Criação de janelas: GLUT permite criar janelas OpenGL de forma simples, especificando a largura, altura e título da janela. Ela também permite definir callbacks para eventos como redimensionamento, teclas pressionadas e movimento do mouse.
+
+    5.3 Gerenciamento de eventos: GLUT facilita o gerenciamento de eventos de entrada, permitindo que os desenvolvedores respondam a ações do usuário, como pressionamento de teclas e cliques do mouse. Isso é essencial para interatividade em aplicações gráficas.
+
+    5.4 Suporte a callbacks: GLUT utiliza um sistema de callbacks para lidar com eventos. Os desenvolvedores podem definir funções específicas que serão chamadas quando determinados eventos ocorrerem, como a atualização da tela ou a entrada do usuário.
+
