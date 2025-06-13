@@ -1,0 +1,39 @@
+- Um programa em C pode realizar diversas operações em arquivos no seu computador, como: 
+    Ler
+    Escrever
+    Mover
+    Criar
+
+- Operações mais importantes com arquivos C:
+    1. Criação de arquivo
+        - a: Abre um arquivo para escrita no final do arquivo, criando-o se não existir.
+        - a+: Abre um arquivo para leitura e escrita no final do arquivo, criando-o se não existir.
+        - w: Abre um arquivo para escrita, truncando o arquivo para zero bytes, criando-o se não existir.
+        - w+: Abre um arquivo para leitura e escrita, truncando o arquivo para zero bytes, criando-o se não existir.
+
+    2. Abertura de arquivo existente
+        - fopen: Abre um arquivo existente para leitura, escrita ou ambos.
+        - r: Abre um arquivo para leitura. O arquivo deve existir.
+        - r+: Abre um arquivo para leitura e escrita. O arquivo deve existir.
+        - b: Abre um arquivo em modo binário (usado com outros modos, como "rb" ou "wb").
+        - rb: Abre um arquivo binário para leitura. O arquivo deve existir.
+        - wb: Abre um arquivo binário para escrita, truncando o arquivo para zero bytes, criando-o se não existir.
+
+    3. Leitura de arquivo
+        - fgets: Lê uma linha de texto de um arquivo.
+        - fscanf: Lê dados formatados de um arquivo.
+        - fread: Lê dados de um arquivo binário.
+
+    4. Escrita em arquivo
+        - fprintf: Escreve dados formatados em um arquivo.
+        - fputs: Escreve uma string em um arquivo.
+        - fwrite: Escreve dados binários em um arquivo.
+
+    5. Mover o ponto de vista dentro d arquivo para uma posição específica
+        - fseek: Move o ponteiro de leitura/escrita para uma posição específica no arquivo.
+        - rewind: Move o ponteiro de leitura/escrita para o início do arquivo.
+        - ftell: Retorna a posição atual do ponteiro de leitura/escrita no arquivo.
+    
+    6. Fechamento de arquivo
+        - fclose: Fecha um arquivo aberto, liberando os recursos associados a ele.
+    

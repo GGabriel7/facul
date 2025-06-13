@@ -1,0 +1,10 @@
+1. WinAPI é uma biblioteca que contém funções de interface com a API do Windows.
+    1.1. Esta biblioteca é usada para interagir com o sistema operacional Windows, permitindo acesso a recursos de baixo nível, manipulação de janelas, arquivos, e muito mais.
+
+2. Captura de eventos de teclado e mouse:
+    2.1. A biblioteca WinAPI permite capturar eventos de teclado e mouse, possibilitando a criação de aplicativos que respondem a ações do usuário.
+    2.2. Isso é feito através de funções específicas que registram callbacks para eventos de entrada.
+
+3. Windows.h:
+    3.1. O cabeçalho `windows.h` é o principal ponto de entrada para a API do Windows, incluindo definições e declarações necessárias para usar as funções da WinAPI.
+    3.2. Essa biblioteca serve para capturar eventos de teclado e mouse, bem como para manipular janelas e outros recursos do sistema operacional.

@@ -1,0 +1,9 @@
+O padrão ANSI/ISO C
+- O padrão ANSI/ISO C é uma especificação formal da linguagem de programação C, que define a sintaxe, semântica e comportamento da linguagem.
+- O padrão foi desenvolvido pelo American National Standards Institute (ANSI) e pela International Organization for Standardization (ISO).
+- O padrão ANSI/ISO C é amplamente utilizado como referência para a implementação de compiladores e ferramentas de desenvolvimento C.
+- O padrão ANSI/ISO C é dividido em várias partes, incluindo o núcleo da linguagem, bibliotecas padrão e especificações de implementação.
+- O padrão ANSI/ISO C é frequentemente referenciado como C89, C90 ou C99, dependendo da versão específica do padrão.
+- O padrão ANSI/ISO C é importante para garantir a portabilidade e interoperabilidade do código C entre diferentes plataformas e compiladores.
+
+- Aprovado em 1989, melhorou a eficiência e a portabilidade do código C por meio da clarificação de tipos, controle de escopo e outras melhorias.

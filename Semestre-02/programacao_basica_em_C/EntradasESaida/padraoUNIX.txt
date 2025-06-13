@@ -1,0 +1,21 @@
+O padrão UNIX
+- O padrão UNIX é uma especificação formal do sistema operacional UNIX, que define a interface de programação, comandos e comportamento do sistema.
+
+- O padrão UNIX é mantido pelo The Open Group, que é uma organização que promove a interoperabilidade de sistemas operacionais.
+
+- O padrão UNIX é baseado no sistema operacional UNIX original, desenvolvido na década de 1970 por Ken Thompson e Dennis Ritchie na AT&T Bell Labs.
+
+- A programação de sistema se refere ao desenvolvimento de programas que oferecem serviços essenciais de um sistema operacional, que inclui:
+    Interpretadores de linha de comando.
+    Funções de entrada e saída de alto nível (como as funções de stream I/O em C).
+    Compiladores de linguagem.
+    Carregadores.
+    Sistemas operacionais.
+
+- Bourne-Shell (sh) é um dos interpretadores de linha de comando mais comuns no UNIX, que permite aos usuários interagir com o sistema operacional por meio de comandos digitados.
+
+- C shell (csh) é outro interpretador de linha de comando popular no UNIX, que oferece recursos avançados de scripting e programação.
+
+- Os shells executam comandos, interpretam scripts e fornecem uma interface para o usuário interagir com o sistema operacional.
+
+- POSIX (Portable Operating System Interface) é um conjunto de padrões que define a interface de programação de aplicativos (API) e a interface de linha de comando para sistemas operacionais compatíveis com UNIX.

@@ -1,0 +1,5 @@
+A entrada/leitura de dados do usuário é feita através da função `scanf` da biblioteca padrão do C. A função `scanf` lê a entrada do usuário e armazena o valor em uma variável especificada.
+
+getchar() é uma função que lê um único caractere da entrada padrão (geralmente o teclado). Ela é frequentemente usada para capturar a entrada do usuário em programas C. Ela é útil quando você precisa ler um único caractere, como quando deseja esperar que o usuário pressione uma tecla antes de continuar a execução do programa. Ela usa o buffer de linha, o que significa que ela espera até que o usuário pressione Enter para processar a entrada, diminuindo a interatividade imediata.
+
+getch() é uma função que lê um único caractere da entrada padrão, mas não exibe o caractere na tela. Ela é frequentemente usada em programas que requerem entrada do usuário sem exibir o que foi digitado, como em jogos ou aplicativos de console interativos. Ela faz a leitura diretamente do teclado, sem esperar que o usuário pressione Enter, tornando-a mais imediata e interativa.

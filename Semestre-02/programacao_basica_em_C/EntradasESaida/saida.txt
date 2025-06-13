@@ -1,0 +1,16 @@
+A saída de dados é uma parte importante de qualquer programa. Em C, a saída de dados é frequentemente realizada usando a função `printf` da biblioteca padrão. Abaixo está um exemplo simples de como usar `printf` para exibir diferentes tipos de dados.
+
+A função putchar() é usada para imprimir um único caractere na saída padrão. Ela é útil quando você deseja imprimir caracteres individuais, como letras ou símbolos.
+
+puts() é uma função que imprime uma string seguida por uma nova linha. É uma maneira conveniente de exibir mensagens completas sem precisar formatar cada caractere individualmente.
+
+A diferença entre `putchar()` e `puts()` é que `putchar()` imprime um único caractere, enquanto `puts()` imprime uma string inteira. Além disso, `puts()` adiciona automaticamente uma nova linha após a string, enquanto `putchar()` não faz isso.
+
+printf() é uma função mais versátil que permite formatar a saída de dados. Você pode especificar o tipo de dado que está imprimindo, como inteiros, floats, strings, etc., e também pode formatar a saída com especificadores de formato.
+
+formatos de saída:
+    char: `%c`
+    int: `%d`
+    float: `%f`
+    double: `%lf` ou `%f`
+    string: `%s`
