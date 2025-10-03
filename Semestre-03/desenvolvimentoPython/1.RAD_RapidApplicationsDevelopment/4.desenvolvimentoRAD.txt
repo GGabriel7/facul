@@ -1,0 +1,49 @@
+INTRODUÇÃO
+    Uma das principais caracteristicas da RAD é o desevolvimento de prototótipos, de modo que desenvolvedores e usuários possam interagir e avaliar o sistema em desenvolvimento.
+
+    - Os usuários podem usar o software para entender melhor os requisitos e fornecer feedback.
+    - Os comentários auxiliam os desenvolvedores a ajustar o sistema para atender melhor às necessidades dos usuários.
+    - Com a validação do protótipo, os desenvolvedores podem fazer ajustes e melhorias antes de avançar para a fase de implementação completa.
+    - O python é uma linguagem de programação que suporta o desenvolvimento rápido de aplicações, devido à sua sintaxe simples e à vasta biblioteca padrão.
+
+
+PYTHON
+    Caracteristas: 
+        - Linguagem "enxuta": sintaxe simples e fácil de aprender.
+        - Sintaxe simplificada: "Inglês estruturado". Menos linhas de código para realizar tarefas comuns.
+        - Quantidade de bibliotecas/frameworks: vasta biblioteca padrão e muitos frameworks de terceiros.
+        - Frameworks baseado em RAD: Django, Flask, Pyramid.
+        - Multipropósito: web, ciência de dados, automação, etc.
+        - Diferentes paradigmas: procedural, orientado a objetos, funcional.
+
+    Combina com RAD:
+        - Portabilidade: Python é multiplataforma.
+        - Código aberto: comunidade ativa.
+        - Interface com outros progamas: fácil integração com outras linguagens e sistemas.
+        - Linguagem interpretadas: permite testes rápidos e iterações.
+        - Comunidade GIGANTE: muitos recursos, tutoriais e suporte.
+
+
+FERRAMNETAS
+    Bibliotecas e frameworks populares:
+        - Auxiliam na padronização do desenvolvimento: Django, Flask, Pyramid.
+        - Recursos para agilidade: ORM, autenticação, roteamento, etc.
+        - Suporte da comunidade: documentação, tutoriais, plugins.
+        - Reutilização de código: economiza tempo e esforço.
+    
+    Frameworks WEB:
+        - Orientação: Fullstack, Microframeworks, Assíncronos.
+        - Elementos: Roteamento de URL, Objetos de requisição/resposta, Templates, Servidor de desenvolvimento
+
+    
+INTERFACE GRÁFICA:
+    - PyQT: baseado em Qt, rico em recursos, mas com curva de aprendizado.
+    - Tkinter: biblioteca padrão do Python, simples e fácil de usar.
+    - Kivy: focado em aplicações móveis e multitouch, mas menos maduro.
+
+
+Manipulação de DADOS:
+    - Pandas: manipulação e análise de dados.
+    - NumPy: computação numérica.
+    - Matplotlib/Seaborn: visualização de dados.
+    - SQLAlchemy: ORM para bancos de dados relacionais.

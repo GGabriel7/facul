@@ -1,0 +1,55 @@
+- CONCEITOS CRÍTICOS:
+    A implementação do RAD exige o atendimentoa alguns conceitos críticos:
+    - Pessoas: O RAD depende fortemente de pessoas talentosas e experientes que possam trabalhar de forma colaborativa e eficaz.
+    - Gerenciamento: O gerenciamento eficaz do projeto é essencial para garantir que o RAD seja implementado com sucesso.
+    - Ferramentas Computacionais: O RAD depende de ferramentas computacionais que possam suportar o desenvolvimento rápido e iterativo (APIs, frameworks e templates, por exemplo).
+
+
+- O RAD É MAIS ADEQUADO PARA SOFTWARES DE BAIXA COMPLEXIDADE:
+    O RAD é mais adequado para o desenvolvimento de softwares de baixa complexidade, onde os requisitos são bem compreendidos e não mudam significativamente durante o processo de desenvolvimento. Para projetos de alta complexidade, outras metodologias podem ser mais apropriadas.
+
+
+- VANTAGENS DO RAD:
+    - Integração Antecipada: O RAD permite a integração antecipada de componentes, o que pode ajudar a identificar e resolver problemas mais cedo no processo de desenvolvimento
+
+    - Redução de Riscos: O RAD pode ajudar a reduzir os riscos associados ao desenvolvimento de software, pois permite a identificação e resolução de problemas mais cedo no processo de desenvolvimento.
+
+    - Adaptabilidade e compartimentação de componetes: O RAD permite que os desenvolvedores se adaptem rapidamente às mudanças nos requisitos e compartimentem o desenvolvimento em componentes menores e mais gerenciáveis.
+
+    - Interatividade: O RAD enfatiza a interação contínua com os usuários finais, o que pode ajudar a garantir que o software atenda às suas necessidades e expectativas.
+
+    - Feedback constante do cliente: O RAD envolve os usuários finais em todas as fases do desenvolvimento, permitindo que eles forneçam feedback constante e garantam que o produto final atenda às suas necessidades.
+
+
+- DESVANTAGENS DO RAD:
+    - Necessidade de qualificação superior: O RAD exige uma equipe de desenvolvimento altamente qualificada e experiente, o que pode ser difícil de encontrar e manter.
+
+    - Foco exigente na interface: O RAD enfatiza a criação de interfaces de usuário eficazes, o que pode ser desafiador para desenvolvedores que não têm experiência em design de interface.
+
+    - Alto nível de comprometimento:
+        - Usuários: O RAD exige um alto nível de comprometimento dos usuários finais, que devem estar disponíveis para fornecer feedback constante e participar de todas as fases do desenvolvimento.
+        - Desenvolvedores: O RAD também exige um alto nível de comprometimento dos desenvolvedores, que devem estar dispostos a trabalhar de forma colaborativa e iterativa.
+        - Gestão: O RAD exige um alto nível de comprometimento da gestão, que deve estar disposta a fornecer os recursos necessários e apoiar a equipe de desenvolvimento.
+
+    - Necessidade de sistemas modulares: O RAD é mais eficaz quando o sistema pode ser dividido em componentes modulares, o que pode não ser possível para todos os tipos de software.
+
+
+- APLICABILIDADE DA METODOLOGIA RAD:
+    Quando aplicar: 
+        - Projetos de pequena e média escala
+        - Equipes Otimizadas de 4 a 8 pessoas
+        - Para projeto de grande escala, o RAP pode ser aplicada, desde que o projeto seja dividido em subprojetos menores, cada um com sua própria equipe RAD.
+
+    Quando não aplicar:
+        - Sistemas críticos em tempo real
+        - Sistemas de grande porte e alta complexidade
+        - Sistema que interagem com outros sistemas já existentes
+
+    Condições para aplicar: 
+        - Disponibildiade de profissionais experientes
+        - Comprometimento do cliente
+        - Dividir em módulos
+        - Programas e infraestrutura adequada para o RAD
+        - Sistemas que podem ser modularizados
+        - Interatividade com o usuário UI/UX
+        

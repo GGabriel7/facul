@@ -1,0 +1,87 @@
+Rapid Application Development (RAD) é uma abordagem de desenvolvimento de software que enfatiza a rapidez e a eficiência na criação de aplicações.
+
+O objetivo principal do RAD é reduzir o tempo de desenvolvimento e melhorar a qualidade do software, permitindo que os desenvolvedores respondam rapidamente às mudanças nos requisitos do cliente.
+
+- Fundamentos: 
+    1. Desenvolvimento de Prototótipos: O RAD utiliza protótipos para criar versões iniciais do software, permitindo que os usuários vejam e interajam com o produto em desenvolvimento. Isso facilita o feedback e a identificação de melhorias desde as fases iniciais do projeto.
+
+    2. Gerar Valores Rápidos: O RAD foca na entrega rápida de funcionalidades essenciais, permitindo que os usuários comecem a usar o software mais cedo e forneçam feedback contínuo.
+
+    3. Menor Tempo de Desenvolvimento: Ao utilizar técnicas como a reutilização de componentes e ferramentas de desenvolvimento visual, o RAD reduz significativamente o tempo necessário para desenvolver aplicações.
+
+    4. Garantir eficácia e a efetividade: O RAD promove a colaboração entre desenvolvedores e usuários finais, garantindo que o software atenda às necessidades reais dos usuários e seja eficaz em seu propósito.
+
+
+- Caracterista do Protótipo:
+    1. Auxiliar na Compreensão do sistema: Protótipos ajudam a esclarecer requisitos e funcionalidades, facilitando a comunicação entre desenvolvedores e usuários.
+
+    2. Flexivel para interações: Protótipos permitem ajustes rápidos e iterações baseadas no feedback dos usuários.
+
+    3. Pode ser integrado ao produto final: Protótipos podem ser desenvolvidos de forma que partes deles possam ser reutilizadas no produto final, economizando tempo e esforço.
+
+    4. Pode entregar algum valor: Mesmo em estágios iniciais, protótipos podem fornecer funcionalidades úteis aos usuários.
+
+
+- Fluxo do RAD:
+    1. Workshops entre desenvolvedores e usuários: Sessões colaborativas para definir requisitos e expectativas.
+
+    2. Definir Objetivos: Estabelecer metas claras para o que o software deve alcançar.
+
+    3. Identificar as aplicações do sistema: Determinar as funcionalidades e características necessárias.
+
+    4. Projetar relatórios: Criar esboços e layouts para a interface do usuário e relatórios.
+
+    5. Documentação WYSIWYG (What You See Is What You Get / Você é o que você recebe): Documentar o design e funcionalidades de forma clara e visual.
+
+
+- Como Iniciar um Projeto RAD:
+    1. Aplicação da metodologia JAD (Joint Application Development): Envolver usuários e desenvolvedores em sessões colaborativas para definir requisitos e soluções.
+
+    2. Dinamicas de grupo: Utilizar técnicas de brainstorming e discussões em grupo para gerar ideias e resolver problemas.
+
+    3. Objetivos e aplicações do sistema: Definir claramente o que o sistema deve fazer e quais são suas funcionalidades principais.
+
+    4. Principios: Estabelecer diretrizes e melhores práticas para o desenvolvimento do software. Como dinâmicas de grupo, objetivos e aplicações do sistema e documentação WYSIWYG.
+
+
+- Fases do RAD:
+    1. Requisitos: Coleta e análise dos requisitos do sistema com a participação ativa dos usuários.
+
+    2. Projeto: Criação de protótipos e design da arquitetura do sistema.
+
+    3. Construção: Desenvolvimento iterativo do software, com ciclos rápidos de feedback e refinamento.
+
+    4. Entrega: Implementação do software no ambiente de produção e treinamento dos usuários.
+
+
+- Elementos Fundamentais:
+    1. Uso de ferramentas para dar suporte ao desenvolvevimento: As ferramentas CASE facicilita a automação no desenvolvimento, aumentando a produtividade e a qualidade do software. Elas ajudam na modelagem, geração de código, teste e manutenção do software.
+
+    2. Metodologia bem definida: Uma metodologia clara e estruturada é essencial para guiar o processo de desenvolvimento, garantindo que todas as etapas sejam seguidas corretamente e que os objetivos do projeto sejam alcançados.
+
+    3. Pessoas: A colaboração entre desenvolvedores, usuários e outras partes interessadas é crucial para o sucesso do RAD. A comunicação eficaz e o envolvimento ativo dos usuários ajudam a garantir que o software atenda às suas necessidades e expectativas.
+
+    4. Gestão: Uma gestão eficaz é necessária para coordenar as atividades do projeto, alocar recursos, gerenciar riscos e garantir que o projeto seja concluído dentro do prazo e do orçamento.
+
+
+- RAD Intesivo: RAD intensivo é uma abordagem que enfatiza o uso de ferramentas e técnicas para acelerar o desenvolvimento de software, permitindo que os desenvolvedores criem aplicações rapidamente e com alta qualidade.
+
+- RAD Faseado: RAD faseado é uma abordagem que divide o processo de desenvolvimento em fases distintas, permitindo que os desenvolvedores se concentrem em etapas específicas do projeto, como coleta de requisitos, design, construção e entrega, garantindo uma progressão estruturada e eficiente do desenvolvimento do software.
+
+
+- Técnicas:
+    1. Modelo CDB: O modelo CDB (Componentes, Dados e Business) é uma técnica que foca na reutilização de componentes de software, gerenciamento eficiente de dados e alinhamento com os processos de negócios para acelerar o desenvolvimento e melhorar a qualidade do software.
+
+    2. RepoGuard: Framework para integração de ferramentas de desnvolvimento com repositorios de código, facilitando a gestão e colaboração no desenvolvimento de software.
+
+    3. Adição Dinâmica Ágil: Técnica que permite a adição rápida e flexível de funcionalidades ao software durante o processo de desenvolvimento, promovendo a adaptabilidade e resposta rápida às mudanças nos requisitos.
+
+    4. Método baseado em camadas para desenvolvimento rápido de software: É baseado em camadas e segue o XP (Extreme Programming), focando na entrega rápida e iterativa de software de alta qualidade, promovendo a colaboração entre desenvolvedores e clientes.
+
+    5. Análise de projeto de sistema baseado em simulação: Técnica que utiliza simulações para analisar e projetar sistemas, permitindo a identificação de requisitos, avaliação de desempenho e otimização do design antes da implementação real.
+
+    6. Uso de AJAX na RAD: AJAX (Asynchronous JavaScript and XML) é uma técnica que permite a criação de aplicações web interativas e dinâmicas, facilitando o desenvolvimento rápido de interfaces de usuário responsivas e melhorando a experiência do usuário final.
+
+    7. Desenvolvimento de aplicativos multiusuário em ambiente distribuído rapidamentoe: É a Middleware de comunicação.
+
+    8. Programação extrema: Adição de reutilização ao XP (Extreme Programming), focando na entrega rápida e iterativa de software de alta qualidade, promovendo a colaboração entre desenvolvedores e clientes.

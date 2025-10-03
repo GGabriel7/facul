@@ -1,0 +1,55 @@
+Fases RAD:
+
+- PLANEJAMENTO DE REQUISITOS:
+    - Necessidade de negócio: Identificar e documentar as necessidades do cliente.
+
+    - Escopo: Definir o que será incluído e excluído do projeto.
+
+    - Restrições e requisitos: Listar limitações técnicas, de tempo e orçamento. Modular espectativas.
+
+- DESIGN DO USUÁRIO:
+     - Representação dos processos: Criar diagramas de fluxo de dados e modelos de entidade-relacionamento.
+
+     - Inputs/Outputs: Definir como os usuários irão interagir com o sistema.
+
+     - JAD (Joint Application Development): Sessões colaborativas com stakeholders para definir requisitos.
+
+     - Ferramentas CASE: Utilizar ferramentas de software para modelagem e design.
+
+
+- CONSTRUÇÃO:
+    - Prototipagem: Desenvolver protótipos rápidos para validação com o cliente.
+
+    - Interações entre desenvolvimento e usuários: Feedback contínuo para ajustes rápidos.
+
+    - Incorporar feedbacks dos usuários: Ajustar o sistema com base nas sugestões recebidas.
+
+
+- TRANSIÇÃO:
+    - Testes: Realizar testes de sistema, integração e aceitação do usuário. Segurança e performance.
+
+    - Adequação para produção: Garantir que o sistema esteja pronto para o ambiente de produção, com documentação adequada.
+
+    - Treinamento dos usuários: Capacitar os usuários finais para utilizar o sistema de forma eficaz.
+
+
+- ABORDAGEM JAMES KERR:
+    - Modelagem de negócios: Entender profundamente os processos de negócio para alinhar o sistema às necessidades reais.
+    - Modelagem de dados: Estruturar os dados de forma eficiente para suportar as operações do sistema.
+    - Modelagem de processos: Definir claramente os processos que o sistema irá automatizar.
+    - Modelagem de Aplicação: Projetar a arquitetura do sistema e suas funcionalidades principais.
+    - Modelagem de modificação: Planejar como o sistema poderá evoluir e ser mantido ao longo do tempo.
+
+
+- OUTROS FUNDAMENTOS:
+    - Levantamento de requisitos: Técnicas para coletar e documentar requisitos de forma eficaz.
+
+    - Oficinas JAD: Métodos para facilitar a comunicação entre desenvolvedores e stakeholders.
+
+    - Validações de protótipos: Estratégias para garantir que os protótipos atendam às expectativas dos usuários.
+
+    - Banco de dados: Considerações sobre o design e a implementação do banco de dados.
+
+    - Transição: Estratégias para uma migração suave para o ambiente de produção.
+
+
