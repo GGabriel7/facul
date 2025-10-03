@@ -1,10 +1,10 @@
-import sqlite3 as conector
+import sqlite3 as conector 
 
 try:
     conexao = conector.connect("./db1.db")
     cursor = conexao.cursor()
     
-    cursor.execute('''CREATE TABLE pessoa(
+    cursor.execute('''CREATE TABLE Pessoa(
         cpf INTEGER NOT NULL,
         nome TEXT NOT NULL,
         nascimento DATE NOT NULL,
@@ -19,6 +19,5 @@ except conector.DatabaseError as err:
     
 finally:
     if conexao:
-        cursor.close()
+        cursor.cose()
         conexao.close() 
-        

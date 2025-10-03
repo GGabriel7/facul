@@ -40,7 +40,7 @@ Principais Métodos:
         cursor.close()
         conexao.close()
      
-     
+   
 Tipos de dados mais comuns: 
     Integer (int): numeros interior
     Text (string): Textos
