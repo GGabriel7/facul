@@ -1,0 +1,34 @@
+O que é?
+    - Meio de interação prática com o usuario
+    - Antecipação de comprtamentos e necessidades
+    - Consideração das limitações técnicas e financeiras.
+
+ELementos FUndamentais:
+    - Forma, cor e espaço
+    - Eventos dinamicos acionados pelo usuario
+    - Consideração de limitações fisicas e tecnologicas
+
+Importancia do Prototipo interativos:
+    - Testes rapidos 
+    - Melhor compreensao do sistema
+    - Identificação de limitações e melhorias
+
+UI (Interface do Usuario):
+    - Componentes visuais: Botoes, janelas, barras de rolagem...
+    - Interação direta com ELementos grafios
+    - Essencial para usabilidade eficaz
+
+UX (Exeperiencia do Usuario):
+    - Foco na experiencia global do usuario
+    - Consideração das percepções e emocoes
+    - Essencial para retenção e satisfação do usuario
+
+Melhores praticas na prototipagem:
+    - Uso de ferramentas e frameworks adequados
+    - Testes em ambientes realistas
+    - Engajamento continuo dos usuarios
+
+Cuidados:
+    - Evitar expectativas irreais
+    - Gerenciamentos de licenças e viabilidade tecnicas 
+    - Limitação clara dos objetos do Prototipo

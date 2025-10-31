@@ -1,0 +1,12 @@
+Organização física dos datacenters:
+    Os datacenters são construções projetadas para abrigar de forma bastante segura a infraestrutura das empresas. Neles estão os servidores e os dispositivos de armazenamento, todos interconectados por redes de alto desempenho. Os datacenters são mantidos por organizações especializadas em armazenar e processar volumes de dados para múltiplos usuários e são um dos pilares de sistemas de computação em nuvem.
+
+Organização lógica dos datacenters: 
+    Além dos equipamentos físicos (hardware) utilizados no back end, há uma apreciável quantidade de programas de aplicação (software) que viabilizam a gerência, o funcionamento, o controle e a segurança da computação em nuvem.
+
+
+    Em especial, podemos citar os que são utilizados para os serviços de gerenciamento e segurança. Os serviços de gerenciamento permitem que os recursos sejam gerenciados de acordo com as necessidades do usuário final.
+
+
+    Exemplo:
+        Em um servidor, existirão inúmeras instâncias de máquinas virtuais em execução simultaneamente, compartilhando os recursos do mesmo servidor físico. Portanto, o software de gerenciamento será essencial para que os recursos sejam corretamente alocados a cada tarefa, evitando gargalos e permitindo o bom funcionamento da nuvem.

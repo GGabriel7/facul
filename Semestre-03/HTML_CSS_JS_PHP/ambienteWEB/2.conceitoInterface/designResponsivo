@@ -1,0 +1,22 @@
+Conceitos:
+    - No passado, os tamanhos de monitores eram semelhantes
+
+    - Surgiram dispositivos com tamanhos de telas diferentes
+
+    - Paginas WEB devem adaptar ao tamanho de tela do dispositivos
+    Melhora a experiencia do usuario - RESPONSIVIDADE
+
+    - layouts mais fluidos
+
+    - Os mesmos conteudos exibidos de diferntes foramas
+
+Design responsivo X Design adaptativo:
+    - Design responsivo
+        Adequação das dimensões de seus elementos — ao tamanho da tela do dispositivo utilizado pelo visitante.
+
+
+    - Design adaptativo
+        Um site é planejado e construído com a definição de seis layouts predefinidos, em que são previstos pontos de quebra para que a página se adapte às seis diferentes dimensões utilizadas.
+
+Mobile first:
+    Em primeiro lugar seja pensado o design para telas menores e, posteriormente, para telas maiores.

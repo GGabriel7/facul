@@ -1,0 +1,15 @@
+Hybrid cloud – nuvem híbrida
+    - As nuvens híbridas são aquelas constituídas pelos serviços da nuvem pública e privada. Alguns serviços são hospedados na nuvem privada, enquanto outros na nuvem pública.
+    
+    Um modelo de computação em nuvem híbrida é aquele que integra duas infraestruturas de cloud computing. Assim, é possível aproveitar as funcionalidades de ambos os modelos sem comprometer a performance, os custos operacionais ou mesmo a privacidade.
+
+    A nuvem híbrida atende perfeitamente à necessidade de se criar um ambiente de alta performance e controle para as rotinas internas de qualquer empresa.
+
+    A principal vantagem da nuvem híbrida está na redução do tempo necessário para efetivamente escalar os recursos, uma vez que a criação de uma infraestrutura mesclada é feita em um prazo menor que a aquisição e a integração de novos dispositivos a uma infraestrutura já existente.
+
+
+Community Cloud – nuvem comunitária
+    - As nuvens comunitárias são compartilhadas por diversas empresas que possuem interesses comuns, como a missão, os requisitos de segurança, políticas, entre outros. Nesse modelo, a nuvem comunitária pode ser administrada tanto pela própria organização ou por terceiros e pode existir tanto dentro (on premises) quanto fora (off premises) da organização.
+
+Distributed Cloud – nuvem distribuída
+    - A nuvem distribuída se caracteriza pela possibilidade de ser acionada em diferentes localidades, mas possui servidores conectados a uma única rede ou hub de serviços. Optando por essa solução, a empresa garante o máximo de disponibilidade de seus recursos, além de uma baixa latência.

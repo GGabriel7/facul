@@ -1,0 +1,13 @@
+Conceitos:
+    Camada mais baixa - Ela consiste em servidores físicos ou virtuais que hospedam serviços, aplicativos e dados para seus usuários. Para gerenciar a camada de servidores, é importante usar ferramentas de administração de servidor.
+
+administração da Camada de Servidores:
+    Monitoramento de desempenho e segurança até a configuração de serviços e aplicativos.
+
+    Principais ferramentas de administração:
+        - Servidores de gerenciamento: Configurar e monitorar servidores e dispositivos de rede
+        - gerenciadores de configuração: gerenciar as configurações e os aplicativos em um servidor.
+        - monitoramento de servidor, ferramentas de automação de tarefas e ferramentas de segurança.
+
+Plataforma de administração de camada de servidores (principais provedores possuem soluções que permitem criação, administração e gerenciamento de servidore):
+    Amazon Web Services (AWS); Microsoft Azure; Google Cloud Platform (GCP); IBM Clou;

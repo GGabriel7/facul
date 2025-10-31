@@ -1,0 +1,11 @@
+O que é edge computing?
+    É uma abordagem de computação de borda que permite que os dados sejam processados e armazenados localmente, em vez de forma remota.
+
+Internet das Coisas (IoT)
+    O processamento dos dados é realizado por meio de dispositivos responsáveis por reunir os dados coletados. A sua quantidade vai depender do equipamento, após a coleta, e armazenamento dos dados, que são enviados para a nuvem em um centro de processamento.
+
+Edge computing
+    O processamento dos dados é feito de forma local e separa aqueles que podem ser processados ali mesmo, diminuindo o tráfego de dados e a necessidade de enviá-los. Os dados são processados nos extremos de uma rede e apenas uma parte é enviada para a nuvem, por isso o nome computação de borda.
+
+Edge computing e serverless: 
+    Serverless é uma tecnologia de computação que separa a infraestrutura de um back end, como servidores e outras configurações, de aplicações e serviços. Em vez de se preocupar com a configuração, a manutenção e a escalabilidade de uma infraestrutura, o usuário tem a capacidade de executar cargas de trabalho em ambientes gerenciados, sem se preocupar com a infraestrutura.

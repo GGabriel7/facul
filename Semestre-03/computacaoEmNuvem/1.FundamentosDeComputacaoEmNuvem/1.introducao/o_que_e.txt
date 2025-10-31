@@ -1,0 +1,3 @@
+Oferta de serviço de computação por meio da internet.
+
+Em vez de utilizar uma mídia física idividualmente nos computadores, será utilizado servidores remotos e acessar os dados por qualquer computador com ajuda da internet.

@@ -4,7 +4,7 @@ try:
     conexao = conector.connect("./db1.db")
     cursor = conexao.cursor()
     
-    cursor.execute('''CREATE TABLE Pessoa(
+    cursor.execute('''CREATE TABLE IF NOT EXISTS Pessoa(
         cpf INTEGER NOT NULL,
         nome TEXT NOT NULL,
         nascimento DATE NOT NULL,

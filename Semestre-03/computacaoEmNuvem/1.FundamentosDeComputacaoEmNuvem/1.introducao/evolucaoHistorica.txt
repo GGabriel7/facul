@@ -1,0 +1,18 @@
+- urgimento atrelado ao surgimento da Internet
+
+- As empresas tiveram a necessidade de criar os seus próprios Centros de Processamento de Dados (CPDs) como eram chamados na época
+
+- 1964: surgiu o primeiro mainframe, o System/360. Eram máquinas enormes, geravam muitos ruídos, tinham elevado consumo de energia e excessivo tempo de processamento.
+
+- 1980: Época do surgimento dos primeiros computadores pessoais, os PCs, que se popularizaram tanto no ambiente doméstico, como no mundo corporativo, agora, de forma individual, um para cada funcionário, diferentemente do mainframe da empresa.
+    Surgem assim, nas empresas, as primeiras redes de computadores. Ainda não se falava de terceirização de TI, mas já começava a relacionar conceitos como cliente-servidor.
+
+- Nesse cenário, surgiu um novo conceito, a virtualização de servidores. A virtualização é um conceito que descreve a utilização de mais de um sistema operacional em um único servidor, simulando a estrutura de vários servidores físicos.
+
+- Surge, então, a figura do hypervisor, um software com a funcionalidade de prover ao servidor físico a capacidade de se dividir. Com a virtualização, é possível acrescentar novos serviços sem a necessidade de adquirir servidores individuais, aproveitando toda a potencialidade de um único servidor. Essencialmente:
+
+
+- Virtualização: É um software (hypervisor) que manipula o hardware.
+
+
+- Computação em nuvem: É o resultado dessa manipulação.

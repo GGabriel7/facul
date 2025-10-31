@@ -1,0 +1,34 @@
+Public cloud – nuvem pública
+    - As nuvens públicas são aquelas nas quais os provedores de serviços disponibilizam todos os recursos, como computação, armazenamento e aplicativos para o público em geral pela internet. Qualquer usuário pode efetuar login e usar esses serviços. Você paga pelo número de recursos que usa. Nesse modelo, os usuários possuem menos controle sobre seus dados.
+
+    - Vntagens:
+        - Preço: A divisão da infraestrutura entre vários clientes acaba mais barato
+
+        - Facilidade de contratação, configuração e infraestrutura
+
+        - Escalabilidade: Dinamicamente dobrar ou até mesmo triplicar a quantidade de computação e armazenamento para atender a um pico de demanda.
+
+        - Performance: Dificilmente chegue ao nível da nuvem privada, mas ainda esse tipo de cloud é muito eficiente até para o uso corporativo.
+
+    - Desvantagens:
+        - Segurança: A má utilização da infraestrutura contratada por outra empresa pode colocar a sua em risco — já que um ataque feito com êxito ao servidor principal abre uma brecha para o sistema de cada cliente.
+
+
+        - Controle feito por terceiros
+
+
+        - Requisitos legais: É possível que possam existir requisitos legais que a nuvem pública não cumpre.
+
+Private cloud – nuvem privada
+    - As nuvens privadas são ambientes de nuvem construídos exclusivamente para um único usuário, ou uma única empresa, normalmente localizados por trás do firewall do usuário. Normalmente, esse tipo de nuvem é usado por organizações com foco na segurança de dados e que gerenciam dados muito sensíveis, como transações financeiras, por exemplo. Ela também pode ser empregada por empresas que possuem controle interno bem rígido.
+
+    - Vantagens: 
+        - Disponibilidade: No modelo privado, a disponibilidade pode ser bem maior. Diferente da publica que é mais comum de ocorrer instabilidade e quedas.
+
+        - Customização de infraestrutura
+
+        - Suporte exclusivo
+
+        - Segurança: Com um monitoramento desenhado exclusivamente para o seu uso, existem menos brechas e qualquer anomalia
+
+    - Algumas desvantagens desse modelo são: custo inicial e a necessidade de uma equipe de TI própria.

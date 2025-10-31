@@ -1,0 +1,43 @@
+Contexto do exemplo/problema:
+    - Lanchonete enfrenta dificuldades com registro manual
+    - Erros na cobrança e demora no atendimento
+    - Necessidade de sistema ágil e simplificado
+
+ETAPA 1 - Elicitação de Requisitos (Oficina JAD)
+    - Sessão colaborativa com dono, desenvolvedor e facilitador
+    - Identificação das funcionalidades essenciais:
+        - Registro RÁPIDO de pedidos
+        - Cálculo automático do toal
+        - Exclusão de intens desnecessários
+        - Resumo do pedido antes da cobrança
+
+Detalhes da Oficina JAD - O que foi levantada na ETAPA 1:
+    - Registro de pedidos com intens pré-cadastrados
+    - Seleção por cliques (sem digitação)
+    - Informações essenciais no sistema:
+        - Nome, quantidade, preço unitário e total
+    - Sem necessidade de integração externa
+
+ETAPA 2 - Análise e Gerenciamento de conflitos 
+    - Conflitos identificados:
+        - Simplificodade do sitema VS exclusão de intens
+        - Registro de pedidos com intens pré-cadastrados VS flexibilidade para novos produtos
+    
+    - Soluções propostas:
+        - Botão simples para remoção de intens
+        - Interface fácil para cadastro de novos itens
+
+ETAPA 3 - Priorização dos Requisitos
+    - Técnica: Classificação por Cartões
+    - Resultado final da priorização:
+        1. Registro pedidos rapidamente
+        2. Calcular total automaticamente
+        3. Ser possivél excluir itens antes da finalização do pedido
+        3. Gerar resumo do pedido
+        4. Gerar resumo do pedido com todos os itens e descrição
+        5. Cadastro manual de novos produtos pelos funcionários da Lanchonete
+
+PROXIMO PASSO: PROTOTIPAÇÃO
+    - Desenvolvimento das funcionalidades prioritárias
+    - Implementação inicial com escopo reduzido
+    - Validação contínua através de feedbacks

@@ -3,7 +3,7 @@ import sqlite3 as conector
 conexao = conector.connect("./db1.db")
 cursor = conexao.cursor()
 
-cursor.execute('''CREATE TABLE Marca(
+cursor.execute('''CREATE TABLE IF NOT EXISTS Marca(
     id INTEGER NOT NULL,
     nome TEXT NOT NULL,
     sigla CHARACTER(2) NOT NULL,

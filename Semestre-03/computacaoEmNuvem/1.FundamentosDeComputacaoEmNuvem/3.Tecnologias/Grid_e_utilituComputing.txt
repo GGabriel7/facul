@@ -1,0 +1,7 @@
+Grid computing - Computação em grade:
+    tecnologia que agrupa servidores com o objetivo de trabalhar em conjunto formando uma grande infraestrutura.
+    
+    Exemplo: Vamos imaginar duas empresas localizadas em países geograficamente distantes e com fusos horários diferentes: essas empresas poderiam formar um grid ao combinar seus servidores, dessa maneira cada empresa utiliza os ciclos de processamento ociosos da outra em seus horários de pico, já que com horários diferentes, os picos de acessos aos servidores de cada empresa ocorrerão em horários diversos.
+    
+Utility computing: 
+    - modelo classificado como computação sob demanda, pois o usuário pode contratar software, hardware e serviços conforme sua necessidade de utilização e em função de fatores como picos, quedas e conforme o período de uso. Dessa maneira, podemos fazer um comparativo com os serviços de fornecimento de água, luz ou telefone, conforme a demanda do cliente.

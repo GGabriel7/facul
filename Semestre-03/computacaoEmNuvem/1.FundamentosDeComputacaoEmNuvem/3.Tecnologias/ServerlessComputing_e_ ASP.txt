@@ -1,0 +1,11 @@
+Computação sem servidor (serverless computing):
+    Computação sem servidor ou serverless computing é a tecnologia que permite hospedarmos funções (Plataforma de Função como Serviço – FaaS) sem a preocupação de configuração do servidor, pois todo o ambiente (hardware e software) já está pronto para execução da função desenvolvida.
+
+    Baixo custo: São cobradas por uso: isso significa que você só vai pagar aquilo que realmente está utilizando.
+
+    Redução de código: É menos complexa, sem a necessidade de ter um sistema back-end de várias camadas. Além de ser escalável e flexível, não são necessárias configurações adicionais para aproveitar a escalabilidade da arquitetura.
+    
+Provedor de serviços de aplicação (ASP):
+     É um formato de terceirização que fornece software e aplicações por meio da internet para usuários finais, pequenas e médias empresas ou até grandes organizações.
+     
+     Exemplo: Os webmails, como o correio do Yahoo, o correio do Google, o armazenamento de documentos e planilhas no Google Docs são serviços ASP gratuitos.

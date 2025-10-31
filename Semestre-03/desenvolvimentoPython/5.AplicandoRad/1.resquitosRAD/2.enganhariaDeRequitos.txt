@@ -1,0 +1,38 @@
+ELicitação de Requisitos na RAD:
+    - Etapa fundamental para contrução do prototipo
+    - Oficina JAD (JOINT APPLICATION DEVELOPEMENT)
+    - Discussão aberta entre usuários e desenvolvedores
+    - Remoção de ambiguidades desde o inicio
+
+Oficinas JAD - Conceito e Imporância:
+    - Reunioes colaborativas intensivas
+    - Definem claramento as necessidades do negocio
+    - Aceleram o entendimento comum dos Requisitos
+    - Economia significativa de tempo e rescursos
+
+Analise e Gerenciamento de CONFLITOS
+    - Avaliação de requisitos para integridade e consistencia
+    - Gerenciamento proativo dos CONFLITOS
+    - Prorização colaborativas para o desenvovimento do sistema
+
+Prorização dos requisitos:
+    - Técnica de Classificação de Cartões
+    - Funcionilidades descritas individualmente
+    - Atribuição colaborativa de prioridades pelos stakeholders
+
+Documentação dos requisitos
+    - Formalização do entendimento acordado entre as partes
+    - Especificações detalhada para referencia futura
+    - Base fundamental para validação
+
+PROTOTIPO - Ferramenta CENTRAL da RAD:
+    - Desenvolvimento rápido com escopo reduzido
+    - Implementação inicial das principais funcionalidades do sistema
+    - Permite rápida validação e ajustes frequentes
+    - validação continua dos prototipos:
+        - Prototipos validados diretamente pelos usuarios
+        - Ciclo constante de feedback e melhorias
+        - Garantia de alinhamento com as necidades reais
+        - Redução significativa de erros
+        - Garantia de entrega alinhada as expectativas
+        - Meximiza efiencia e satisfação do usuarios

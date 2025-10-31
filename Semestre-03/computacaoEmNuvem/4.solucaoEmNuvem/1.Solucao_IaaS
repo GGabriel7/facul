@@ -1,0 +1,32 @@
+IaaS (Infraestrutura como Serviço)
+    - É um modelo de serviço de computação na nuvem em que se fornecem todos os equipamentos de computação e infraestrutura para a criação de aplicativos e serviços. IaaS pode ser considerada ainda como a base prática para a computação na nuvem, pois é o serviço que fornece tudo o que é necessário para que a infraestrutura possa ser provisionada, como servidores e armazenamento.
+
+Solução de IaaS normalmente inclui componentes de hardware, como:
+    - Servidores virtuais.
+    - Instâncias de servidor.
+    - Sistemas de armazenamento de dados.
+    - Sistemas de gerenciamento de dados.
+    - Ferramentas de balanceamento de carga.
+
+Cenário de elasticidade:
+    A elasticidade no IaaS permite que os usuários adicionem rapidamente recursos, como servidores, memória e armazenamento, para lidar com picos de demandas.
+    
+Cenário de balanceamento de carga: 
+    Distribuir o tráfego dos usuários e garantir a alta disponibilidade dos servidores. Ele ajuda a balancear o tráfego entre múltiplos dispositivos, como servidores, links de rede, base de dados e serviços de armazenamento. O balanceamento de carga também aumenta a velocidade de resposta dos servidores, monitora o tempo de resposta dos servidores, otimiza o desempenho, evita o congestionamento e mantém os usuários conectados. Além disso, pode ser usado para evitar falhas críticas.
+
+Cenário de alta disponibilidade: 
+    Replicação de dados: Múltiplas cópias dos mesmos dados em diferentes locais.
+
+    Balanceamento de carga: Distribuir o tráfego de solicitações entre vários servidores para garantir a alta disponibilidade e escalabilidade.
+
+    Uso de redundância: Duplicar os serviços, materiais e equipamentos
+
+    Monitoramento contínuo: Fetectar e resolver problemas de desempenho antes que causem falhas no sistema.
+
+    Atualizações frequentes: Garantir que as vulnerabilidades e erros sejam corrigidos antes que eles possam afetar a operação.
+
+Cenário multicloud:
+    Essa solução é normalmente baseada em ferramentas de orquestração de nuvem, como o Kubernetes ou o OpenStack, que permitem que as empresas gerenciem de forma centralizada e unificada todos os serviços de nuvem oferecidos por vários provedores.
+
+Cenário de cloud híbrido:
+    Normalmente, consiste em uma combinação de infraestrutura local (servidores físicos) e serviços de nuvem, como o S3 da Amazon e o Elastic Load Balancer.

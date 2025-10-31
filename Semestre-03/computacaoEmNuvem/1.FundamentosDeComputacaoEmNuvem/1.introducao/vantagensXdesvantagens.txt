@@ -1,0 +1,14 @@
+Vantagens:
+    > Economia - sem custos com infraestrutura
+    > Escalabilidade - aumentar o uso de recursos de forma simples
+    > lasticidade - adaptar a disponibilidade de recursos à medida que a demanda aumenta ou diminui
+    > Atualização constante 
+    > Implantação rápida
+    > Acesso global
+    > Disponibilidade
+    > Segurança
+
+Desvantagens da computação em nuvem:
+    > Perda de controle - você está entregando seus dados e aplicativos ao provedor
+    > Interrupção dos serviços em nuvem
+    > Segurança - paradoxo! - Os ataques têm sido direcionados para os grandes provedores de nuvem, aumentando o risco de perdas.

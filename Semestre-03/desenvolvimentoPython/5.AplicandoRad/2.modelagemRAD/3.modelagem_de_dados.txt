@@ -1,0 +1,35 @@
+O que é?
+    - Processo que formaliza o ciclo de vida dos dados
+    - Representação visual dos dados e suas relações
+    - Auxiliar no cumprimento das regras de negocio e regulatorios, como a LGPD
+
+Beneficios:
+    - Melhora na qualidade de dados
+    - Facilita a comunicação entre as equipes
+    - Garante a eficiencia operacional e segurança dos seus dados
+
+OS NIVEIS da modelagem de dados
+    - Conceitual: Define o que existe no sistema
+    - Lógico: Define como o sistema será estruturado
+    - Físico: Define como o sistema será implmentado
+
+Modelo CONCEITUAL:
+    - Idenitifica entidade, atributos e relacionamentos
+    - Idepedente da tecnologia
+    - Exemplo: Escola (entidade), aluno (entidade), nome e matricula (atributos)
+
+Modelo LOGICO:
+    - Estrura os dados e suas relações
+    - Base para modelo fisico
+    - Idepedente do banco de dados especifico
+    - Tecnica comuns: Diagrama E-R
+
+Normalização dos Dados:
+    - Processo importante no modelo logico 
+    - Evita inconsistencias
+    - Sugestação de aprofundamento: Tecnicas de Normalização
+
+Modelagem FISICO:
+    - Depende do banco de dados 
+    - Detalha como será implmentado os dados do banco de dados
+    - Visualiza como os dados serao armazenados e utilizados

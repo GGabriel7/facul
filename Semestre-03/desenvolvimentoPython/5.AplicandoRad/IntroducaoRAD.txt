@@ -1,0 +1,40 @@
+RAD (Rapid Application Development) é uma metodologia de desenvolvimento de software focada em rapidez e flexibilidade. Ela enfatiza prototipagem rápida, feedback constante do usuário e iterações curtas, permitindo que aplicações sejam desenvolvidas e ajustadas rapidamente conforme as necessidades mudam. O objetivo do RAD é entregar sistemas funcionais em menos tempo, com maior envolvimento do usuário durante o processo.
+
+Principios:
+    - Colaboração continua
+    - Foco na comunicação eficiente
+    - Uso intensivo de prototipos para feedbacks rápidos
+    - Minimização do planejamento rígido
+
+Beneficios:
+    - Comunicação mais produtiva
+    - Maior Eficiencia e rapidez
+    - Melhor adaptação as mudanças e requisitos
+    - Otimização do processo de desenvolvimento
+    
+Quatro Fases:
+    1- Planejamento de requisitos:
+        - Definir necessidades e escopo do Projeto
+        - Identificar restrições e requisitos do sistema
+        - Base para o desenvolvimento dos protótipos
+        
+    2- Design do usuário:
+        - Desenvolvimento de modelos e protóripos
+        - Representação clara dos processos, entradas e saídas
+        - Validação continua com os usuários
+        
+    3- Construção:
+        - Desenvolvimento e aprimoramento dos protótipos
+        - Incrementos continuos baseados bi feedback do usuário
+        
+    4- Transição:
+        - Processamento de dados
+        - Testes e validações
+        - Implementação definitiva e treinamento dos usuários
+        - Garantir aceitação e utilização eficaz do sistema
+        
+
+Eficiencias da RAD:
+    - Processos dinamicos e adaptaveis
+    - Redução de riscos de erros no desenvolvimento
+    - Entrega mais rápida e alinhada às exepctativas do usuário

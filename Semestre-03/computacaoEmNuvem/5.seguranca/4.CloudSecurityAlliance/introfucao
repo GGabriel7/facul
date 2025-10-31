@@ -1,0 +1,31 @@
+A Cloud Security Alliance (CSA) é a organização líder em escala global dedicada a definir e fomentar conscientização sobre as melhores práticas de segurança em ambientes de computação em nuvem.
+
+DOMAIN 1: Conceitos e arquiteturas de computação em nuvem.
+DOMAIN 2: Governança e gestão de risco corporativo.
+DOMAIN 3: Questões legais, contratos e descoberta eletrônica.
+DOMAIN 4: Gestão de conformidade e auditoria.
+DOMAIN 5: Governança da informação.
+DOMAIN 6: Plano de gestão e continuidade do negócio.
+DOMAIN 7: Segurança de infraestrutura.
+DOMAIN 8: Virtualização e contêineres.
+DOMAIN 9: Resposta a incidentes.
+DOMAIN 10: Segurança de aplicativos.
+DOMAIN 11: Segurança e criptografia de dados.
+DOMAIN 12: Gerenciamento de identidade, direitos e acesso.
+DOMAIN 13: Segurança como serviço.
+DOMAIN 14: Tecnologias relacionadas.
+
+Infraestrutura
+    Os principais componentes de um sistema de computação, que são: computação, rede e armazenamento. São as partes móveis que funcionam como a base sobre a qual todo o resto é construído
+
+
+Metaestrutura
+    Os protocolos e mecanismos que fornecem a interface entre a camada de infraestrutura e as demais camadas. É o amálgama que une as tecnologias e possibilita o gerenciamento e a configuração.
+
+
+Appliestrutura
+    A palavra é uma contração que representa os aplicativos implantados na nuvem e os serviços de aplicativos subjacentes usado para construí-los. Por exemplo, recursos de plataforma como serviço, filas de mensagens, análise de inteligência artificial ou notificação, e todos de mais alto nível de abstração.
+
+
+Infoestrutura
+    Os dados e informações que podem ser o conteúdo em um banco de dados, armazenamento de arquivos etc.

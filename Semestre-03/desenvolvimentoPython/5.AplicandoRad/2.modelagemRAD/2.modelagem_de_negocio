@@ -1,0 +1,22 @@
+O que é MODELEGEM DE NEGOCIO:
+    - Representação VISUAL dos PROCESSOS
+    - Uso de UML para clareza e padronização
+
+Diagramas de CASOS DE USO:
+    - Interação entre ATORES e SISTEMA
+    - Exemplo: Aeroporto (atores: passageiros e guia de turismo)
+    - Otimização e clareza do fluxo de trabalho
+    - ELementos:
+        - Processos principais: atividades essenciais
+        - Processos auxiliares: Suporte operacional
+        - Processos de gerenciamento: Cordenação e controle
+
+Vantagens da MODELAGEM na RAD:
+    - Flexibilidade e reutilização de casos 
+    - Generalização dos caos para evitar redudancias
+    - Exemplo prático: Academia (pagamento online e por telefone)
+
+Cuidados na MODELAGEM de NEGOCIO:
+    - Evitar excesso de informação
+    - Manter foco nas reais necessidades do cliente
+    - Garantir atualização continua e validação frequente com os usuarios

@@ -1,0 +1,23 @@
+Tipos de responsabilidads:
+    DADOS
+    APLICAÇÔES
+    SISTEMA OPERACIONAL
+    VIRTUALIZAÇÃO
+    SERVIDORES
+    ARMAZENAMENTO
+    REDE
+    FISICA
+
+Graus de responsabilidade de cada modelo de serviço:
+
+IAAS:
+    DADOS
+    APLICAÇÔES
+    SISTEMA OPERACIONAL
+
+PAAS:
+    DADOS
+    APLICAÇÔES
+
+SAAS:
+    DADOS

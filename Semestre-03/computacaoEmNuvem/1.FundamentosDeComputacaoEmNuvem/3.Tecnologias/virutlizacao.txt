@@ -1,0 +1,12 @@
+O que é: 
+    A virtualização é a tecnologia que permite que diversas aplicações e sistemas operacionais sejam processados em uma mesma máquina.
+
+Exemplo: 
+    Um usuário utiliza o sistema operacional Windows em seu computador, mas deseja utilizar um software que está disponível apenas para o Linux. Com a virtualização, esse usuário pode executar uma versão de qualquer sistema operacional e seus aplicativos em seu próprio computador, sem necessariamente ter que o instalar fisicamente.
+
+
+Baseada em Conteiners:
+    A conteinerização, também conhecida como virtualização baseada em contêineres, é um método utilizado na implantação e execução de aplicativos distribuídos sem a necessidade de configuração de uma virtual machine (VM) completa para cada um deles. Em vez disso, vários sistemas isolados, chamados de contêineres, são executados em um único host de controle, acessando um único kernel, conforme ilustrado a seguir.
+    
+    Exempl:
+        Vamos imaginar um navio cargueiro com vários contêineres. Se um desses danificar, não afetará os outros ou o navio, pois cada um está isolado e protegido.

@@ -1,0 +1,23 @@
+Componentes:  
+    - Hardware do servidor:
+        Componente básico para a execução de serviços em nuvem. Os servidores compartilham recursos físicos para prover escalabilidade, melhor desempenho e alta disponibilidade.
+
+    - Virtualização:
+        Fornece uma plataforma dependente dos recursos físicos, permitindo que serviços, aplicativos e dados sejam acessados de qualquer lugar através da internet.
+
+    - Modelos de serviço:
+        Responsável pelas arquiteturas altamente escaláveis usadas para oferecer serviços em nuvem, como SaaS (Software as a Service), PaaS (Platform as a Service) e IaaS (Infrastructure as a Service).
+
+    - Gerenciamento de nuvem:
+        Responsável por gerenciar recursos de computação, alocação de recursos e otimização de serviços em nuvem.
+
+    - Redes em nuvem:
+        Componente das redes em nuvem que fornece conectividade, e suporta aplicativos e serviços em tempo real, permitindo que os usuários acessem serviços de nuvem de qualquer lugar.
+
+    - Segurança em nuvem:
+        Garante a segurança e privacidade dos dados nos serviços em nuvem, usando criptografia para proteção de dados e controles de acesso para garantir a segurança dos serviços.
+
+Grandes grupos de componentes da arquitetura
+    Front end: Interface que o usuário utiliza para acessar a nuvem.
+
+    Back end: Interface da própria nuvem.

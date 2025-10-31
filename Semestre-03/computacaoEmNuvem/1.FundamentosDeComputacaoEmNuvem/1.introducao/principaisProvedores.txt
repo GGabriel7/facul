@@ -1,0 +1,11 @@
+1. AMAZON - AWS (Amazon Web Services):
+    plataforma de computação em nuvem da Amazon, atualmente, o provedor em nuvem líder de mercado.
+
+2. Microsoft Azure:
+    Atualmente, a plataforma de nuvem da Microsoft concentra serviços desde a infraestrutura de cloud computing para hospedar sistemas empresariais até aplicativos e recursos que elevam a produtividade da empresa em vários setores, oferecendo, por exemplo, o famoso pacote Office por meio da nuvem.
+
+3. Google Cloud Platform:
+
+4. IBM Cloud:
+
+5. Oracle Cloud:

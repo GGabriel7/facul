@@ -1,0 +1,16 @@
+O que é interface:
+    Ponte de ligação entre os usuários e as aplicações.
+
+    No início, a interação era realizada por meio de linha de comando e, posteriormente, também mediante interfaces gráficas (Graphical User Interface - GUI)
+
+A interface do lado cliente:
+    Variados tamanhos de tela e funcionalidades
+
+    Tamanho da tela em pixels :
+    (largura x altura) / Percentual de utilização
+    360 x 640 / 10,11%
+    1366 x 768 / 9,69%
+    1920 x 1080 / 8,4%
+    375 x 667 / 4,24%
+    414 x 896 / 3,62%
+    1536 x 864 / 3,57%

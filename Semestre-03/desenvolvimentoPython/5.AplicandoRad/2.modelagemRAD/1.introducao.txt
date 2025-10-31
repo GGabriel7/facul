@@ -1,0 +1,34 @@
+O que é modelagem?
+    - Modelagem formalza como os sistemas são definicidos
+    - Uso de imagens e diagramas facilita compreesão
+    - Comunicação clara das ideias entre equipes
+
+Modelagem de NEGOCIOS:
+    - Obtenção de requisitos funcionais
+    - Fontes variadas relacionadas ao negocio
+    - Analise focada em necessidades comerciais
+    - Documentação como base para modelar ciclo de vida dos dados
+    - BENEFICIOS:
+        - Identificação clara de requisitos essenciais
+        - Definição precisa de processos
+        - Base solida para desenvovimento ágil e adaptavel
+
+Modelagem de DADOS:
+    - Agrupamento de informações essenciais
+    - Definição de entidades principais do sistema
+    - Identificação e definição de atributos dos sistemas
+    - Descrição detalhada e qualidade dos dados
+    - Mapeamento de relacionamentos entre grupos e dados
+    - Definição clara das relações e sua relevancia
+    - Garantia de alinhamento com modelo de negocio
+
+Diagrama e representações visuais:
+    - Comunicação visual eficiente
+    - Facilitação da compreesão entre analistas, desenvolvedores e clientes
+    - Garantia de clareza e redução de erros durante implementação
+
+Observações:
+    - Não é metodo exato, exige atenção do analista
+    - Impacto direto na qualidade final do projeto
+    - Necessidade de entendimento profundo do sistema
+

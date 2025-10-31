@@ -1,0 +1,35 @@
+Quando Mmigrar:
+
+    Infraestrutura ultrapassada: infraestrutura de TI está ultrapassada ou não é mais suficiente para suas necessidades
+
+    Precisar escalar rapidamente: Aumentar a capacidade de processamento ou armazenamento rapidamente
+
+    Precisar acessar de qualquer lugar: Aplicativos que precisam ser acessados de qualquer lugar
+
+    Precisar economizar dinheiro: A computação em nuvem elimina muitos dos custos associados à infraestrutura de TI, como aquisição de hardware e licenciamento de software.
+
+    Precisar de maior segurança: A computação em nuvem oferece maior segurança dos dados e aplicativos, pois seu provedor de nuvem pode gerenciar backups e outras medidas de segurança.
+
+Estratégia para migração
+    - Rehost (Re-hospedar):
+        É uma estratégia de migração para nuvem também conhecida como lift and shift. Ela consiste em mover aplicações, infraestrutura e dados para um ambiente de nuvem, mantendo intactas as suas configurações.
+
+    - Replatform (Replataforma):
+        No caso de sistemas legados, muitas organizações possuem sistemas estruturados demais para migrar para plataformas de nuvem IaaS. Nesse caso, a solução é emular as aplicações através de máquina virtual e assim garantir sua compatibilidade com as tecnologias de nuvem.
+
+    - Repurchase (Recompra)
+        Ela envolve oferecer descontos, ofertas especiais, programas de fidelidade e outras formas de recompensar os clientes por sua lealdade.
+
+        A estratégia tem como objetivo aumentar a receita e a lucratividade da empresa, ao mesmo tempo em que ajuda a construir relacionamentos de longo prazo com os clientes.
+
+    - Refactoring/Re-architecting (Refatorar/Rearquitetar):
+        Consiste em desenvolver os sistemas do zero para torná-los nativos da nuvem
+
+    - Retire (Aposentar):
+        desativação ou ao desligamento dos serviços (workloads) que não são mais necessários. Sua desativação permite que a organização se concentre em áreas que oferecem mais valor comercial, economizando recursos.
+
+    - Retain (Reter):
+        Também conhecida como revisit, é a estratégia de refatorar algumas áreas críticas de seus ativos digitais antes de migrar para a nuvem.
+
+    - Relocate (Realocação):
+        Aproveita o mesmo conjunto de componentes básicos. Assim como na re-hospedagem, o software em execução nas máquinas virtuais migradas permanece inconsciente de que algo mudou.

@@ -1,0 +1,26 @@
+Descrição do Sistema:
+    - Cadastro de notas e informações de alinos
+    - VIsualização de media e situação (aprovado, recuperacao ou reprovado)
+    - Integração dos dados com Excel
+
+Requisitos do Sistema: 
+    - Cadastro básico de dados pessoais e notas 
+    - Calculo automatico da media das notas
+    - Interface gráfica intuitiva para Windows
+    - Importacao e exportacao de dados via Excel
+
+Intercace do Sistema:
+    - GUI com botoes, caixa de texto e grades
+    - Facil operacao via teclado e mouse
+    - COmpatibilidade com excel 
+
+Modelagem de Negocios:
+    - Atuação dos Funcionarios: Cadastro
+    - Atualçao dos Alunos: Consulta
+
+    - Automatização e simplificação do gerenciamento escolar
+
+Modelagem de Dados:
+    - Campos principais: Alunos, Nota1, Nota2, Média, Situação
+    - Tipos de dados: Texto e Decimal
+    - Dados armazedados em Excel para fácil manipulação

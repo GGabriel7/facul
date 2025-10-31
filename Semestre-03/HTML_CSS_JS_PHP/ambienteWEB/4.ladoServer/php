@@ -1,0 +1,12 @@
+PHP - Hypertext Preprocessor:
+    - Amplamente Usada
+    - Executados no lado do servidor
+    - O resultada da exucao do php no servidor é retornardo no navegador do cliente
+    - Os arquivos podem conter teto, HTML, CSS, JS e PHP
+    - Possuvel gerar conteudo dinamico
+    - Possivel lifar com dados de formularios, entre outros recursos
+
+Como o PHP funciona:
+    Etapa 1: O código PHP gerado é interpretado pelo servidor.
+    Etapa 2: Esse código é convertido em formato HTML.
+    Etapa 3: O código é exibido no navegador.

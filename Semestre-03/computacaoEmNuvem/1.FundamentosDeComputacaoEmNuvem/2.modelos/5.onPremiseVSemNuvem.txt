@@ -1,0 +1,7 @@
+On Primese:
+    O servidor é físico, pois existe um servidor principal instalado na empresa na qual os computadores estão conectados. Para acessá-lo, os computadores da empresa precisam estar configurados na rede da empresa. A implantação acaba sendo mais complexa devido à necessidade de treinamento, materiais e apoio de equipe especializada para se utilizar o sistema.
+
+Em nuvem: 
+    Os dados e os serviços estão na nuvem, ou seja, estão guardados em um provedor de nuvem, uma empresa especializada com poder computacional disponível para alugar. Dessa maneira, precisamos apenas receber as informações necessárias para entrar no servidor remotamente.
+
+

@@ -1,0 +1,25 @@
+SERVIÇO MÁQUINA VIRTUAL:
+    Ambiente Virtual que funciona como um sistema de computação com sua propria CPU, memoria, interface de rede e armazenamento
+
+SERVIÇO DE CONTEINERIZAÇÃO:
+    Se trata de uma evolução da máquina virtual, devido às similaridades em termos de comportamento, porém, são extremamente mais enxutos e leves em termos de uso de recursos de computação.
+
+    Um contêiner contém tudo que é necessário para a execução da aplicação, como arquivos, variáveis de ambiente e bibliotecas próprias.
+
+Funções como Serviço (abordagem serverless):
+    o cliente do serviço de nuvem não é responsável pela infraestrutura de computação subjacente, isto é, manutenção do sistema operacional, escala, gerenciamento de tempo de execução, e assim por diante.
+
+Serviço de Base de Dados Gerenciadas:
+
+Serviço de Armazenamento:
+
+Serviço de Rede:
+    Outra classe de serviços em nuvem são os associados ao recurso rede, tais como:
+        - Domain Name System (DNS);
+        - Content Delivery Network (CDN);
+        - Virtual Private Network (VPN);
+        - Web Application Firewall (WAF);
+        - Proteção Distributed Denial of Service (DDoS protection).
+
+Serviço de Monitoramento e Auditoria:
+    O monitoramento refere-se às atividades de registro feitas nos serviços do ambiente de nuvem. Eventos de login do usuário (sucesso e falha) e ações tomadas (quem fez o quê e quando, e qual foi o resultado final com sucesso ou falha) são os exemplos principais.

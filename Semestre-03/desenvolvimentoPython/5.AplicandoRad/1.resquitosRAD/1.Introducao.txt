@@ -1,0 +1,31 @@
+O que são requisitos? 
+    - Conjunto de itens necessários para alcançar objetivos do sistema
+    - Devem ser claros, completos e relevantes
+    - Evitam contradições e retrabalhos
+
+Importância do Planejamento de requisitos:
+    - Identificação clara das necessidades do negócio
+    - Definição precisa do escopo do projeto
+    - Redução de falhas e custos de retrabalho
+
+Atividades Principais da Enganharia de Requisitos:
+     - Elicitação de Requisitos: Identificação das necessidades e contexto; Uso de entrevistas; Técnicas adicionais (casos de uso, cenários, observações)
+
+     - Análise de Requisitos: Avalia a viabilidade e priooridades; Negociação com as partes interessadas; Garantir implementação dentro do orçamento e cronograma
+
+     - Documentação
+
+     - Validação
+
+     - Gerenciamento de Requisitos: Rastreamento de mudanças e verso~es; Controle de alterações; Gestão eficiente da informação
+
+Beneficos do planejamento eficaz de requisitos:
+    - Comunicação eficiente entre equipes
+    - Redução significativa de erros e custos
+    - Melhor alinhamento com espectativas do usuário
+
+Dicas para um planejamento Bem-Sucedido:
+    - COmunicação clara e continua com o cliente
+    - Feedback contante
+    - Revisão regulares dos requistos
+    - Engajamento ativos das partes interessadas
