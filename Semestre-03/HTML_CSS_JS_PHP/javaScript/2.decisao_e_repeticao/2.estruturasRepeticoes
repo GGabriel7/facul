@@ -1,0 +1,19 @@
+Coamnomando WHILE:
+    - Estrutura condicional com teste no inicio
+    - Comandos sao executados enquanto a condição é verdadeira
+
+DO WHILE:
+    - irá exucutar o comando pelo menos uma vez e irá continuar enquanto a execucao for verdadeira
+
+FOR:
+    Dividido em trés areas: Inicializa. teste e incremento
+    executado para cada valor forneceido na estrutura de controle
+
+FOR IN:
+    - valores com muitos valores
+    - exemplo:
+        numer = [0, 1, 2, 3, 4]
+        for n in numer:
+            n += 1
+
+        print(numer) // saida: 1, 2, 3, 4, 5

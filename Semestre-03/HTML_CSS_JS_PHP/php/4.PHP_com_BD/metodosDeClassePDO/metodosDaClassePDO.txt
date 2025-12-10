@@ -1,0 +1,8 @@
+Caracteristicas:
+  - A classe PDO tem recursos para facilitar a conexao com bancos de dado
+  
+  - Há metodos prontos da classe PDO que permitem executar operacoes comuns de banco de dados de forma simples e eficiente.
+
+  - A conexão é fundamental para que se possa realizar operações CRUD (Create, Read, Update, Delete) em bancos de dados.
+
+  - É necessário criar uma instância da classe PDO, fornecendo os parâmetros adequados, como o DSN (Data Source Name), nome de usuário e senha, para a aplicação se conectar ao banco de dados.

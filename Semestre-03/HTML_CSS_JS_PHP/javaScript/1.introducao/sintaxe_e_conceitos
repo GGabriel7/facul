@@ -1,0 +1,37 @@
+Constantes e Variaveis:
+    - Tipagem Fraca:
+        - O tipo é definido pela atribuição corrente para variavel
+        - Uma simples atribuição define a variavel
+        - A palavra var era utilizada para definir uma variavel formalmente
+        - Hoje temos let para variaveis e consnt para constantes 
+
+    - Uso de operadores:
+        - Aritimitetico: + - / * %
+        - Logicos e binarios && || ! & | ^
+        - Relacionais: >= != <= > <
+        - Concatenação: + ${}
+        - Decisão: ?:
+
+    - Funções
+        - Tradicional:
+            function soma(a, b) {
+                let c = a+b;
+                alert("Soma será ${c}");
+            }
+        
+        - Arrow function:
+            const soma = (a, b) => {
+                let c = a+b;
+                alert("Soma será ${c}");
+            }
+    
+    - Classes e objetos:
+        class Pessoa (nome) {
+            this.nome = nome;
+        }
+
+    - Vetores:
+        - Baseado na classe Array
+        - Metodo de ordanação sort
+        - Iteração atraves de forEach
+        - Metodo map e reduce

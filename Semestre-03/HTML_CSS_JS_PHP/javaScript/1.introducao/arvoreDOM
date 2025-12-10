@@ -1,0 +1,17 @@
+DOM - Document Object Model
+
+Elementos DOM:
+    Raiz: Nó de Documento - <html>
+    Nós de Elementos - <head>, <body>
+    Nós de Atributos - <title>, <h1>, <a>
+    Nós de Texto - tittle, links, paragrafos...
+
+Seletores para modificar o HMTL:
+    Tags, classes e id do CSS 
+
+Metodos de seleção:
+    getElementsByTagName
+    getElementsByClassName
+    getElementById
+    getElementsByName 
+

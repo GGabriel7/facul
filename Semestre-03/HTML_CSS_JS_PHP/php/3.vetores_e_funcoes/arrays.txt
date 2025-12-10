@@ -1,0 +1,33 @@
+Caracteristicas de Arrays/vetores:
+  - Possibilita armazenar múltiplos valores em uma única variável.
+  - Organiza os dados de forma sequencial na memória.
+  - Permite acesso rápido aos elementos através de índices, iniciando em 0.
+  - Facilita a manipulação e iteração sobre conjuntos de dados.
+
+Array em PHP:
+  - Array indexada:
+    $array = array("maçã", "banana", "laranja");
+  
+  - Acessando:
+    echo $array[1]; // Saída: banana
+  
+  - array com cochetes:
+    $array = ["maçã", "banana", "laranja"];
+
+  - Array associativa:
+    $idades = array("João" => 25, "Maria" => 30, "Pedro" => 20); É possível misturar índices numéricos e associativos.
+
+Array multidimensional:
+  - É uma array que contém outras arrays como seus elementos.
+
+  - Definição:
+    $matrix = array(
+      array(1, 2, 3),
+      array(4, 5, 6),
+      array(7, 8, 9)
+    );
+  
+  - Acessando:
+    echo $matrix[1][2]; // Saída: 6
+    echo $matrix[0][0]; // Saída: 1
+    echo $matrix[2][1]; // Saída: 8

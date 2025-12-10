@@ -1,0 +1,58 @@
+AJAX - HTTPS Assíncrono, Java Script e XML:
+    - HTTP é um protocolo síncrono (o código é realizada um linha de cada vez), mas o uso de XmlHttpRequest (mais atingo) permite criar clientes assíncronos (enquanto seu código espera alguma confirmação, ele já pode ir executando outras coisas)
+
+    - Atualmente, temos outras opções: fetch, RxJS e Axios
+
+    - Apesar de ser utilizado inciialmente com XML, permite formato com textos simples e JsON
+
+    - VIabiliza o carregamento de paginas com carragamente dinamico
+
+JSON - Java Script Object Notation:
+    - Formato simples para definição de objetos em JSON
+
+    - As propriedades dos objetos são definidos na forma atributo:valor e separados com virgula:
+        - JSON como texto:
+            {"name": "João", "idade", 25}
+
+        - JSON no JS:
+            { name:"João", idade:25 }
+
+    - Classe definida com chaves e vatores criados com colchetes
+
+    - Permite definição hierárquica
+
+
+Exemplo de chamada HTTP com XmlHttpRequest:
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = xhttp.responseText;
+        }
+    };
+
+    xhttp.open("GET", "endereço", true);
+    xhttp.send();
+
+
+Fetch API:
+    - O comando fetch substitui o objeto XmlHttpRequest, com diversas vantagens
+
+    - Suporta todos os métodos do HTTP 
+
+    - Integração simples com APIs Rest e uso de JSON 
+
+    - Trabalha no modelo assíncrono 
+
+    - Simplifica chamadas POST com passagem de valores JSON
+
+    - Exemplo:
+        let file = "fetch_info.txt";
+        fetch (file).then(x => x.text()).then(y => document.getElementById("demo1").innetHTML = y);
+
+        async function getText(file) {
+            let x = await fetch(file);
+            let y = await x.text();
+            document.getElementById("demo2").innetHTML = y;
+        }
+        getText("fetch_info.txt");
+        

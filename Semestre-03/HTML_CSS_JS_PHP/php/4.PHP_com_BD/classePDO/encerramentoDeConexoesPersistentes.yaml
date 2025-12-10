@@ -1,0 +1,4 @@
+Caracteristicas:
+  - É importante liberar recursos que não são mais utilizados nos programas, como espaços de memória de variaveis, conexões de banco de dados, arquivos abertos, etc.
+  - Se não tiver usando mais o banco de dados, encerre a conexao.
+  - Em PHP, conexões persistentes com bancos de dados podem ser encerradas utilizando a função `pg_pconnect()` para PostgreSQL ou `mysqli_close()` para MySQL.

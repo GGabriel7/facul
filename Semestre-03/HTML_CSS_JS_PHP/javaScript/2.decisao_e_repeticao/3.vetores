@@ -1,0 +1,13 @@
+Definição:
+    - Sequencias de elementos de um mesmo tipo - JS permite tipos diferentes
+    - No JS eles funcionam como lista
+    - Definidos com colchetes [0, 1, 2] ou na classe Array new Array(0, 1, 2)
+
+    - Acesso aos elementos atraves de indices
+    - O primiero indices é 0
+
+Manipulação de Vetores:
+    - splice: excluir elementos de um array, substituir e inserir
+    - delete: remoção de elemento como base no indice
+    - pop: remove um elemento do final do array
+    - shift: remove um elemento do início do arra

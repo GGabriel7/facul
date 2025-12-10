@@ -1,0 +1,37 @@
+Caracateristicas:
+  - Execeções são comportamente atipicos que ocorrem durante a execução de um programa.
+  - Elas interrompem o fluxo normal do programa.
+  - PHP tem recursos integrados para lidar com exceções.
+  - As exceções podem ser lançadas (throw) e capturadas (catch).
+  - O bloco try contém o código que pode gerar uma exceção.
+  - O bloco catch contém o código para lidar com a exceção.
+  - É possível lançar exceções personalizadas.
+  - O uso de exceções melhora a robustez e a manutenção do código.
+
+Exemplo:
+  try {
+      // Código que pode gerar uma exceção
+      $pdo = new PDO($dsn, $username, $password);
+  } catch (PDOException $e) {
+      // Lida com a exceção
+      echo 'Conexão falhou: ' . $e->getMessage();
+  }
+
+  throw new Exception('Mensagem de erro personalizada');
+
+Prática:
+  define("DB_HOST", "127.0.0.1");
+  define("DB_PORT", "3306");
+  define("DB_NAME", "meu_banco");
+  define("DB_USER", "usuario");
+  define("DB_PASS", "senha");
+
+  tru {
+      $dsn = new PDO("mysql:host=".DB_HOST.";port=".DB_PORT.";dbname=".DB_NAME, DB_USER, DB_PASS);
+  } catch (PDOException $e) {
+      echo "Erro na conexão: " . $e->getMessage();
+  } catch (Exception $e) {
+      echo "Erro genérico: " . $e->getMessage();
+  } finally {
+      echo "Tentativa de conexão finalizada.";
+  }

@@ -1,0 +1,16 @@
+Caracteristicas do ataque SQL Injection - injeção de SQL:
+  - Ataque onde comandos SQL maliciosos são inseridos em campos de entrada de dados.
+  - Objetivo é manipular o banco de dados para obter acesso não autorizado ou danificar dados.
+  - Pode resultar em roubo de dados, exclusão de tabelas ou comprometimento do sistema.
+
+Medidas de prevenção contra SQL Injection:
+- Uso de consultas parametrizadas (prepared statements).
+- Validação e sanitização rigorosa dos dados de entrada.
+- Uso de ORM (Object-Relational Mapping) para abstrair consultas SQL.
+- Configuração adequada de permissões no banco de dados- 
+
+Práticas de segurança em desenvolvimento web:
+  - DevSecOps incorpora conceitos de segurança no ciclo de vida do desenvolvimento de software.
+  - Necessidade de aumentar a segurança das aplicações web.
+  - É fundamental fazer a validação e sanitização dos dados de entrada.
+  - Uso de consultas parametrizadas (prepared statements) para evitar injeção de SQL.

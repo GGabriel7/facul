@@ -1,0 +1,17 @@
+Caracteísticas:
+  - Os servidores podem hospedar aplicações que utilziam diferentes tecnologias.
+  - Inici o script com <?php e termine com ?>.
+  - Utiliza-se o $ para declarar variáveis.
+  - Não é necessário declarar o tipo de dados.
+  - As instruções terminam com ;.
+  - Comentários podem ser feitos com //, # ou /* */.
+
+Exemplo:
+  <?php
+      // Declaração de variáveis
+      $nome = "João";
+      $idade = 25;
+
+      /* Exibe uma mensagem */
+      echo "Olá, meu nome é $nome e eu tenho $idade anos.";
+  ?>

@@ -1,0 +1,79 @@
+Caracteristica de POO em PHP:
+  - Definição de Funções dentro de Classes:
+      - Em PHP, funções definidas dentro de classes são chamadas de métodos. Eles podem manipular os dados dos objetos da classe.
+
+  - Exemplos de Funções em PHP:
+      - Função Simples:
+          ```php
+          class Saudacao {
+              public function dizerOla($nome) {
+                  return "Olá, " . $nome . "!";
+              }
+          }
+
+          $saudacao = new Saudacao();
+          echo $saudacao->dizerOla("Maria"); // Saída: Olá, Maria!
+          ```
+
+      - Função com Parâmetros Padrão:
+          ```php
+          class Calculadora {
+              public function soma($a, $b = 0) {
+                  return $a + $b;
+              }
+          }
+
+          $calc = new Calculadora();
+          echo $calc->soma(5, 3); // 8
+          echo $calc->soma(7);    // 7 (b usa o valor padrão 0)
+          ```
+
+      - Função com Argumentos Variáveis:
+          ```php
+          class Impressora {
+              public function imprimir(...$args) {
+                  foreach ($args as $arg) {
+                      echo $arg . "\n";
+                  }
+              }
+          }
+
+          $imp = new Impressora();
+          $imp->imprimir(1, 2, 3); // Imprime cada número em uma nova linha
+          ```
+
+      - Função com Tipagem de Parâmetros e Retorno:
+          ```php
+          class Estatistica {
+              public function media(array $nums): float {
+                  return array_sum($nums) / count($nums);
+              }
+          }
+
+          $estat = new Estatistica();
+          echo $estat->media([2.0, 4.0, 6.0]); // 4.0
+          ```
+
+      - Função Anônima (Closure):
+          ```php
+          $quadrado = function($x) {
+              return $x * $x;
+          };
+
+          echo $quadrado(5); // 25
+          ```
+
+      - Função que Retorna Outra Função:
+          ```php
+          class Multiplicador {
+              public function criarMultiplicador($n) {
+                  return function($x) use ($n) {
+                      return $x * $n;
+                  };
+              }
+          }
+
+          $mult = new Multiplicador();
+          $duplica = $mult->criarMultiplicador(2);
+          echo $duplica(5); // 10
+          ```

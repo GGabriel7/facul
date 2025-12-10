@@ -1,0 +1,40 @@
+Carácteristicas:
+    - Aplicações dinâmicas, utilização de formulários e interatividade com o usuário.
+    - Bankline, redes sociais, e-commerces, entre outros.
+    - Usuários acessam as páginas, inserem os dados e recebem respostas personalizadas.
+
+Método GET:
+    Descrição: Os dados ficam na URL, anexando-os como parâmetros na string de consulta.
+
+    Uso: Ideal para solicitações que não alteram o estado do servidor, como buscas e filtros.
+
+    Limitações: Tamanho limitado dos dados enviados, visibilidade dos dados na URL.
+
+    Exemplo: 
+        URL: http://exemplo.com?id=123&nome=João
+
+Método POST:
+    Descrição: Os dados são enviados no corpo da requisição HTTP, não aparecendo na URL, ficando com URL igual.
+
+    Uso: Adequado para envio de dados sensíveis ou grandes quantidades de informações, como formulários de cadastro.
+
+    Vantagens: Maior segurança e capacidade de envio de dados.
+
+    Exemplo:
+        URL: http://exemplo.com
+        Corpo da Requisição:
+            id: 123
+            nome: João
+
+
+Campos de Formulários:
+    - Cada campo do formulário possui um nome para identificar os Campos
+    - A aplicação do servidor extrai os conteudos vindos da requisição
+    - Os nomes dos campos devem ser os mesmo, tanto no lado do cliente (HTML) quanto no lado do servidor
+    - Exemplos de campos comuns:
+        - input (text, password, email, etc.)
+        - textarea
+        - select
+        - checkbox
+        - radio
+

@@ -1,0 +1,20 @@
+EXECUCASO CONDICIAL:
+    - É executado apenas se a condição é verdadereira
+
+Operadores relacionais:
+    - Entrada de dois valores numericos e um valor booleano como saida
+    - Aceita variaveis e instrucoes aritimetica
+
+Operadores Logicos:
+    - Entrada de valores booleanos e saida de um valor booleano
+    - Permite combinar operacoes relacionais- Curto-circuito minimiza comparacoes
+
+Estrutura if:
+
+Estrutura If/Else:
+    - Comandos diferntes para cada resultado
+
+Estrutura else if
+
+Comando SWITCH:
+    Comandos diferntes para cada valor da expressao

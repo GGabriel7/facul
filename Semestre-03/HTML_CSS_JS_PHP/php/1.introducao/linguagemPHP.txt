@@ -1,0 +1,15 @@
+Caracteriscas:
+    - Server side
+    - Geram páginas dinamicas e interativas
+    - Gratuita e bastante difundida
+    - Suporta orientação a objetos
+    - Fracamente tipada - não exige declaração de tipos
+    - Integrada com diversos bancos de dados (MySQL, PostgreSQL, SQLite, etc.)
+    - Pode ser usada no controle de acessos, sessões e cookies
+
+Exemplo de código:
+    <?php
+    echo "Olá, Mundo!";
+    ?>
+
+    // echo é uma construção do PHP para exibir texto na tela

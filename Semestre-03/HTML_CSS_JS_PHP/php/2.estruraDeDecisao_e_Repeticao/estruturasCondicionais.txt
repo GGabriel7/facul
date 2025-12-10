@@ -1,0 +1,74 @@
+Caracteriscas:
+  - Situações que programas podem seguir diferentes caminhos com base em condições específicas.
+  - Proporiciona mais flexibilidade e controle sobre o fluxo de execução do programa.
+  - Estruturas de decisão ou condicionais
+  - É preciso estabelecer condições para evitar problemas
+  - Operadores são usados para comparar valores e tomar decisões
+
+if no PHP:
+  - Sintaxe:
+      - if (condição) {
+          // código a ser executado se a condição for verdadeira
+        }
+  - Exemplo:
+      - if ($idade >= 18) {
+          echo "Você é maior de idade.";
+        }
+
+if...else no PHP:
+  - Sintaxe:
+      - if (condição) {
+          // código a ser executado se a condição for verdadeira
+        } else {
+          // código a ser executado se a condição for falsa
+        }
+  - Exemplo:
+      - if ($idade >= 18) {
+          echo "Você é maior de idade.";
+        } else {
+          echo "Você é menor de idade.";
+        }
+
+else if:
+  - Sintaxe:
+      - if (condição1) {
+          // código a ser executado se a condição1 for verdadeira
+        } else if (condição2) {
+          // código a ser executado se a condição2 for verdadeira
+        } else {
+          // código a ser executado se nenhuma das condições anteriores for verdadeira
+        }
+  - Exemplo:
+      - if ($nota >= 90) {
+          echo "A";
+        } else if ($nota >= 80) {
+          echo "B";
+        } else {
+          echo "C";
+        }
+
+switch no PHP:
+  - Sintaxe:
+      - switch (expressão) {
+          case valor1:
+            // código a ser executado se a expressão for igual a valor1
+            break;
+          case valor2:
+            // código a ser executado se a expressão for igual a valor2
+            break;
+          default:
+            // código a ser executado se nenhum dos casos anteriores for verdadeiro
+        }
+  - Exemplo:
+      - switch ($diaDaSemana) {
+          case 1:
+            echo "Domingo";
+            break;
+          case 2:
+            echo "Segunda-feira";
+            break;
+          case 3:
+            echo "Terça-feira";
+          default:
+            echo "Outro dia";
+        }

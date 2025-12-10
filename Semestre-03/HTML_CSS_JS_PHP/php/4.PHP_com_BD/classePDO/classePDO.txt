@@ -1,0 +1,10 @@
+Caracteristicas:
+  - Há várias linguagens de programação, assim como siostemas de gerenciamento de banco de dados (SGBD) que suportam o uso de PDO.
+
+  - Podem trabalhar em projetos que lidem com diferentes abordagens
+
+  - E importante conhecer como integrar uma aplicação a um banco de dados utilizando PDO.
+
+  - Realização das operações CRUD (Create, Read, Update, Delete) de forma segura e eficiente.
+
+  - A classe PDO tem recursos para facilitar o trabalho de conexão de aplicações desenvolvidas em PHP com bancos de dados.

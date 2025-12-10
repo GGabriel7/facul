@@ -1,0 +1,9 @@
+Caracteristicas:
+    - PDO (PHP Data Objects) é uma extensão do PHP que define uma interface leve e consistente para acessar bancos de dados em PHP.
+    - Acessamos diversos sistemas que utilizam dados;
+    - Toda vez que acessamos bankline, por exemplo, estamos acessando um banco de dados com as nossas credenciais;
+    - As credencias sao enviadas ao servidor que hospeda a aplicação;
+    - O servidor consulta o banco de dados e retorna os dados solicitados;
+    - PHP tem recusurso que possibilitam a integração de aplicações com bancos de dados;
+
+    - 

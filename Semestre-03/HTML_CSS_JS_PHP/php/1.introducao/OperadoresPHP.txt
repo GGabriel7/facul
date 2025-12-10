@@ -1,0 +1,11 @@
+PHP possibilita o uso de diferentes operadores:
+    - Aritméticos: +, -, *, /, %, **
+    - Atribuição: =, +=, -=, *=, /=, %=
+    - Comparação: ==, ===, !=, !==, <, >, <=, >=
+    - Lógicos: &&, ||, !
+    - Incremento/Decremento: ++, --
+    - String: ., .=
+    - Array: +, ==, ===, !=, !==
+    - Outros: instanceof, ?? (null coalescing), ?: (ternário)
+
+  

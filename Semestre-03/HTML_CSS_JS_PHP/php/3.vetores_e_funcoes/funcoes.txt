@@ -1,0 +1,14 @@
+Funcões em PHP:
+    Modularização: Funções permitem dividir o código em partes menores e reutilizáveis, facilitando a manutenção e a organização do código.
+
+    PHP tem suas funções nativas, como: `strlen()`, `array_push()`, `date()`, entre outras.
+
+    Podemos usar nossas funções personalizadas para realizar tarefas específicas e reutilizá-las em diferentes partes do código.
+
+    Sintaxe básica para definir uma função em PHP:
+        ```php
+        function nomeDaFuncao($parametro1, $parametro2) {
+            // Corpo da função
+            return $resultado;
+        }
+        ```
