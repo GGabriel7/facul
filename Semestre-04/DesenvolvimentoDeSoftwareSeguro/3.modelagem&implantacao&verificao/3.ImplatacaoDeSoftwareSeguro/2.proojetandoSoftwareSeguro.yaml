@@ -1,0 +1,13 @@
+Ciclo de vida da Implatação do Software:
+  -> Requisito -> Projeto -> Desenvolvimento -> Implatação e Manutenção ->
+
+Etapa 2 - Projeto:
+  - Desenhar a  arquitetura e dar as específicações técnicas de maneira formal com lingaugens de modelagem (como UML). Atender os requisitos funcionais e não funcionais e dar segurança ao desing.
+  
+  - Segurança:
+    - Armazenamento e transmissão segura de dados: Como criptografar dados em trânsito e em repouso.
+    - Controle de acesso: RBAC - Role-Based Access Control para controle de acesso ou outros mecanismos de autenticação.
+    - Validação de entrada: Evitar exploração de vulnerabilidades
+    - Protocolo de Comunicação Segurança: HTTPS para proteger os dados na internet.
+    - Tratamento de Erros: Ligar com erros e exceções. sem revelar informações e tentar garantir o retorno ao estado anterior.
+    

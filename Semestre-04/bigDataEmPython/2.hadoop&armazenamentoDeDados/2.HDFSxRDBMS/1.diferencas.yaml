@@ -1,0 +1,23 @@
+Diferenças:
+  - RDBMS: são sistemas de gerenciamento de banco de dados relacionais. Oracle, SQL Server, MySQÇ e o PostgreSQL são exemplos desses sistemas. Como são relacionais, eles utilizam tabelas para fazer o armazenamento dos dados e das regras de integridade, que servem para relacionar as tabelas entre si e restringir as ações que podemos realizar sobre os dados. Esses sistemas garantem as propriedades ACID das transações -
+    A - Atomicidade: execução das ações em um banco de dados
+    C - Consistência: o sistema deve manter a integridade dos dados, assim como respeitar todas as regras
+    I - Isolamento: Faz a separação das execuções de transações para que elas não interfiram entre si
+    D - Durabilidade: o sistema deve garantir que os dados sejam gravados no banco de dados
+
+  - HDFS: os dados são contextualizados em um ambiente distribuído; devido às características intrínsecas das aplicações de Big Data, o gerenciamento deles é bem mais complexo.
+
+Algumas das diferenças entre os dois sistemas em relação às seguintes características:
+  - Volume de dados: HDFS projetao para trabalhar com um maior volume de dados (na ordem de Petabytes). Enquanto o RDBMS funciona bem com o volume de dados na ordem de Gigabytes até Terabytes.
+
+  - Taxa de Trasferência: O RDBMS faz a operação de leitura muito rápida e a de escrita, lenta. Já o HDFS realiza as operações de leitura e escrita rapidamente.
+
+  - Variedade de Dados: RDBMD é usado apenas para gerenciar os dados estruturados e semiestruturados; enquanto o HDFS também processa e armazena não-estruturados
+
+  - Tempo de resposta (latência):  RDBMS é comparativamente mais rápido na recuperação das informações dos conjuntos de dados, apesar de o HDFS ter um rendimento alto para acessar lotes de grandes conjuntos de dados.
+
+  - Escalabilidade: Para escalar uma solução no RDBMS, é necessário aumentar os recursos da máquina, processo chamado de escalabilidade vertical. No caso do HDFS, a escalabilidade é horizontal, ou seja, para expandir o sistema, basta adicionar mais computadores aos clusters existentes.
+
+  - Processamento de dados: No RDBMS as consultas e as agregações são feitas por meio do OLTP (online transaction processing), que comprativamente mais rápido que o OLAP (online analytical processing) do HDFS.
+
+  - Custo: Além do Hadoop Apach (HDFS) e ser um framework de software livre, ele permite aumentar a infraestrutura de um sistema sem a necessidade de equipamento especial. No caso do RDBMS, em muitos casos, temos de considerar questões relacionadas à licença de uso e aos custos de aquisição de recursos de hardware para a infraestrutura sobre a qual operam.

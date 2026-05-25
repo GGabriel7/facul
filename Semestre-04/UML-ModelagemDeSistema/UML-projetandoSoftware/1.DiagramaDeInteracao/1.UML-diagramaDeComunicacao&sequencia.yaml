@@ -1,0 +1,17 @@
+Atividades do Desenvolvimento de Software:
+  - Levantamento de Requisitos
+  - Análise
+  - Projeto (design)
+  - Implementação
+  - Testes
+  - Implantacação
+
+UML (UNIFIED MODELING LANGUAGE):
+  - Os diagramas da UML que, usualmente, são construídos nos modelos de análise e de projeto. Trata-se de uma visão prática, uma vez que a especificação da linguagem UML não determina quais diagramas devam ser usados em quais etapas e, tampouco, em que ordem devem ser elaborados. 
+
+Diagramas de Interação: 
+  - Modelar um sistema, como uma sequência de eventos organizada por tempo.
+  - Fazer a engenharia reversa ou avançada de um sistema ou processo.
+  - Organizar a estrutura de vários eventos interativos.
+  - Mostrar, de forma simples, o comportamento de mensagens e linhas da vida dentro de um sistema.
+  - Identificar possíveis conexões entre elementos de linhas da vida.

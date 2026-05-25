@@ -1,0 +1,8 @@
+YARN (Yet Another Resource Negociator):
+  - É o componente estrutural sobre o qual funciona o MapReduce. Ele realiza duas operações distintas:
+
+  - Agendamento de Tarefas:
+    - O objetivo é dividir uma grande tarefa em tarefas menores para serem atribuídas a vários nós ESCRAVOS em cluster Hadoop, faznedo o desempenho do processamento ser maximizado. Ele faz o controle das prioridades de execução das tarefas, considerando importância e dependências em realação às demais tarefas e quaiquer outras informações, como o tempo para concluir um trabalho.
+
+  - Gerenciamento de Recursos - ResouceManager:
+    - Faz o controle de todos os recursos disponibilizados para a execução de uma tarefa em um cluster Hadoop. Relacionado com o NodeManeger (gerenciador de dados), que é o agente de estrutura por máquina responsável pelos containers por meio do monitoramento do uso de recursos (CPU, memoria, disco e rede) e do envio de relatorios para o gerenciador de recursos.

@@ -1,0 +1,43 @@
+O que é Orientação a Objetos?:
+  A Orientação a Objetos (OO) é um paradigma de programação que utiliza "objetos" para representar dados e comportamentos relacionados. Em vez de focar em funções ou procedimentos, a OO organiza o código em torno de objetos que encapsulam tanto dados (atributos) quanto funcionalidades (métodos). Isso facilita a modelagem de sistemas complexos, promovendo reutilização de código, modularidade e manutenção mais fácil.
+
+Orientação a Objetos vs Programação Procedural:
+   Reaproveitamento de Código:
+     OO: Permite a criação de classes reutilizáveis que podem ser instanciadas várias vezes.
+     Procedural: Reutilização limitada, geralmente através de funções.
+   
+   Manutenção:
+     OO: Facilita a manutenção através do encapsulamento e modularidade.
+     Procedural: Pode ser mais difícil de manter em sistemas grandes devido à falta de estrutura clara.
+
+Objetos: 
+  Definição: Instâncias de classes que contêm atributos (dados) e métodos (funções).
+  Exemplo: Um objeto "Carro" pode ter atributos como "cor" e "modelo", e métodos como "acelerar()" e "frear()".
+
+Classes: 
+  Definição: Modelos ou "blueprints" para criar objetos. Definem os atributos e métodos que os objetos terão.
+  Exemplo: A classe "Carro" define os atributos e métodos que todos os objetos "Carro" terão.
+
+Encapsulamento:
+  Definição: Princípio que restringe o acesso direto aos dados de um objeto, permitindo o controle através de métodos públicos.
+  Benefícios: Protege a integridade dos dados e oculta a complexidade interna do
+
+Hierarquia de Classes:
+  Definição: Organização das classes em uma estrutura hierárquica, onde classes podem herdar atributos e métodos de outras classes.
+  Benefícios: Promove a reutilização de código e facilita a modelagem de relações "é um" (por exemplo, um "Cachorro" é um "Animal").
+
+Relacionamentos entre Objetos:
+  Associação: Relação onde um objeto utiliza outro objeto (por exemplo, um "Motorista" dirige um "Carro").
+  Agregação: Relação "tem um", onde um objeto contém outro objeto, mas ambos podem existir independentemente (por exemplo, uma "Biblioteca" tem "Livros").
+  Composição: Relação forte "é parte de", onde a existência do objeto parte depende do objeto todo (por exemplo, um "Coração" é parte de um "Corpo").
+
+Polimorfismo:
+  Definição: Capacidade de diferentes classes responderem ao mesmo método de maneiras diferentes.
+
+Conceitos:
+  atributos: Características ou propriedades de um objeto (por exemplo, cor, tamanho).
+  métodos: Funções ou comportamentos que um objeto pode executar (por exemplo, correr, falar). 
+  herança: Mecanismo pelo qual uma classe pode herdar atributos e métodos de outra classe.
+  Operação: Ação realizada por um método em um objeto.
+  Mensagem: Comunicação entre objetos, onde um objeto solicita que outro execute um método.
+  Estado: Conjunto de valores dos atributos de um objeto em um determinado momento.

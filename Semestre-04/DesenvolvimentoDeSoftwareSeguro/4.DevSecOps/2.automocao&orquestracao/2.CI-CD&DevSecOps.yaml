@@ -1,0 +1,22 @@
+CI/CD:
+  - Práticas de engenharia de software oriundas dos conceitos de automação e orquestração, que são pilares fundamentais para as abordagens DevOps e DevSecOps.
+
+  - CI - Continuous integration (integração contínua):
+    - Automatizar o processo de compilação, teste e implantação de código-fonte, de maneira mais rápida, eficiente e frequente possível.
+    - Detectar erros o mais cedo possível, a partir de frequente integração da base de código-fonte pelos desenvolvedores.
+    - Facilitar a colaboração entre os membros da equipe de desenvolvimento.
+    - Para implementar a CI, é necessário o uso de ferramentas que permitam a automação do processo de compilação e teste do código-fonte, como Jenkins, GitLab CI/CD, Azure DevOps, entre outras.
+
+  - CD - Continuous delivery (Entrega contínua):
+    - É uma prática de engenharia de software que visa entregar alterações de código de forma frequente, segura e confiável.
+    - difere da CI, pois se concentra na entrega confiável e automatizada de software em um ambiente de produção.
+    - a CI é um componente fundamental da CD
+
+CI/CD e DevSecOps: 
+  - DevSecOps acrescenta uma dimensão de segurança à prática de CI/CD. Enquanto a integração contínua e a entrega contínua se concentram principalmente em automatizar e agilizar o processo de desenvolvimento e entrega de software, DevSecOps enfatiza a importância de incorporar práticas de segurança em todas as etapas do ciclo de vida do desenvolvimento de software.
+
+  - práticas de segurança: 
+      Análise estática de código-fonte
+      Verificação de vulnerabilidades
+      Análise de configuração de segurança
+      Testes de penetração automatizados

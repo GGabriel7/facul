@@ -1,0 +1,13 @@
+Ciclo de vida da Implatação do Software:
+  -> Requisito -> Projeto -> Desenvolvimento -> Implatação e Manutenção ->
+
+Etapa 4 - Implatanção e Manutenção:
+  - Implantado em ambiente de produção e mantido ao longo do tempo. É feita a libração para produção e a infraestrutura é configurada para das funcionamento ao sistema. Depois é necessário garantir que ele continue atendendo aos requisitos funcionais e de segrurança. 
+
+  - Exemplos de Atividades:
+    - Atualizações e Patches de segurança: Atualizções recorrentes e patchs para corrigir vulnerabildiades e bugs.
+    - Monitoramente e resposta de incidentes: Incidentes de segurança ou problemas de desempenho.
+    - Suporte ao Usuário: Suporte técnico para garantir que o usuário use o sistema de maneira eficaz e segura.
+    - Ajuste de Desempenho: Otimizar o desempenho para que ele funcione corretamente sob cargas esperadas e os cenários de uso.
+    - Backups e recuperalção de desastes: dados protegidos e que possam ser restaurados em caso de perda ou interrupção.
+    

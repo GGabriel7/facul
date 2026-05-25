@@ -1,0 +1,2 @@
+Encadeamento de exceções: 
+  - Em Java, quando uma exceção causa outra, ocorre o que chamamos de encadeamento de exceções. Quando uma exceção ocorre, o objeto criado possui o contexto de execução em que a exceção foi gerada. Mas se outra exceção é lançada antes de o tratamento da exceção original finalizar, perdemos acesso ao contexto original e o tratamento da exceção anterior pode ser prejudicado.

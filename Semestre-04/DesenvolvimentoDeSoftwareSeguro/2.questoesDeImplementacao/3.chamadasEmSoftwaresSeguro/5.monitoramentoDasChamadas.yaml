@@ -1,0 +1,20 @@
+Monitoramento das Chamadas:
+
+Motivação: 
+  - Garantir que todas as chamadas de funções e métodos em um software seguro sejam monitoradas para detectar comportamentos anômalos ou maliciosos.
+  - Proteger contra ataques que exploram vulnerabilidades em chamadas de funções.
+
+Contexto:
+  - Programação Estruturada: Monitorar chamadas de funções em linguagens como C ou Pascal.
+  - Programação Orientada a Objetos: Monitorar chamadas de métodos em linguagens como Java, C# ou Python.
+  - Programação Funcional: Monitorar chamadas de funções em linguagens como Haskell ou Scala.
+  - Computação Distribuída: Monitorar chamadas de funções/métodos em sistemas distribuídos, como microserviços.
+
+Monitoramento das Chamadas em software Seguro:
+  - identificar chamadas de API críticas
+  - Implementar logging detalhado para todas as chamadas de funções/métodos
+  - Monitorar logs: chamadas fora dos padrões esperados
+  - Definir alertas para atividades suspeitas
+  - Revisar logs regularmente
+  - Usar ferramentos automatizadas para análise de logs
+  - Realizar testes regularmente

@@ -1,0 +1,10 @@
+CRISP-DM e o KDD são bastantes semelhantes, com ele tendo também 6 etapas:
+  - Entendimento dos Dados
+  - Entendimento do Negócio
+  - Preparação de Dados
+  - Modelagem
+  - Avaliação
+  - Implantação
+
+Diferenças: 
+  - Maior diferença: a entrega do valor final. O CRISP-DM, por ser um processo voltado para a indústria, tem como entrega de valor final o artefato do modelo de aprendizado de máquina. Esse modelo será capaz de resolver os problemas propostos pelo negócio na primeira etapa. Já o KDD não tem a obrigação de entregar um artefato, mas sim o conhecimento apenas, que já é suficiente. Por isso, no fim das contas, a indústria prefere o CRISP-DM, enquanto a academia preza pelo KDD.

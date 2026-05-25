@@ -1,0 +1,32 @@
+IoT (Internet of Things):
+  - Objetos Físicos: Componentes Eletrônios e sensores responsáveis pela coleta de dados e aplicação de ações. Termostatos, câmeras de segu. lampadas inteligentes, etc.
+  - Protocolos de Comunicação.: MQTT, CoAP, HTTP, etc. Viabilizam a troca de dados via internet entre os objetos físicos e outros sistemas.
+  - Computação: Faz o gerenciamento do ciclo de vida dos dados, desde a coleta e o armazenamento até o processamento e análise.
+  - Serviços: Provêm autenticação e gerenciamento de dispostivos, além de oferecer a infraestrutura.
+
+Computação Distribuída:
+  - Definição: Paradigma de computação onde os recursos de hardware e software estão distribuídos em uma rede, permitindo a execução de tarefas de forma colaborativa.
+  - Ideia: Na compitação distribuída, todos elementos conectados na rede trabalham em cojunjunto de forma descentralizada para geerenciar o sistema e ajustar o seu crescimento de volume de dados e de dispostivos conectados.
+
+  - Distribuição e Processamento: Os dados coletados pelos objetos físicos são processados e analisados em servidores ou na nuvem, permitindo a tomada de decisões em tempo real.
+  - Transferência de Dados e Análise: A computação distribuída permite a transferência eficiente de dados entre os objetos físicos e os sistemas de processamento, facilitando a análise e a geração de insights.
+  - Tolerancia a Falhas: A computação distribuída é projetada para ser resiliente a falhas, garantindo que o sistema continue funcionando mesmo que um ou mais componentes falhem.
+  - Otimização dos recursos computacionais da rede: A computação distribuída permite a otimização dos recursos computacionais da rede, alocando tarefas de forma eficiente e equilibrada entre os diferentes nós da rede.
+
+Computação distribuída e Big Data: 
+  - Projetos de Big data, temos que coletar uma grande quantidade de dados, armazenar, processar e analisar esses dados para realizar algum tipo de ação quando necessário. A Big Data para IoT é fundamental para lidar com o volume, variedade e velocidade dos dados gerados pelos dispositivos conectados. A computação distribuída é essencial para processar e analisar esses dados de forma eficiente, permitindo a extração de insights valiosos e a tomada de decisões informadas.
+
+  - Computação em Nuvem (Cloud computing): É a tecnologia que permite o uso remoto de recursos de software e hardware. Por exemplo, quando utilizamos repositórios na Internet para armazenar dados ou servidores de aplicação. Essa camada é responsável por PROCESSAMENTO DE BIG DATA; LÓGICA De NEGÒCIOS; ARMAZENAMENTO DE DADOS.
+
+  - Computação em névoa (Fog computing): É uma extensão da computação em nuvem que traz os recursos de computação e armazenamento para mais perto dos dispositivos finais, reduzindo a latência e melhorando a eficiência. Principais características são o processamento de Big Data; análise e redução de dados; controle de respostas; virtualização e padronização.
+
+  - Computação de Borda (Edge computing): Relaciona-se diretamente com os sensores e controladores que ficam na "borda" da arquitetura. Dessa forma, os dados podem ser armazenados e processados para, então, serem enviados à camada de névoa.
+    Aspectos:
+      - processamento de grande volume de dados em tempo real;
+      - visualização de dados que vêm dos dispositivos;
+      - Uso de computadores industriais que são específicos para trabalhar com determinados dispositivos;
+      - Udo de sistemas integrados, como o Raspberry Pi, para processar dados localmente e enviar apenas os resultados relevantes para a nuvem ou névoa.
+      - Utilização de gateways para interconectar os dispositivos com a rede.
+      - Sistema de armazenamento de microondas
+
+  - Sensores e controladores/atuadores: São os dispositivos responsáveis por gerar os dados e realizar ações quando necessário. Por exemplo, em um sistema de irrigação, os sensores de umidade do solo coletam dados sobre a umidade, e os controladores/atuadores podem acionar as válvulas de irrigação para regar as plantas quando a umidade estiver baixa.

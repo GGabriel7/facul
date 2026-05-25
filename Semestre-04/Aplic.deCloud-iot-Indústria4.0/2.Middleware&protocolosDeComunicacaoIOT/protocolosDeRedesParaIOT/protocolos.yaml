@@ -1,0 +1,29 @@
+Protocolo MQTT (Message Queuing Telemetry Transport - Transporte de Filas de Mensagem de Telemetria): 
+  - Protocolo aberto de mensagens leve, projetado para comunicação máquina a máquina (M2M) e Internet das Coisas (IoT).
+  - Utiliza um modelo de publicação/assinatura, onde os dispositivos publicam mensagens em tópicos e outros dispositivos se inscrevem nesses tópicos para receber as mensagens.
+  - O publicador envia mensagens para um tópico específico, e os assinantes recebem as mensagens desse tópico.
+
+COAP (Constrained Application Protocol - Protocolo de Aplicação Constrangida):
+  - Protocolo de aplicação leve projetado para dispositivos com recursos limitados, como sensores e atuadores em ambientes IoT.
+  - Utiliza um modelo de requisição/resposta, onde os clientes enviam requisições para servidores e recebem respostas.
+  - Suporta métodos HTTP como GET, POST, PUT e DELETE, mas é otimizado para comunicação eficiente em redes com baixa largura de banda.
+
+XMPP-IOT (Extensible Messaging and Presence Protocol para Internet das Coisas):
+  - Protocolo de comunicação baseado em XML, projetado para comunicação em tempo real entre dispositivos IoT.
+  - Utiliza um modelo de presença e mensagens instantâneas, onde os dispositivos podem se comunicar diretamente ou por meio de servidores XMPP.
+  - Suporta recursos como autenticação, criptografia e gerenciamento de presença, tornando-o adequado para aplicações IoT que exigem segurança e confiabilidade.
+
+HTTP:
+  - Protocolo de transferência de hipertexto, amplamente utilizado para comunicação na web.
+  - Pode ser usado em IoT para comunicação entre dispositivos e servidores, especialmente em aplicações que exigem acesso a recursos web.
+  - Utiliza um modelo de requisição/resposta, onde os clientes enviam requisições HTTP para servidores e recebem respostas.
+
+DDS: 
+  - Protocolo de comunicação em tempo real projetado para sistemas distribuídos, incluindo aplicações IoT.
+  - Utiliza um modelo de publicação/assinatura, onde os dispositivos publicam dados em tópicos e outros dispositivos se inscrevem nesses tópicos para receber os dados.
+  - Suporta comunicação eficiente e escalável em ambientes IoT, com recursos como qualidade de serviço (QoS) e descoberta automática de serviços.
+
+AMQP:
+  - Protocolo de mensagens avançado projetado para comunicação entre aplicativos e sistemas distribuídos, incluindo IoT.
+  - Utiliza um modelo de fila de mensagens, onde os produtores enviam mensagens para filas e os consumidores recebem mensagens dessas filas.
+  - Suporta recursos como roteamento de mensagens, transações e segurança, tornando-o adequado para aplicações IoT que exigem confiabilidade e escalabilidade.

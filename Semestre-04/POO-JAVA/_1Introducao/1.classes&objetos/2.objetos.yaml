@@ -1,0 +1,18 @@
+Objetos: Os produtos das classes. EM JAVA
+
+Instanciação de classes: 
+- O processo de criar um objeto a partir de uma classe é chamado de instanciação.
+- Para criar um objeto, basta chamar a classe como se fosse uma função, passando os argumentos necessários para o construtor (método __init__).
+- O resultado é um novo objeto que é uma instância da classe.
+
+  - Exemplo: java - 
+    class Pessoa {
+        String nome;
+        int idade;
+
+        // Construtor
+        Pessoa(String nome, int idade) {
+            this.nome = nome;
+            this.idade = idade;
+        }
+    }

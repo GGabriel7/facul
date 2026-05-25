@@ -1,0 +1,10 @@
+Arduino: 
+  - Plataforma eletronica de código aberto, baseado em hardware e software. Criado para facilitar o uso de eletrônica em projetos multidisciplinares.
+  - multiplataforma: pode ser usado em Windows, macOS e Linux.
+
+  - Ecossistema do Arduino:
+    - Placa Arduino: microcontralador programável que pode ser conectado a sensores, atuadores e outros componentes eletronicos. poussem pinos para entradas analogicas e digitas; entrada USB e botão de reset.
+
+    - IDE Arduino: ambiente de desenvolvimento integrada que permite escrever, compilar e carregar código para a placa Arduino, usando a linguagem de programação baseada em C/C++. Possui bibliotecas e shildes (placas de expansão).
+
+    - Comunidade Arduino:

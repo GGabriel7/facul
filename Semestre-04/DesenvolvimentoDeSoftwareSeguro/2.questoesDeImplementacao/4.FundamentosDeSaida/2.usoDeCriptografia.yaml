@@ -1,0 +1,30 @@
+Motivação:
+  O mercado de software está cada vez mais consciente da importância da segurança na proteção de dados sensíveis. A criptografia desempenha um papel crucial na garantia da confidencialidade e integridade das informações, especialmente em aplicações que lidam com dados pessoais, financeiros ou corporativos. Implementar práticas robustas de criptografia ajuda a mitigar riscos de vazamentos de dados e ataques cibernéticos, promovendo a confiança dos usuários e conformidade com regulamentações de privacidade.
+
+Uso da Criptografia:
+  Tipos:
+    - Siméticra: Utiliza a mesma chave para criptografar e descriptografar dados. É rápida e eficiente para grandes volumes de dados, mas requer um método seguro para compartilhar a chave.
+
+    - Assimétrica: Utiliza um par de chaves (pública e privada). A chave pública criptografa os dados, enquanto a chave privada os descriptografa. É mais segura para troca de informações, mas é mais lenta que a criptografia simétrica.
+
+    - Funções Hash: Gera um valor fixo a partir de dados de tamanho variável. É usada para garantir a integridade dos dados, mas não pode ser revertida para obter os dados originais.
+  
+  Usar algoritimos de criptografia forte: AES, RSA, SHA-256.
+  
+  Usar o gerenciamento seguro de chaves:
+    - Armazenar chaves em locais seguros, como módulos de segurança de hardware (HSM).
+
+  Aplicar protocolos de comunicação segura: TLS/SSL para proteger dados em trânsito.
+
+  Autenticar o rementente e o destinatário: Usar certificados digitais e assinaturas digitais para garantir a identidade das partes envolvidas na comunicação.
+
+  Verificar os dados de saída: Implementar verificações de integridade, como códigos de autenticação de mensagem (MAC) ou assinaturas digitais, para garantir que os dados não foram alterados.
+
+  Testes de Criptografia:
+    - Testes de Unidade: Validar a funcionalidade dos algoritmos de criptografia implementados.
+
+    - Testes de Integração: Garantir que os componentes do sistema que utilizam criptografia funcionem corretamente juntos.
+
+    - Testes de Penetração: Simular ataques para identificar vulnerabilidades na implementação da criptografia.
+
+    - Auditorias de Segurança: Revisar o código e as práticas de criptografia para garantir conformidade com padrões de segurança.

@@ -1,0 +1,21 @@
+Chamadas de API do Sistema:
+
+Motivação:
+  - As aplicações têm evoluído para o modelo cliente-servidor ma NUVEM, onde a comunicação entre diferentes componentes é essencial.
+  - Como fazer para que diversas soluções em diferentes linguagens de programação possam se comunicar?
+
+A Importâcia das APIs:
+  - Realizar a solicitação de dados: As APIs permitem que os aplicativos solicitem dados de servidores remotos.
+  - Fazer o recebimento de dados: As APIs facilitam o recebimento e o processamento de dados retornados pelos servidores.
+  - Executar operações específicas: As APIs permitem que os aplicativos executem operações específicas em servidores remotos, como autenticação, armazenamento de dados, etc.
+  - Acessar determinados recursos de um sistema ou serviço de sofware.
+
+Chamadas de APIs do Sistema:
+  - Usar chamadas de API bem definidas e documentadas.
+  - Validar a entrada e saída de dados das chamadas de API.
+  - usar práticas de codificação segura ao implementar chamadas de API.
+  - Usar princípios de menor privilégio ao fazer chamadas de API.
+  - Manter o software atualizado para evitar vulnerabilidades conhecidas nas chamadas de API.
+  - Usar ferramentos de segurança.
+  - Realizar testes estresse, carga e penetração para identificar vulnerabilidades nas chamadas de API.
+

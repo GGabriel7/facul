@@ -1,0 +1,19 @@
+Vantagens do Hadoop:
+  - Escalabilidade: projejato para trabalhar com grandes volumes de daos. Para isso, os componentes dele lidam com diferentes asctos do armazenamento e processamento de dados distribuídos em diferentes nós da infra que aplicamos na solução.
+
+  - Redução de custos: Software livre e não requer um hardware especial, podendo usar aparelhos comuns.
+
+  - Flexibilidade: trabalha com diferentes tipos de dados (estruturado ou não-estruturados).
+
+  - Velocidade: Os componentes da arquitetura são projetados para gerenciar e processar dados com a aplicação estruturada de dados e estratégias de algoritimos que otimizam a operação dos processos.
+
+  - Tolerância a falhas: utiliza um processo de replicação dos dados entre os nós do cluster de modo que havareá outra cópia disponível.
+
+Desvantagens do Hadoop: 
+  - Preocupações de segurança: O modelo de segurança dele é desabilitado por padrão. Portanto, é da responsabilidade de quem vai gerenciar a infraestrutura da plataforma fazer a habilitação do módulo de segurança; caso contrário, os dados correrão um grande risco. Também é necessário tratar explicitamente de aspectos de criptografia dos dados.
+
+  - Vulnerabilidade intrínseca: O profissional que trabalha com os aspectos de segurança e controle de vulnerabilidades precisa conhecer muito bem a arquitetura do Hadoop e estudar constantemente os fóruns oficiais sobre esse tema, que é bastante dinâmico.
+
+  - Não é adequado para dados pequenos: Isso implica que as estruturas de dados e os algoritmos são dimensionados com essa finalidade e que, se essas técnicas forem usadas para trabalhar com pequenos volumes, serão ineficientes em relação a soluções mais simples.
+
+  - Problemas de estabilidade: O Hadoop está em constante evolução e tem versões distribuídas por vários fornecedores. Por isso, não é raro que ocorram problemas relacionados à estabilidade da plataforma.

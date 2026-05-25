@@ -1,0 +1,14 @@
+- O Spark é uma ferramenta computacional voltada para aplicações de Big Data, em que podemos fazer o agendamento, a distribuição e o monitoramentos de várias aplicações distribuídas. O ecossistema do Spark é formado pelos recursos de linguagem de programação, permitindo que os projetos sejam programados em diferentes linguagens e por diferentes tipos de componentes totalmente integrados à plataforma. 
+
+- Linguagens para desenvolver projetos no Spark:
+  - Scala: O framework do Spark foi desenvolvido em Scala. Isso implica que a programação em Scala para Spark possui algumas vantagens, como ter acesso aos recursos mais recentes, antes que estejam disponíveis em outras linguagens de programação.
+  - Python: Possui diversas bibliotecas adequadas para aplicações de ciência de dados e aprendizado de máquina.
+  - R: utilizada em contextos de ciência de dados e aprendizado de máquina.
+  - Java: interessante para desenvolver projetos relacionados ao Hadoop.
+
+- Principais Componentes do Spark:
+  - Spark Core: Esse componente contém a funcionalidade básica do Spark, sendo que todas as demais bibliotecas são construídas sobre ele. Agendamento de tarefas, recuperação de falhas, gerenciamento de memória e distribuição de trabalhos entre nós de trabalho
+  - Spark SQL: Fornece suporte para dados estruturados e permite consultar os dados com a linguagem SQL. Além disso, oferece suporte para representação dos dados por meio de datasets e dataframes.
+  - Spark Streaming: Oferece suporte ao processamento escalonável e com tolerância a falhas de dados de streaming. É usado para processar dados que são transmitidos em tempo real. 
+  - MLlin: biblioteca de aprendizado de máquina que contém diversos algoritmos de aprendizado de máquina, tais como correlações e testes de hipóteses, classificação e regressão, agrupamento e análise de componentes principais.
+  - GraphX: biblioteca usada para manipular e realizar cálculos paralelos aos grafos. Por meio dela, podemos visualizar dados na forma de grafo, além de fornecer vários operadores para manipulação de grafos e combiná-los com RDDs.

@@ -1,0 +1,15 @@
+Ciclo de vida de thread em Java:
+
+  - 2 maneiras de criar uma thread em java: usando a classe Thread e o mecanismo de Herança (declarando a classe como subclasse da classe Thread, como public class Exemplo extends Thread), ou implementando a interface Runnable (como public class Exemplo implements Runnable).
+  - Estados (Possui 6 estados):
+    - NEW: A thread está nesse estado quando é criada e ainda não está agendada para execução
+
+    - RUNNABLE: A thread entra nesse estado quando sua execução é agendada (escalonamento) ou quando entra no contexto de execução, isto é, passa a ser processada pela CPU.
+
+    - BLOCKED: A thread passa para este estado quando sua execução é suspensa enquanto aguarda uma trava (lock). A thread sai desse estado quando obtém a trava e pode continuar sua execução.
+    
+    - TIMED_WAITING: A thread entra nesse estado se for suspensa por um período, por exemplo, pela chamada do método sleep() (dormindo), ou quando o timeout de wait() (esperando) ou join() (juntando) ocorre. A thread sai desse estado quando o período de suspensão é transcorrido.
+
+    - WAITING: A thread entre nesse estado pela chamada aos métodos wait() ou join() sem timeout ou park() (estacionado) 
+
+    - TERMINATED: A thread chega a este estado, o último, quando encerra sua execução 

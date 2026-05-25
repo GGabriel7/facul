@@ -1,0 +1,25 @@
+Fundamentos do processamento de dados seguros:
+
+Motivação:
+  - Dados podem agragar valor significativo para indivíduos e organizações.
+  - A proteção de dados é essencial para manter a confiança e a integridade.
+  - O tempo é um fator crítico na proteção de dados contra ameaças.
+
+Fundamentos:
+  - Desempenho eficiente:
+      - Processamento rápido de dados para minimizar a exposição a riscos.
+      - Utilização de algoritmos otimizados para acelerar operações de segurança.
+  - Complexidade Computacional:
+      - Implementação de técnicas avançadas de criptografia.
+      - Uso de métodos de autenticação robustos para garantir a identidade dos usuários.
+
+  - Segurança:
+      - Aplicação de políticas de segurança rigorosas durante o processamento de dados.
+
+Práticas para processamento dos dados:
+  - Implementar controles de acesso rigorosos.
+  - criptografia de dados.
+  - Implementar práticas de codificação segura.
+  - Usar protocolos de comunicação seguros.
+  - Buscar por vulnerabilidades e testes de penetração regularmente.
+  - Limitar o tempo de processamento para reduzir a janela de ataque.

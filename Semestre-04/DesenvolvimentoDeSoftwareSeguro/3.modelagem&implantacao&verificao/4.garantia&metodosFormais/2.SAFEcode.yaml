@@ -1,0 +1,23 @@
+SAFECode - Software Assuarance Forum for Excellence in Code: Organização sem fins lucrativos, dedicada a aumentar a confiança em produtos e serviços de tecnologia da informação e comunicação por meio do avanço de métodos eficazes de garantia de software. Desenvelver e forneceer software, hardware e serviços mais seguros e confiáveis.
+- Desemvolveram um conjunto de diretrizes com o nome "Práticas Fundamentais para o Desenvolvimento de Software Seguro", Tem 8 práticas fundamentais.
+
+Práticas Fundamentais para o Desenvolvimento de Software Seguro:
+  1. Definição de Controles de Segurança da Aplicação: Usa os termos ASC (Application Security Controls) para se referir aos requisitos de segurança. As entradas para o ASC devem incluir.
+    - princípios de design seguro;
+    - práticas de codificação seguras;
+    - requisitos legais e do steor com os quais o aplicativo precisa estar em conformidade (como, por exemplo, PCI - no setor de pagamentos, SCADA, no automação industrial ou LGPD - para proteção de dados);
+    - políticas e normas internas;
+    - incidentes e outros cometários;
+    - ameaças e riscos; 
+
+  2. Definiação de Requisitos de Segurança: usar padrões de codificação, escolher linguaguem e biblitecas apropriadas e revisar manualmente o código.
+
+  3. Gestão de risco de Segurança inerente ao uso de componetes de terceiros: 
+
+  4. Teste e validação: testes automatizados (dinamicos e estaticos), teste de penetração...
+
+  5. Gestão de descobertas de falhas de segurança: rastrear e classficar a gravidade; plano de correção; e um prazo de nova revisão
+
+  6. Divugação e respostas de vulnerabilidade: desenvolver uma resposta de vulnerabildiade e processo de divulgação para ajudar conduzir a rezoção de nulnerabildiade de descoberta.
+
+  7. Planejamento da implementação e implatnação do desenvolvimento seguro: gerenciamento de programas; gerenciamento de partes interessadas; planejamento de implatação, métricas e indicadores e um plano de melhoria contínua.

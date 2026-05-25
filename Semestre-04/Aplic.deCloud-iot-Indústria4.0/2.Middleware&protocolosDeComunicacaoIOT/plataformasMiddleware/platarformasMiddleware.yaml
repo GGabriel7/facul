@@ -1,0 +1,13 @@
+Conceitos:
+  - Middleware: Software que atua como intermediário entre diferentes sistemas ou camadas de uma aplicação, facilitando a comunicação e a integração entre eles. Ou seja, é um componente que fica entre o sistema operacional e as aplicações, ou entre diferentes aplicações, para fornecer serviços e funcionalidades adicionais, como autenticação, autorização, logging, manipulação de dados, etc.
+
+Serviços da Nuvem:
+  SAAS (Sofware as a Service - Software como Serviço): Modelo de serviço em que o software é fornecido como um serviço pela INTERNET. O provedor de serviço disponibiza o software e os usuários acessam por navegador ou app, sem precisar se preocupar com instalação, manutenção, infraestrutura, ambiente e upgrades. Exemplos: Google Workspace, Microsoft 365, Salesforce.
+
+  PAAS (Platform as a Service - Plataforma como Serviço): Software é disponibilizado pelo provedor por um amviente de desenvolvimento para que o contratanete possa trabalhar na criação de seus próprios programas. Ou seja, o provedor fornece uma plataforma para os desenvolvedores criarem, testarem e implantarem a infraestruturam sercodres, ferramentas, bibliotecas e banco de dados. Exemplos: Heroku, Google App Engine, Microsoft Azure.
+
+  IAAS (Infrastructure as a Service - Infraestrutura como Serviço): Provedor de serviço fornece rescurso de infraestura, como sercidores, componentes de armazenamento, espaço físico e a rede. Exemplo: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP).
+
+  DAAS (Desktop as a Service): Máquina virtual disponibilizada na nuvem.
+
+  XAAS (Anything as a Service): Qualquer serviço que possa ser fornecido pela nuvem, como segurança, monitoramento, análise de dados, etc.

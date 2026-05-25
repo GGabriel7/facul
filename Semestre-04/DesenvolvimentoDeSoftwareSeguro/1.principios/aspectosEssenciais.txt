@@ -1,0 +1,37 @@
+Motivação:
+  Hoje, quase todas as tarefas da nossa vida são feitas no mundo digital. Desde a comunicação até as transações financeiras, dependemos de sistemas de software para facilitar nossas atividades diárias. Com essa crescente dependência, a segurança do software tornou-se uma preocupação primordial. Vulnerabilidades em sistemas podem levar a violações de dados, perdas financeiras e danos à reputação.
+
+
+Principios:
+  - Confidencialidade:
+      Descrição: Garantir que os dados sejam acessíveis apenas por pessoas autorizadas.
+      Técnicas:
+        - Criptografia
+        - Controle de acesso
+
+  - Integridade:
+      Descrição: Assegurar que os dados não sejam alterados ou corrompidos de maneira não autorizada.
+      Técnicas:
+        - Hashing
+        - Assinaturas digitais
+
+  - Disponibilidade:
+      Descrição: Garantir que os dados estejam acessíveis quando necessário.
+      Técnicas:
+        - Backups regulares
+        - Sistemas redundantes
+        - Atualizações recorrentes
+
+  - Autenticidade:
+      Descrição: Verificar a identidade das partes envolvidas no acesso aos dados.
+      Técnicas:
+        - Autenticação multifator
+        - Certificados digitais
+
+  - Autorização: Definir e aplicar políticas que determinem o que os usuários autenticados podem fazer dentro do sistema.
+
+  - Não-repúdio:
+      Descrição: Garantir que uma parte não possa negar a autoria de uma ação relacionada aos dados.
+      Técnicas:
+        - Registros de auditoria
+        - Assinaturas digitais

@@ -1,0 +1,25 @@
+Mecanismos de Visibilidade:
+  - Defaut: A visibilidade padrão (default) é aplicada quando nenhum modificador de acesso é especificado. Os membros com visibilidade default são acessíveis apenas dentro do mesmo pacote.
+  - Public: Os membros com visibilidade public são acessíveis de qualquer lugar, tanto dentro do mesmo pacote quanto de outros pacotes.
+  - Private: Os membros com visibilidade private são acessíveis apenas dentro da própria classe. Eles não podem ser acessados por subclasses ou por outras classes, mesmo que estejam no mesmo pacote.
+  - Protected: Os membros com visibilidade protected são acessíveis dentro do mesmo pacote e também por subclasses, mesmo que estejam em pacotes diferentes. Isso permite que as subclasses acessem e modifiquem os membros protegidos da superclasse, promovendo a reutilização de código e a extensão de funcionalidades.
+
+Pacotes em Java:
+  - Organização de Classes: Os pacotes em Java são usados para organizar classes e interfaces em namespaces, evitando conflitos de nomes e facilitando a manutenção do código. Eles permitem que os desenvolvedores agrupem classes relacionadas, tornando o código mais modular e fácil de navegar.
+  - Controle de Acesso: Os pacotes também desempenham um papel importante no controle de acesso. A visibilidade default (default) é limitada ao pacote, o que significa que os membros com essa visibilidade só podem ser acessados por outras classes dentro do mesmo pacote. Isso ajuda a encapsular a implementação e proteger os dados, promovendo uma melhor organização e segurança do código.
+
+  - Exemplo:
+    # package com.exemplo.pacote;
+
+    # public class MinhaClasse {
+    #     // Atributos e métodos da classe
+    # } // A classe MinhaClasse está dentro do pacote com.exemplo.pacote
+
+  - Outro exemplo:
+    # import java.util.scanner;
+    # class ExemploPacote {
+    #     public static void main(String[] args) {
+    #         Scanner scanner = new Scanner(System.in);
+    #         // Código para ler entrada do usuário
+    #     }
+    # } // A classe ExemploPacote pode acessar a classe Scanner do pacote java.util, pois Scanner é uma classe pública.

@@ -1,0 +1,23 @@
+Motivação:
+  - Os testes devem fazer de todo o ciclo de vida do software uma parte integrante do processo de desenvolvimento.
+  - Já a operação do software, precisa ser monitorada para garantir que ele esteja funcionando conforme o esperado e para identificar possíveis problemas.
+
+Monitoramento da Saída e Realização de Testes:
+  - Estabelecer um plano de testes de segurnaça.
+  - Metas: garantir que o software funcione conforme o esperado e identificar vulnerabilidades.
+  - Metodologia: testes automatizados, testes manuais, testes de penetração.
+  - Ferramentas: frameworks de testes, ferramentas de análise estática e dinâmica, ferramentas de monitoramento.
+  - Frequencia de testes: testes contínuos durante o desenvolvimento, testes regulares em produção.
+  - Responsáveis: equipe de desenvolvimento, equipe de segurança, equipe de operações.
+
+Etapas:
+  - Identificar possíveis vulnerabilidades e riscos de segurança.
+  - Gerar e monitorar logs do sistema
+  - Usar técnicas de detecção de anomalias.
+  - Realizar revisões de código regulares.
+  - Manter o software atualizado;
+
+Desenvolver e Executar testes de segurança:
+  - Análise Estática: Examina o código-fonte sem executá-lo para identificar vulnerabilidades.
+  - Análise Dinâmica: Testa o software em execução para identificar comportamentos inseguros.
+  - Testes de Penetração: Simula ataques reais para identificar vulnerabilidades exploráveis.

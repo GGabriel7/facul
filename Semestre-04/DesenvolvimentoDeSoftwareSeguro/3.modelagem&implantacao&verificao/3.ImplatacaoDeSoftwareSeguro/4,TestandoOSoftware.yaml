@@ -1,0 +1,13 @@
+Ciclo de vida da Implatação do Software:
+  -> Requisito -> Projeto -> Desenvolvimento -> Implatação e Manutenção ->
+
+Etapa Geral - Teste:
+  - Testar o software conforme o planejado antes da implatação, seguindo requisitos de segurança. É realizado um apanhado geral sobre a qualidade de todas as atividade de segurança durante todo o desenvolvimento (testes unitários, de intragrção, teste de sustena e de aceitação).
+
+  - Exemplos de Testes:
+    - Teste funcional: Teste para garantir que o sistema execute as suas funções.
+    - Teste de Segurança: Busca de vulnerabildiades e pontos fracos, como teste de penetração (PENTEST) ou verificação de vulnerabilidades. PENTEST são testes para tentar invadir o sistema, realizado por um profissinal especfício ou bug bount (colocar o sistema a prova para quem quiser invadir).
+    - Teste de compatibilidade: Que o sistema funicone conforme o esperado em diferentes plataformas.
+    - Teste de desempenho: Testar a disponibilidade do sistema, mesmo em condições de estresse.
+    - Teste de usabilidade: Fácil de usar e atenda às necessidades do usuário e que um comportamento inesperado do usuário não comprometa o sistema.
+    

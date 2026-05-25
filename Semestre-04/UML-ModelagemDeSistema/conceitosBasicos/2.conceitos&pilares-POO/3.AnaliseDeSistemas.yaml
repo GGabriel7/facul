@@ -1,0 +1,23 @@
+Análise/Levantamento de sistemas orientada a objetos:
+
+Levantamento de requisitos:
+  - Comproeender as necessidades do cliente e do sistema a ser desenvolvido.
+  - Comproeender o problema.
+  - São utilizadas diversas técnicas, como entrevistas, questionários e observação.
+  - Documento de requisitos: Especifica as funcionalidades e restrições do sistema.
+
+  - Requisitos funcionais: Descrevem o que o sistema deve fazer.
+  - Requisitos não funcionais: Descrevem as qualidades do sistema, como desempenho e segurança.
+
+Análise de Requisitos:
+  - Processo de examinar e refinar os requisitos coletados.
+  - Identificação de classes, objetos e suas responsabilidades.
+  - Modelagem de casos de uso para representar as interações entre usuários e o sistema.
+
+  - Análise de Dominio:
+    - Compreensão do contexto e do ambiente onde o sistema será utilizado.
+    - Identificação de entidades, atributos e relacionamentos relevantes ao domínio do problema.
+  
+  - Análise de Aplicação:
+    - Foco nas funcionalidades específicas do sistema.
+    - Definição de como o sistema atenderá aos requisitos funcionais e não funcionais.

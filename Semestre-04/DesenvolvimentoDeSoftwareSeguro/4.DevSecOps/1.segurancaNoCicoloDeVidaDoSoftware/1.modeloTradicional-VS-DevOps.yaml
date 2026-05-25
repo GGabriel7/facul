@@ -1,0 +1,18 @@
+Fases do Ciclo de Vida do Software:
+  1. Ideação: Fase em que o problema a ser resolvido com um produto de software é explorado e entendido. Nessa fase, os requisitos de negócio que devem ser endereçados pelo produto de software emergem e são adicionados a um backlog de produto.
+  
+  2. Design: Fase em que a solução de software para resolver os problemas e requisitos de negócio identificados na fase de ideação é desenhada. Contempla-se arquitetura, definição de componentes e integração entre diferentes serviços (inclusive de terceiros), bem como outras características que devem ser endereçadas pela solução, ou seja, é a fase em que a solução é definida.
+
+  3. Implementação: Fase em que a solução definida na fase de design é implementada, ou seja, construída.
+
+  4. Teste: Fase em que o produto de software desenvolvido é testado quanto a sua aderência de resolução do problema identificado na fase de ideação.
+
+  5. Implantação: Fase em que o produto de software desenvolvido e testado é posto em produção para seu efetivo uso por parte dos usuários.
+
+  6. Evolução: Fase em que o produto de software é evoluído, baseado no feedback de seus usuários.
+
+
+Segurança durante o ciclo de vida:
+  No modelo radicional de desenvolvimento de software: A segurança é normalmente endereçada como um aspecto isolado do processo de desenvolvimento, sendo muita das vezes uma fase adicional ao ciclo de vida, ou até mesmo uma atividade na fase de testes desses ciclos tradicionais. Os times focam na implementação de artefatos de software que resolvem os problemas de negócio, e só depois se preocupam em testar esses artefatos quanto aos aspectos de segurança necessários.
+
+  No modelo DevSecOps: A segurança é considerada parte integrante do processo de desenvolvimento do software e permeia por todas as fases de seu ciclo de desenvolvimento, desde a ideação até sua operação e evolução. Uma das principais maneiras pelas quais o DevSecOps aborda a segurança é por meio da utilização de técnicas e ferramentas de automação.

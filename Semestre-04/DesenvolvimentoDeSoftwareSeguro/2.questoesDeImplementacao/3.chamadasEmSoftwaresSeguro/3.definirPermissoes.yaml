@@ -1,0 +1,18 @@
+Definição de Permissão:
+
+Definindo:
+  - quem? : Usuário, Grupo, Função
+  - o que? : Acesso a recursos, Operações permitidas
+  - quando? : Horários específicos, Condições especiais
+  - Como? : Autenticação, Autorização, Criptografia
+  - Por quê? : Segurança, Conformidade, Eficiência
+  - É rastreável? : Logs de acesso, Auditorias, Monitoramento contínuo
+  - Revisão periódica : Avaliação de permissões, Atualização conforme necessidade
+
+Diretrizes para a Definição de Permissões:
+  - Princípio do menor privilégio: Conceder apenas as permissões necessárias para a realização das tarefas.
+  - Restringir as permissões de arquivos e pastas e verificar regularmente.
+  - Usar contas de usuário separadas
+  - Senhas fortes e autenticação multifator
+  - Aplicar criptografia para dados sensíveis
+  - Relizar testes de estresse e vulnerabilidade

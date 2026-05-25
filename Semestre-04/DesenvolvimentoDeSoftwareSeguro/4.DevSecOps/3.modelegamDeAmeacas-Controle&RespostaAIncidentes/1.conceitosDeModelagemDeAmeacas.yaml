@@ -1,0 +1,17 @@
+Modelagem de Ameaças: Técnica utilizada em DevSecOps para identificar e avalizar possíveis ameças à segurança no software. Ela envolve criar um modelo que vai representar todos os componentes e processos do sistema para avaliar cada ameaça que pode surgir. Deve ser utilizada em cada etapa do ciclo de vida do desenvolvimento do software.
+
+Tipode de ameça:
+  - Spoofing: atque que uma pessoa ou sistema assume a identidade de outra pessoa, ou organização, por meio de falsificação de dados para ter acesso e realizar ações maliciosas. Como o phishing, onde o atacante envia um e-mail falso para obter informações.
+
+  - Tampering: Ameaça com objetivo de alterar dados, códigos ou configurações de um sistema criando assim uma vulnerabildiade para roubar dados, prejudicar o sistema...
+
+  - Repudiation: Ameaça os dados do sistema. Quando um usuário ou sistema nega ter executado uma ação ou transação específica, e o sistema afetado não possui mecanismos de restreio das ações dos usuário para garantir a autenticdade das transações realizadas. Ideal usar logs.
+
+  - Exploitability: Atancante explora uma vulnerabilidade do sistema por meio de injeção de códigos que possam comprometer a intergridade do sistema, conseguindo acesso indevido. SQL injection, Buffer overllow são tequinicas desse ataque.
+
+Metodologias e Ferramentas para a modelagem de ameaças:
+  - DREAD (Damage, reproducibility, exploitability, affected users and discoverability): Analisar o risco qualitativo para priorizar as ameças com base em cinco critérios (D, R, E, A e D). Ameças são categorizadas em uma escala entre 5 e 15, sendo alto, médio ou baixo risco.
+
+  - STRIDE (Spoofing, tampering, repudiation, information disclosure, denial of service e elevation of privilege): Mais amplo que a DREADE e STRIKE, considerando fatores como os atores das ameças, ativos, vulnerabilidades e impacto potencial caso uma vulnerabildiae seja explorada.
+
+  - TRIKE (Threats, risks, identities, knowledge and environment): processo de código aberto para analisar ameças baseada no processo de auditoria de segurança cibernética.

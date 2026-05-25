@@ -1,0 +1,17 @@
+Limpeza de Todas as Entradas de Usuário:
+
+Motivação:
+  - O sistema não pode aceitar somente um tipo de dado.
+  - Existem riscos em aceitar dados inadequados, tanto de ataques ou erro do usuário.
+
+Limpeza de todas as entradas:
+  - Vulnerabilidades: Injeção de SQL, Cross-Site Scripting (XSS), Injeção de Comandos, entre outros.
+  - Tratamento Explícito: Validar e sanitizar todas as entradas de usuário, independentemente da origem ou do tipo de dado esperado.
+  - Cuidado com o tratamento de dados maliciosos que podem ser disfarçados como dados legítimos.
+
+Etapas de tarefa de limpeza de dados:
+  - Identificar todas as fontes de entrada de dados no sistema (formulários, APIs, uploads de arquivos, etc.).
+  - Definir regras claras de validação para cada tipo de dado esperado (ex.: formatos, tamanhos, tipos).
+  - Implementar funções de sanitização para remover ou neutralizar caracteres potencialmente perigosos.
+  - Registrar o processo de exclusão de dados
+  - Notificar os usuários 

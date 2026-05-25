@@ -1,0 +1,7 @@
+Diagrama de Classes de Projeto:
+  - Classes Conceitual: Foco na analise (abstrato)
+  - Classes de Projeto: Foco na implementação
+  - Elementos necessários para constuir o sistema
+  - Classes, relacionamentos, atributos, metodos, interfaces e pacotes.
+  - Utiliza os tipos de acordo com a platoforma de desenvolvimento (varchar, String, etc...)
+

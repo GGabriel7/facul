@@ -1,0 +1,44 @@
+Classe e sua realização em Java:
+  public class Aluno {
+    private String nome;
+
+    public void inserirNome(String nn) {
+      nome = nn;
+    }
+
+    public String recuperarNome() {
+      return nome;
+    }
+
+    public static void main(String args[]) {
+      Aluno a = new Aluno();
+      a.inserirNome("João");
+      System.out.println("Saída: "+a.recuperarNome());
+    }
+    
+  }
+
+Public: é um modificador de acesso que indica que o método ou atributo pode ser acessado por qualquer outra classe. No exemplo acima, os métodos "inserirNome" e "recuperarNome" são públicos, o que significa que eles podem ser chamados por qualquer objeto ou classe que tenha acesso à classe Aluno.
+
+Private: é um modificador de acesso que indica que o método ou atributo só pode ser acessado dentro da própria classe. No exemplo acima, o atributo "nome" é privado, o que significa que ele não pode ser acessado diretamente por objetos ou classes fora da classe Aluno. Ele só pode ser acessado e modificado por meio dos métodos públicos "inserirNome" e "recuperarNome".
+
+protected: é um modificador de acesso que indica que o método ou atributo pode ser acessado dentro da própria classe, por classes do mesmo pacote e por subclasses. Ele é mais restritivo que o public, mas menos restritivo que o private. No exemplo acima, não há nenhum atributo ou método protegido, mas se houvesse, ele poderia ser acessado por classes do mesmo pacote ou por subclasses da classe Aluno;
+
+abstract: é um modificador de classe que indica que a classe não pode ser instanciada diretamente, ou seja, não é possível criar objetos a partir dela. Uma classe abstrata é usada como base para outras classes, que podem herdar seus atributos e métodos. No exemplo acima, a classe Aluno não é abstrata, o que significa que é possível criar objetos a partir dela.
+
+final: é um modificador de classe, método ou atributo que indica que ele não pode ser modificado ou sobrescrito. Uma classe final não pode ser estendida por outras classes, um método final não pode ser sobrescrito por subclasses e um atributo final não pode ter seu valor alterado após ser inicializado. No exemplo acima, a classe Aluno não é final, o que significa que ela pode ser estendida por outras classes.
+
+static: é um modificador de método ou atributo que indica que ele pertence à classe em vez de a uma instância específica da classe. Um método ou atributo estático pode ser acessado diretamente pela classe, sem a necessidade de criar um objeto. No exemplo acima, o método "main" é estático, o que significa que ele pode ser chamado diretamente pela classe Aluno para iniciar a execução do programa.
+
+strictfp: é um modificador de método que indica que o método deve ser compilado com verificações de tipo estritas. Ele é usado para garantir que os tipos de dados sejam verificados em tempo de compilação, evitando erros de tipo em tempo de execução. No exemplo acima, não há nenhum método marcado como strictfp, mas se houvesse, ele garantiria que as operações de ponto flutuante fossem realizadas com precisão consistente em diferentes plataformas.
+
+Conceitos:
+  - Classe: é um modelo ou molde que define as características e comportamentos de um objeto. Ela é uma estrutura que agrupa dados (atributos) e métodos (funções) relacionados a um determinado tipo de objeto.
+  - Objeto: é uma instância de uma classe. Ele representa uma entidade concreta que possui as características e comportamentos definidos pela classe. Cada objeto tem seus próprios valores para os atributos da classe e pode executar os métodos definidos na classe.
+  - Atributos: são as características ou propriedades de um objeto. Eles representam os dados que um objeto possui. No exemplo acima, o atributo é "nome", que armazena o nome do aluno.
+  - Métodos: são as ações ou comportamentos que um objeto pode realizar. Eles são definidos na classe e podem ser chamados pelos objetos para executar uma determinada tarefa. No exemplo acima, os métodos são "inserirNome" e "recuperarNome", que permitem inserir e recuperar o nome do aluno, respectivamente.
+  - Instanciação: é o processo de criar um objeto a partir de uma classe. No exemplo acima, a linha "Aluno a = new Aluno();" é a instanciação da classe Aluno, criando um objeto chamado "a" do tipo Aluno.
+  - Encapsulamento: é o princípio de ocultar os detalhes internos de um objeto e fornecer uma interface pública para interagir com ele. No exemplo acima, os atributos da classe Aluno são privados (private), o que significa que eles não podem ser acessados diretamente de fora da classe. Em vez disso, os métodos públicos (public) "inserirNome" e "recuperarNome" são usados para acessar e modificar o atributo "nome". Isso ajuda a proteger os dados do objeto e a garantir que eles sejam manipulados de maneira controlada.
+  - Herança: é um mecanismo que permite criar uma nova classe a partir de uma classe existente, herdando seus atributos e métodos. A nova classe é chamada de classe filha ou subclasse, enquanto a classe existente é chamada de classe pai ou superclasse. A herança promove a reutilização de código e a criação de hierarquias de classes.
+  - Polimorfismo: é a capacidade de um objeto assumir diferentes formas ou comportamentos dependendo do contexto. Ele permite que objetos de diferentes classes sejam tratados como objetos de uma classe comum, desde que compartilhem uma interface ou herdem de uma classe comum. O polimorfismo é alcançado por meio de métodos sobrecarregados (overloading) e métodos sobrescritos (overriding).
+  - Abstração: é o processo de simplificar um sistema complexo, focando apenas nos aspectos essenciais e ocultando os detalhes desnecessários. A abstração permite criar modelos mais simples e compreensíveis, facilitando a compreensão e o desenvolvimento de sistemas complexos. Em Java, a abstração pode ser alcançada por meio de classes abstratas e interfaces.

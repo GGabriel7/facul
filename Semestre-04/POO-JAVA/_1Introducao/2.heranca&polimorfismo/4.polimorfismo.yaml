@@ -1,0 +1,47 @@
+Fundamentos do Polimorfismo:
+  - O polimofismo é a propriedade de um mesmo método ou função se comportar de maneira diferente dependendo do objeto que o invoca.
+  - Ele pode ser expresso como sobrecarga de função, assim como a herança.
+  - Exemplo prático: Uma classe Aluno e uma classe Pessoa. Todo aluno é uma pessoa, mas nem toda pessoa é um aluno. Na pratica, um objeto Aluno pode ter um comportamento de Aluno ou de Pessoa, dependendo do contexto em que é utilizado.
+
+Exemplo de Polimorfismo em Java:
+  public class Empregado extends Pessoa {
+      protected String matricula;
+      private Calendar dataAdmissao, dataDemissao;
+
+      public Empregado(String nome, Calendar dataNascimento, long CPF, Calendar dataAdmissao, Endereco endereco) {
+          super(nome, dataNascimento, CPF, endereco);
+          this.matricula = gerarMatricula();
+          this.dataAdmissao = Calendar.getInstance();
+      }
+
+      public void demitir() {
+          this.dataDemissao = Calendar.getInstance();
+      }
+
+      protected void gerarMatricula() {
+          // Lógica para gerar matrícula
+      }
+
+      protected String retornarMatricula() {
+          return this.matricula;
+      }
+  }
+
+Classe publica Diretor que herda de Empregado:
+  public  class Diretor extends Empregado {
+      public Diretor(String nome, Calendar dataNascimento, long CPF, Endereco endereco) {
+          super(nome, dataNascimento, CPF, endereco);
+      }
+
+      protected void gerarMatricula() {
+          matricula = "E-" + UUID.randomUUID().toString();
+      }
+
+      protected void alterarMatricula()) {
+          gerarMatricula();
+      }
+
+      protected String alterarMatricula(String matricula) {
+          this.matricula = matricula;
+      }
+  }

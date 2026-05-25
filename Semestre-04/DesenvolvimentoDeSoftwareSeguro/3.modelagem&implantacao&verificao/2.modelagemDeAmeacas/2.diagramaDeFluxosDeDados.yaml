@@ -1,0 +1,9 @@
+Fases para a Modelagem de Ameaças:
+  -> Definir objetivos -> Diagramar Fluxos de Dados -> Identificar Ameaças -> Mitigar Ameaças -> Validar modelo de Ameaças ->
+
+Etapa 2 - Diagramar Fluxos de Dados (representação visual do sistema e componentes):
+  Identificar Componentes do Sistema: Servidores, banco de dados, e interfaces de usuário. 
+  Definir Fluxos de Dados: Como os dados fluem entre os componentes. Identificar diferentes de dados e como eles são transmitidos pelo sistema.
+  Identificar Armazenamentos do Sistema: Identificar onde os dados são armazenados e como são protegidos. Armazemaneto de dados internos e externos, como em nuvem.
+  Identificar Limites de Confiança: Define os limites entre diferentes componentes ou sistema que possuem diferentes níveis de confiança. Aplicativo de web pode ter um limite de confinaça entre navegador do cliente e servidor da web.
+  Analisar Fluxo de Dados: Analisado para identificar possíveis falhas de segurança. Identificação de áreas onde os dados podem ser vulneráveis a acesso, modificalção ou exclusão não autorizados.

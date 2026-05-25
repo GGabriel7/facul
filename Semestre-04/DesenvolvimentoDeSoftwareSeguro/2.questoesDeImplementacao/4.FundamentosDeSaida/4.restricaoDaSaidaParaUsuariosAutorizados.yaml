@@ -1,0 +1,14 @@
+Motivação:
+  - Apenas algumas pessoas autorizadas devem acessa a saída de um sistema
+  - A saída pode ser a base para suporte à tomada de decisão.
+
+Restrição de Saída para Usuários autorizados:
+  - Impmentar controles de acesso: 
+      - Definir níveis de permissão para diferentes tipos de usuários.
+      - Utilizar autenticação forte (senhas, biometria, tokens).
+  - Criptografar dados Confidenciais.
+  - Usar protocolos de comunicação segura (HTTPS, SSL/TLS).
+
+  - Limpar saída 
+  - Monitorar a saída
+  - Realizar testes de estresse

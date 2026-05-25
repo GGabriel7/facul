@@ -1,0 +1,23 @@
+Transformações: 
+  - As transformações do Spark RDD são funções que recebem um RDD como entrada e produzem um ou mais RDDs como saída. Ainda sobre o processo preguiçoso das transformações, quando aplicamos uma transformação em qualquer RDD, ela não será executada de imediato. O Spark vai criar um DAG (Grafo Dirigido Acíclico), com as seguintes informações - operação aplicada, a RDD origem e a função usada para a transformação. Apenas quando aplicarmos uma ação, serão realizados os cálculos sobre o RDD. 
+
+Existem dois tipos de transformações:
+
+- Transformações Estreitas: São transformações resultantes da aplicação de funções de mapeamento e de filtragem. São estreitas pois são originárias de uma única partição, são chamadas de autossuficiência.  
+  Exemplos: 
+    - map(): aplicar a transformação em cada elemento de uma fonte de dados e retorna um novo conjunto de dados. Como uma arrey sendo transformação em uma nova arrey.
+    - flatMap(): Faz o nivelamento ds colunas do conjunto de dados resultantes depois de aplicar a função em cada elemento e retorna um novo conjunto de dados.
+    - mapPartitions(): Executa a função de transformação em cada participação de dados, pareceido com o map().
+    - sample(): Retorna um conjunto aleatório dos dados de entrada.
+    - filter(): faz uma filtragem dos registros de uma fonte de dados.
+    - union(): Retorna a união de dois conjuntos de dados de entrada.
+
+- Transofrmações amplas: Os dados necessários para realizar os cálculos com os registros em uma única partição podem estar em muitas partições. Nessas situações, é necessário realizar movimentos de dados entre as partições para executar as transformações.
+  Exemplos:
+    - Intersection(): Retrona a interseção de dois RDDs
+    - distinct(): Retorna um novo RDD com os elementos distitntos de um RDD de origem
+    - groupByKey(): É aplicada sobre um conjunto de dados de pares (K, V) – K representa a chave (Key) e V representa o valor (Value) - e retorna um conjunto de dados de pares agrupados pelas chaves.
+    - reduceByKey(): Também opera sobre um conjunto de dados de pares (K, V) e retorna um conjunto de dados de pares (K, V) em que os valores para cada chave são agregados, usando a função redução que deve ser do tipo (V, V) = > V.
+    - sortByKey(): Opera sobre um conjunto de dados de pares (K, V) e retorna um conjunto de dados de pares (K, V) ordenados por K.
+    - join(): Combina os campos de duas fontes de dados usando valores comuns
+    - coalesce(): Utiliza uma partição existente para que menos dados sejam misturados, diminuindo o número de partições.

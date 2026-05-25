@@ -1,0 +1,14 @@
+Auditoria de segurança - monitorando a proteção dos sistemas:
+  - Conceitos:
+    - Auditoria:  Processo de avaliação das atividade e processos de uma organização ou sistema para garantir a conformidade com normas e procedimentos estabelecidos, bem como identificar pontos de melhoria e riscos potenciais.
+
+    - Monitoramento: Atividade contínua e sistemática que tem como objetivo avaliar o desempenho da empresa em relação a suas metas e objetivos. Verificar se políticas, processos e controles estão adequados.
+
+  - modelos de auditoria e monitoramento:
+    - Auditoria interna: Equipe interna da empresa avalia o cumprimento de políticas, normas e procedimentos de segurança.
+    - Auditoria externa: Empresa terceirizada ou um auditor independente avalia a eficácia dos controles de segurança da empresa.
+    - Monitoramento de eventos de segurança: Coleta e análise de informações de logs de sistemas, redes e aplicativos para identificar atividades suspeitas e possíveis violações de segurança.
+    - Monitoramento de rede: Monitoramento constante de tráfego de rede para identificar possíveis ameaças à segurança.
+    - Testes de penetração (pentest): Simulação de ataques cibernéticos para avaliar a segurança da infraestrutura de TI da empresa.
+    - Avaliação de conformidade: Avaliação regular da conformidade da empresa com padrões e normas de segurança, como PCI-DSS, ISO 27001, entre outros.
+    - Auditoria de privacidade: Avaliação da conformidade da empresa com leis e regulamentos de privacidade, como GDPR e LGPD.

@@ -1,0 +1,46 @@
+Protocolos de comunicação seguros:
+
+
+Motivação:
+  - Os protocolos de segurança são bem definidos, amplamente adotados e testados contra várias ameaças.
+  - Eles fornecem uma base sólida para proteger a comunicação de dados entre sistemas.
+  - Devemos utiliz-a-los nas nossas aplicações
+
+Contexto:
+  Oferencem proteção contra quebras de:
+    - Confidencialidade
+    - Integridade
+    - Autenticação
+    - Não repúdio.
+
+  Podem ser usadas tanto na internet quanto em redes privadas (intranets).
+  Necessário conhecimento especializado.
+
+Protocolos de Comunicação Seguros:
+  - TLS (Transport Layer Security):
+      - Protocolo amplamente utilizado para comunicação segura na internet.
+      - Fornece confidencialidade, integridade e autenticação.
+      - Usado em HTTPS, FTPS, e-mail seguro (SMTPS, IMAPS).
+  - SSL (Secure Sockets Layer):
+      - Predecessor do TLS, agora considerado inseguro.
+      - Ainda pode ser encontrado em sistemas legados.
+  - IPsec (Internet Protocol Security):
+      - Conjunto de protocolos para proteger comunicações IP.
+      - Usado para criar VPNs seguras.
+  - SSH (Secure Shell):
+      - Protocolo para acesso remoto seguro a sistemas.
+      - Fornece autenticação e criptografia de dados.
+  - S/MIME (Secure/Multipurpose Internet Mail Extensions):
+      - Protocolo para enviar e-mails seguros.
+      - Usa criptografia e assinaturas digitais para proteger o conteúdo do e-mail.
+  
+  - Gerencimento de certificados digitais:
+      - Uso de Autoridades Certificadoras (CAs) confiáveis.
+      - Renovação e revogação de certificados conforme necessário.
+
+  - Gerenciamento de chaves:
+      - Implementação de práticas seguras para geração, armazenamento e distribuição de chaves criptográficas.
+
+  - Deve ser feito a escolha e configuração do protocolo adequado com base nos requisitos de segurança e desempenho da aplicação.
+  
+  - Monitoramento e atualizações regulares.

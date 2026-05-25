@@ -1,0 +1,33 @@
+Fundamentos de Chamadas:
+
+Motivação:
+  - Os sistemas possuem muitas funcionalidades em comum, então reutilizar código é essencial para evitar duplicação e facilitar a manutenção.
+  - A manutenção de software sempre deve estar no nosso foco, e chamadas bem estruturadas ajudam a alcançar esse objetivo.
+
+Fundamentos de Chamadas:
+  - Organição:
+      - Modularização: Dividir o código em módulos ou funções menores e reutilizáveis.
+      - Nomes Significativos: Utilizar nomes claros e descritivos para funções e variáveis.
+
+  - Especialização:
+      - Parâmetros: Passar apenas os dados necessários para a função, evitando dependências desnecessárias.
+      - Tipagem: Utilizar tipos de dados adequados para garantir a integridade dos dados.
+
+  - Redução de Erros:
+      - Validação: Implementar validações de entrada para evitar erros durante a execução.
+      - Tratamento de Exceções: Utilizar mecanismos de tratamento de exceções para lidar com erros de forma controlada.
+
+  - Foco na Solução:
+      - Clareza: Escrever código que seja fácil de entender e seguir.
+      - Documentação: Documentar funções e módulos para facilitar o entendimento futuro.
+
+
+O Uso de Funções e Medidas Preventivas para Chamadas Seguras:
+    - Validação das Entradas: Sempre validar os dados recebidos antes de processá-los.
+    - Usar APIs do Sistema: Sempre que possível, utilizar APIs fornecidas pelo sistema operacional ou bibliotecas confiáveis.
+    - Definir Permissões: Garantir que as funções tenham as permissões mínimas necessárias para executar suas tarefas
+    - Definir Privilégios: Evitar executar funções com privilégios elevados desnecessariamente, princípio do menor privilégio.
+    - Usar Funções com as Devidas Autorizações: Garantir que as funções chamadas estejam atualizadas e livres de vulnerabilidades conhecidas.
+    - Monitoramento e Logging: Implementar mecanismos de monitoramento e logging para rastrear chamadas e detectar comportamentos anômalos.
+    - Usar canais de comunicação seguros: Garantir que as chamadas entre componentes sejam feitas através de canais seguros, como HTTPS ou outros protocolos criptografados.
+    - Testes de Segurança: Realizar testes de segurança regulares para identificar e corrigir vulnerabilidades nas chamadas de funções.

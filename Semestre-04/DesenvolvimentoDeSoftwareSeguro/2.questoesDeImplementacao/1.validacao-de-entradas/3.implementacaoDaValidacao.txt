@@ -1,0 +1,18 @@
+Implemtanção da Validação de Entradas no Servidor:
+
+Motivação:
+  - As aplicações atuais normalmente são formadas por BackEnd e FrontEnd.
+  - O servidor é responsável pelos cálculos mais robustos.
+
+Implementação:
+  - Os dados do servidor devem ser extremamente seguros.
+  - No servidor, está a lógica do negócio.
+  - Ataques comuns: SQL Injection e estouro de buffer (Exemplo: enviar um texto muito grande onde o servidor espera um número pequeno).
+  - A validação no servidor deve ser feita com base em listas brancas.
+
+Etapas para validação no Servidor:
+  - Identificar as entradas
+  - Definir regras de validação
+  - Validar e Limpar a entrada
+  - Verificações de segurança de LOG dos Erros de Validação
+  - Manter as regras de validação atualizadas

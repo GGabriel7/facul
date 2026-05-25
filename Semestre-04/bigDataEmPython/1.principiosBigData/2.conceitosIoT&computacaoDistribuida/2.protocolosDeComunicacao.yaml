@@ -1,0 +1,17 @@
+Protocolos de Comunicação:
+  - Os sistemas de IoT e computação distribuída necessitam de protocolos que permitam que os dispositivos possam se comunicar com outros nós da rede. 
+
+HTTP:
+  - Hypertext Transfer Protocol (HTTP) - Protocolo de Transferência de Hipertexto: É o protocolo mais importante utilziado na Web, em que a comnicação entre um cliente e um servidor ocorre por meio de uma mensagem do tipo "solicitação x resposta".
+    Dinâmica Básica:
+      1. O cliente envia uma mensagem de solicitação HTTP.
+      2. O servidor retorna uma mensagem de resposta, contendo o recurso solicitado, caso a solicitação seja bem-sucedida.
+
+MQTT: 
+  - Message Queuing Telemetry Transport - Protocolo de Telemetria de Enfileiramento de Mensagens: É um protocolo leve de mensagens, projetado para conexões de baixa largura de banda, alta latência ou redes não confiáveis. É baseado em um servidor que faz a publicação e o recebimento de dados com o padrão de mensagens "publicação/assinatura", chamado de broker. O broker faz o trabalho intermediário de recebimento das mensagens dos nós da rede e as envia aos nós de destino. ELe é executado em um protocolo de transporte TCP.
+
+CoAP:
+  - Constrained Application Protocol - Protocolo de Aplicação Restrita: É um protocolo de aplicação projetado para dispositivos com recursos limitados, como sensores e controladores. Utiliza a arquitetura REST (Representational State Transfer - Transferência de Estado Representacional) e oferece suporte ao paradigma de "solicitação x resposta", exatamente como ocorre no caso REST/HTTP. Ele é executado sobre o protocolo de transporte UDP.
+
+XMPP-IOT:
+  - Extensible Messaging and Presence Protocol for Internet of Things - Procolo de Mensagens Extensível e de Presença para IoT: Protocolo aberto que foi projetado para trocas de mensagens instantâneas. ELe usa a arquitetura cliente-servidor rodando sobre TCP, onde sua comunicação é baseada em XML (Extensible Markup Language - Linguagem de Marcação Extensível) e possui extensões que possibilitam o uso de modelo de publicação/assinatura.

@@ -1,0 +1,5 @@
+Tipos de Coleções no Java:
+  - Set: Usado para representar conjuntos e não admite elementos duplicados.
+  - List: Implementa o conceito de listas e admite duplicidade de elementos.
+  - Queue: Pode ser usada para criar fila (FIFO), mas também pode implementar uma lista de prioridades.
+  - Deque: Implemta a estrutura de dados conhecida como Deque (Double Ended Queue)

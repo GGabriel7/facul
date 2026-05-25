@@ -1,0 +1,11 @@
+Machine Learnig - Aprendizado de Máquina:
+  - Definição: Subcampo da I.A que se concentra em desenvolver algoritmos e modelos que permitem que os computadores aprendam a partir de dados e façam previsões ou decisões sem serem explicitamente programados para cada tarefa.
+
+  - Tipos de Apredizado de Máquina:
+    - Aprendizado Supervisionado: É treinado com um conjunto de dados rotulado, onde cada exemplo de treinamento é composto por uma entrada e uma saída desejada. O modelo aprende a mapear os dados de entrada para as saídas corretas. 
+    - Aprendizado Não Supervisionado: Treinado com um conjunto de dados não rotulado, onde o modelo deve identificar padrões ou estruturas subjacentes nos dados sem orientação explícita sobre o que procurar.
+    - Aprendizado por Reforço: O modelo aprende a tomar decisões sequenciais em um ambiente, recebendo recompensas ou punições com base nas ações tomadas. O objetivo é maximizar a recompensa total ao longo do tempo.
+  
+  - Aprendizado Profundo - Deep Learning: Subcampo do aprendizado de máquina que utiliza redes neurais artificiais com múltiplas camadas para modelar e aprender representações complexas dos dados. É especialmente eficaz em tarefas como reconhecimento de imagem, processamento de linguagem natural e jogos.
+
+

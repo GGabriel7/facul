@@ -1,0 +1,18 @@
+Complexidade na Escolha da Arquitetura para Redes IoT:
+  Desafios: 
+    - Diversidade de Dispositivos.
+    - Escalabilidade: Grande número de dispositivos e dados em constante crescimento exige uma arquitetura que possa escalar eficientemente.
+    - Segurança: Garantir a segurança dos dados e dispositivos em uma rede IoT é crucial
+    - Protocolos de Comunicação.
+  
+  Importancia: A arquitetura correta garante eficiência, confibilidade e segurança do sistema IoT, permitindo que ele atenda às necessidades específicas do caso de uso;
+
+Importância de Platagormas de Integração e Gerenciamento de Dispostivos:
+  - Definição: Plataformas que facilitam a conexão, integridade e gereciamento de dispositivos IoT são essenciais para o sucesso de projetos IoT.
+  - Funcionalidades: Centralização de Controle, monitoramente em tempo real e escalabilidade.
+  - Exemplos: Amazon AWS IoT, Microsoft Azure IoT, Google Cloud IoT, IBM Watson IoT.
+
+AWS IoT (Comunicação segura e Funcional entre dispositvos e Nuvem):
+  - Definição: Serviço de nuvem da Amazon que permite a conexão segura e funcional entre dispositivos IoT e a nuvem.
+  - Funcionalidades: Conexão Segura, Processamento de Dados, Integração com outros serviços AWS, Escalabilidade.
+  - Importância: Facilitar a implementação de soluções IoT, garantindo segurança, escalabilidade e integração com outros serviços em nuvem;

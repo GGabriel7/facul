@@ -1,0 +1,9 @@
+NodeMCU:
+  - NodeMCU é uma plataforma de desenvolvimento baseada no microcontrolador ESP8266, que é conhecido por sua conectividade Wi-Fi integrada. Ele é amplamente utilizado para projetos de Internet das Coisas (IoT) devido à sua facilidade de uso e baixo custo. 
+
+  - Recursos do NodeMCU:
+    - Microcontrolador ESP8266
+    - Conectividade Wi-Fi integrada
+    - E/S digitais e analógicos
+    - USP plug and play
+    

@@ -1,0 +1,52 @@
+Motivação:
+  - Segurança é essencial em protocolos de comunicação para proteger dados sensíveis contra interceptação e ataques.
+  - Utilização do modelo cliente-servidor para estruturar a comunicação entre dispositivos.
+
+Protocolos:
+  - TLS (Transport Layer Security):
+      Descrição: Protocolo criptográfico que fornece comunicação segura sobre uma rede de computadores.
+      Uso: Amplamente utilizado para proteger comunicações na internet, como em HTTPS.
+      Características:
+        - Criptografia forte para proteger dados em trânsito.
+        - Autenticação do servidor (e opcionalmente do cliente).
+        - Integridade dos dados para evitar alterações não autorizadas.
+
+  - SFTP (Secure File Transfer Protocol):
+      Descrição: Protocolo de rede que fornece transferência segura de arquivos sobre uma conexão segura.
+      Uso: Utilizado para transferir arquivos de forma segura entre computadores.
+      Características:
+        - Baseado no protocolo SSH para segurança.
+        - Suporte para autenticação forte.
+        - Criptografia de dados durante a transferência.
+
+  - IPsec (Internet Protocol Security):
+      Descrição: Conjunto de protocolos para garantir comunicações seguras na camada de rede.
+      Uso: Utilizado para criar redes privadas virtuais (VPNs) e proteger tráfego IP.
+      Características:
+        - Criptografia e autenticação de pacotes IP.
+        - Suporte para modos de transporte e túnel.
+        - Proteção contra ataques de replay e spoofing.
+
+  - SMTPS (Simple Mail Transfer Protocol Secure):
+      Descrição: Extensão do SMTP que utiliza TLS para garantir a segurança na transmissão de e-mails.
+      Uso: Utilizado para enviar e-mails de forma segura entre servidores de correio.
+      Características:
+        - Criptografia dos dados durante a transmissão.
+        - Autenticação do servidor de e-mail.
+        - Proteção contra interceptação de mensagens.
+
+  SSH (Secure Shell):
+      Descrição: Protocolo de rede que permite a comunicação segura entre computadores.
+      Uso: Utilizado para acesso remoto seguro e transferência de arquivos.
+      Características:
+        - Criptografia forte para proteger a comunicação.
+        - Autenticação baseada em chaves públicas/privadas.
+        - Suporte para tunelamento seguro de outros protocolos.
+
+  VPN (Virtual Private Network):
+      Descrição: Tecnologia que cria uma conexão segura e criptografada sobre uma rede pública.
+      Uso: Utilizado para acessar redes privadas de forma segura através da internet.
+      Características:
+        - Criptografia de dados para proteger a privacidade.
+        - Autenticação do usuário para acesso seguro.
+        - Permite acesso remoto a recursos de rede privada.

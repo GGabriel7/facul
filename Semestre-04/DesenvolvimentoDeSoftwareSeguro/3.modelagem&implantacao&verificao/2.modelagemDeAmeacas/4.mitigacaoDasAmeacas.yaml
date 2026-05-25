@@ -1,0 +1,21 @@
+Fases para a Modelagem de Ameaças:
+  -> Definir objetivos -> Diagramar Fluxos de Dados -> Identificar Ameaças -> Mitigar Ameaças -> Validar modelo de Ameaças ->
+
+Etapa 4 - Mitigar Ameaças:
+  Priorizar Ameaças: 
+    - Prioriza-las com base na medição do seu impacto potencial e probabilidade de ocorrer. 
+    - Focaliza nas mai críticas.
+    - Utilizar impactor, gravidade e risco como critério de priorização.
+
+  Avaliar Eficácia das Contramedidas: 
+    - A eficácia de cada contramedida é avaliada para garantir que ela aborda a ameça identificada. 
+    - Testar a contramedida em um ambiente controlado e simular diferentes cenários de ataque.
+
+  Implementar Contramedidas: 
+    - Integrar as contramedidads no projeto do sistema e garantir que elas não interfiram em suas funcionalidades.
+    - Devem cobrir vários tipos de controles de segurança (físicos, técnicos e adm).
+    - Devem observar funções preventivas, detectivas, corretivas, recuperativas e impeditivas.
+
+  Documentar COntramedidas: 
+    - Documentar para garantir que possam ser mantidas e atualizadas conforme necessário.
+    - Fornece registro dos controles de segurança implementados no sistema.

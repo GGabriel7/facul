@@ -1,0 +1,45 @@
+- Arquitetura do Spark é baseado no modelo mestre-escravo com camadas e componectes bem definidos e fracamente acoplados. Também possui várias bibliotecas. São baseados em duas abstrações:
+
+  - Conjunto de dados distribuídos resilientes (Resilient Dataset Distribution - RDD):
+    - Grupos de itens de dados que podem ser armazenados na memória dos nós escravos.
+    - Conjunto de dados - dados são organizados em grupo
+    - Distribuídos - dados alocados em nós diferentes
+    - Resilientes - dados são recuperados em caso de falha
+    - Suportam 2 tipos de operações:
+      - Transformação: Operações como mapa, filtro, junção e união, que são executadas no RDD e geram um novo RDD contendo o resultado.
+      - Ações: São operações como redução, contagem e primeiro ou útimo, que retornam um valor após a execução de um cálculo em RDD
+
+  - Gráfico Acíclico Dirigido (Directed Acyclic Graph - DAG):
+    - modelo matemático formado por nós e arestas, em que as arestas com setas são as ligações entre os nós do grago. 
+
+- Spark é composto por 3 componetes principais:
+  - Driver Program:
+    - Converte uma aplicação em unidades de execução menores chamadas de tarefas. Cabe também ao Driver Program executar a aplicação Spark e retornar o status ou o resultado para o usuário.
+    - Para executar em um cluster, o SparkContext se conecta ao gerenciador de cluster e, em seguida, efetua as seguintes tarefas:
+      - Adquire execures em nós do cluster
+      - Envia o código para os executores, o que pode definido por arquivos JAR ou Python passados para SparkContext
+      - SparkContext envia tarefas para que sejam processadas pelops executores
+
+  - Cluster Maneger (gerenciador de cluster):
+    - Componente opcional que somente é necessário se o Spark for executado de maneira distribuída. Ele é responsável por admistrar as máquinas que serão utillizadas como workers. Classificados em 3 tipos:
+      - Independente (standalone): Gerenciar cluster simples que facilita a configurações de um cluster.
+      - Apache Mesos: Gerenciador geral de cluster que também pode executar Hadoop MapReduce.
+      - Hadoop YARN: É o gerenciador de recursos no Hadoop.
+
+  - Worker Nodes (nós de trabalho):
+    - máquinas que executarão as tarefas enviadas pelo Driver Program. Se o Spark for executado no mod0 local, a máquina desempenhará tanto o papel de Driver Program como de Worker. Portanto, os workers são nós escravos e sua função é executar o código do aplicativo no cluster. Os Workers são compostos por:
+      - Executor (Executores): processos de nós de trabalho encarregados de executar tarefas individuais em determinado trabalho do Spark. Depois de executar a tarefa, enviam os resultados ao Driver Program. Também fornecem armazenamento na memória para RDDs que são armazenados em cache por programas do usuário por meio do gerenciador de blocos (Block Manager).
+      - Tasks (taregas): As unidades de trabalho que são enviadas a um executor.
+
+- Fluxo de execução da aplicação:
+  - 1. Quando uma aplicação inicia, o Driver Program converte o seu fluxo em um grafo acíclico direcionado (DAG) e cria uma instância de um SparkContext.
+  
+  - 2. O Driver Program solicita recursos para o gerenciador do cluster (Cluster Manager) para iniciar os executores.
+  
+  - 3. O gerenciador de cluster ativa os executores.
+  
+  - 4. O processo do Driver Program é executado por meio da aplicação do usuário. Dependendo das ações e transformações sobre os RDDs, as tarefas são enviadas aos executores.
+  
+  - 5. Os executores executam as tarefas e salvam os resultados.
+  
+  - 6. Se algum Worker Node falhar, suas tarefas serão enviadas para outros executores para serem processadas novamente.

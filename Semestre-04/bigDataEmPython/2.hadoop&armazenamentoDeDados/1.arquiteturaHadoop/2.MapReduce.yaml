@@ -1,0 +1,28 @@
+MapReduce:
+  - É a base fundamental para que o Hadopp possa ter um desempenho computacional serial (um por vez), sendo necessário analisar e processar os dados de maneira paralera. Para realizar o processamento paralelo dos dados, o Hadoop utiliza o MapReduce. Ele trabalha com duas etapas:
+    - Mapeamento dos dados: coleta os dados de entrada e os converte em um conjunto de dados que pode ser processado como um par do tipo valor e chave.
+    - Redução dos dados: O resultado da fase anterior e consumido pela tarefa de redução. Em segura, od dados são processado até se atingir o objetivo da aplicação.
+
+  - =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+  - Fase de Mapeamento de dados (coleta):
+    - Fase de coleta dos dados para mapear os dados. A entrada dessa fase é um coonjunto de dados passado para a função Map(). Essa função divide esse bloco de dado em tuplas, que são pares do tipo valor e chave. Tais pares são enviado para a fase de redução, que é dividade nas seguintes etapas:
+
+    - Leitor de registros (record reader): Divide os dados de entrada em pares de chave e valor para serem enviados como entrada para o mapeador. A chave possui informações de localização, enquanto o valor são os dados asocciados a ela.
+
+    - Mapeador: Função definida pelo usuário que faz o processamento das tuplas obtidas do leitor de registro. Essa função não gera nenhum par do tipo chave-valor.
+
+    - Combinador (combiner): É usado entre o mapeador e o redurot para reduzir o volume de tranferência de dados entre ambos.
+
+    - Paricionador: Duas funções - buscar pares de chave-valor gerados nas fases do mapeador e gerar os frafmentos correspondetes a cada redutor.
+
+  - =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+  - Fase de redução :
+    - Fase de processamento dos dados para reduzi-los. A função reduce() combina as tuplas geradas pela fase de mapeamento e aplica as operações necessárias para processar os dados, que, em seguida, são enviados para o nó de saída final. O processamento dos dados é sempre fieto nessa fase. Ela é dificida nas seguintes etapas:
+
+    - Embaralhamento e classificação: O processo em que o mapeador gera os pares intermediários chave-valor e os transfere para a fase de redução é conhecido como embaralhamento (é bastante comum usar o termo em inglês shuffle).
+
+    - Redução: Agrupa as tuplas geradas e aplica os processos de classificação e agragação nesses pares de chaves e valores.
+
+    - Gravação de saída: No fim, os pares de chaves e valores são gravados em arquivo. Cada registro é gravado em uma nova linha, e a chave e o valor são separados por espaço.

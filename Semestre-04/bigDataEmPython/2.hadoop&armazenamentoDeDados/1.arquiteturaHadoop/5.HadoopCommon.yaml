@@ -1,0 +1,2 @@
+Utilitários comuns do Hadoop (Hadoop Common): 
+  - Os utilitários comuns do Hadoop são as bibliotecas e aplicações que oferecem suporte para ele. Eles são usados para executar as aplicações no cluster Hadoop pelos componentes HDFS, YARN e MapReduce. De forma semelhante à que ocorre nos demais módulos do Hadoop, os utilitários assumem que as falhas de hardware são comuns e que devem ser tratadas automaticamente no software pelo Hadoop Framework. Também conhecidos com núcleo do Hadoop (Hadoop Core)

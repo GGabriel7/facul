@@ -1,0 +1,38 @@
+Google Cloud:
+  - Plataforma de computação em nuvem da Google, oferencendo uma ampla gama de serviços, incluindo computação, armazenamento, banco de dados, machine learning e análise de dados.
+
+  - Big query:
+    - Serviço de análise de dados em larga escala, permitindo consultas SQL rápidas e eficientes em grandes conjuntos de dados.
+    - Criação de tabelas (big table): Tabelas escaláveis e de alta performance para armazenar grandes volumes de dados estruturados.
+
+  - Dataflow:
+    - Serviço de processamento de dados em tempo real e em lote, permitindo a criação de pipelines de dados para transformar e analisar dados em movimento.
+    - Pipelines são compostos por etapas de processamento, como leitura, transformação e escrita de dados, facilitando a construção de fluxos de trabalho complexos para análise de dados.
+
+AWS Cloud:
+  - Plataforma de computação em nuvem da Amazon, oferecendo uma ampla gam de serviços para IoT, incluindo computação, armazenamento, banco de dados, machine learning e análise de dados.
+
+  - Amazon S3:
+    - Serviço de armazenamento de objetos escalável e durável, permitindo armazenar e recuperar grandes volumes de dados. Ideal para armazenar dados de sensores e dispositivos IoT.
+
+  - AWS Lambda:
+    - Serviço de computação sem servidor que permite executar código em resposta a eventos, como mudanças em dados ou solicitações HTTP. Ideal para processar dados de IoT em tempo real, sem necessidade de gerenciar servidores.
+
+  - Amazon Glacier:
+    - Serviço de armazenamento de LONGA DURAÇÃO e baixo custo, ideal para arquivamento de dados de IoT que não precisam ser acessados com frequência, mas devem ser mantidos por longos períodos.
+
+IBM Cloud:
+  - Plataforma de computação em nuvem da IBM, oferecendo serviços para IoT, como computação, armazenamento, banco de dados, machine learning e análise de dados. 
+
+  - Watson:
+    - Serviço de inteligência artificial da IBM, oferecendo recursos avançados de machine learning e processamento de linguagem natural. Ideal para analisar dados de IoT e extrair insights valiosos.
+
+  - Integration:
+    - IBM Cloud oferece integração com uma variedade de serviços e aplicativos, facilitando a criação de soluções completas para IoT. Isso inclui integração com plataformas de terceiros, como Salesforce e SAP, bem como integração com serviços de inteligência artificial da IBM, como Watson.
+
+  - DataBase: 
+    - IBM Cloud oferece uma variedade de opções de banco de dados, incluindo bancos de dados relacionais, NoSQL e bancos de dados em memória. Isso permite que os desenvolvedores escolham a melhor opção para suas necessidades específicas de IoT, seja para armazenar dados estruturados ou não estruturados.
+
+  - Plataforma da IBM: 
+    - A plataforma da IBM é projetada para ser altamente escalável e flexível, permitindo que os desenvolvedores criem soluções de IoT que possam crescer e se adaptar às necessidades em constante mudança. A plataforma também oferece recursos avançados de segurança para proteger os dados e dispositivos conectados à nuvem.
+

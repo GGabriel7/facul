@@ -1,0 +1,24 @@
+Objetivo do Processo da Automação e Orquestrção: O objetivo principal da aplicação desses conceitos é garantir que atividades rotineiras, que muitas das vezes seriam executadas por pessoas, sejam executadas pelos computadores.
+
+Automação: Permite que tarefas repetitivas sejam efetuadas de maneira automatizada, permitindo que novas versões de uma solução de software sejam entregues de maneira mais rápida e contínua, como -
+  - Realização de testes funcionais e de segurança
+  - Compilação de código
+  - Publicação de artefatos em ambientes
+  - Verificação de vulnerabilidades
+  - Provisionamento de recursos...
+
+Orquestração: É a capacidade de coordenar diferntes ferramentas e processos de automação para criar uma cadeia de eventos contínua. A orquestração é responsável por executar as tarefas programadas na sequência correta, definir dependências e gerenciar a execução em vários ambientes, garantindo que todo o processo de entrega de artefatos de software esteja integrado e funcionando de maneira contínua e eficiente.
+
+Benefícios: 
+  - Eficiência: diversas tarefas repetitivas podem ser executadas de maneira muito mais rápida e com menor propensão a erros humanos. Além de permitir que os profissionais se concentrem em outras atividades.
+
+  - Mitigação de Erros: Mitiga-se a possibilidade de erros eventuais causados pela má execução de uma pessoa.
+
+  - Visibilidade: Visão geral de todo o processo de desenvolvimento do produto de software, permitindo que as equipes identifiquem rapidamente possíveis problemas e tomem as ações de correção de maneira mais acelerada.
+
+  - Redução de Custos: Reduzir os custos de desenvolvimento dos produtos de software
+
+  - Confiabilidade: Garante que todas as etapas estejam completas antes que a próxima seja iniciada.
+
+  - Segurança: Detecta e corrige vulnerabilidades mais rapidamente.
+

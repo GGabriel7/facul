@@ -1,0 +1,13 @@
+Ciclo de vida da Implatação do Software:
+  -> Requisito -> Projeto -> Desenvolvimento -> Implatação e Manutenção ->
+
+ETAPA 1 - Requisitos: 
+  - Os objetivos e metas do projeto de software são traduzidos em requisitos (funcionais e não funcionais) que o software deve atender.
+
+  - Requistos de segurança: Especifica como usuários são autenticados e autorizados.
+
+  - Requisitos de Proteção de Dados: Proteger com uso de ferramentas como hash. Hash é uma criptografia de senha muito utilizada segurnaça. O programa ao em vez de armazenar a senha, ele armazena o codigo hash da senha (uma sequencia de caracteres combinatórios que não dá para saber a senha original a partir dele). Sempre que o usuário acessa o sistema, é gerado o código hash da senha e comparado com o que está armazenado.
+
+  - Requistiso de Auditoria: Especificam como a atividade do sistema será registrada e auditada para detectar incidentes de segurança e rastrear a atividade do usuário.
+
+  - Requisitos de Conformidade: Especificar qualquer requisito regulamentares ou legais que o software deve atender, como a lei geral de proteção de dados - LGPD.

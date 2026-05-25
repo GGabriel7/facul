@@ -1,0 +1,16 @@
+Principais Características da Paradgma Orientada a Objetos (POO):
+
+1. Abstração:
+   - A abstração é o processo de simplificar sistemas complexos, focando apenas nos aspectos essenciais e ignorando os detalhes irrelevantes. Na POO, isso permite que os desenvolvedores criem modelos de objetos que representam entidades do mundo real, facilitando a compreensão e a manipulação do código.
+
+2. Encapsulamento:
+   - O encapsulamento é o princípio de ocultar os detalhes internos de um objeto e expor apenas o que é necessário através de uma interface pública. Isso protege os dados do objeto contra acessos não autorizados e permite que a implementação interna possa ser alterada sem afetar o código externo que utiliza o objeto.
+
+3. Herança:
+   - A herança é um mecanismo que permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse). Isso promove a reutilização de código e estabelece uma relação hierárquica entre classes, facilitando a criação de novas classes baseadas em classes existentes.
+
+4. Polimorfismo:
+   - O polimorfismo é a capacidade de diferentes classes responderem de maneira diferente ao mesmo método ou mensagem. Isso permite que objetos de diferentes tipos sejam tratados de forma uniforme, aumentando a flexibilidade e a extensibilidade do código. 
+   - Existem dois tipos principais de polimorfismo:
+      Polimorfismo em tempo de compilação: Também conhecido como polimorfismo estático, ocorre quando o método a ser chamado é determinado em tempo de compilação, geralmente através de sobrecarga de métodos.
+      Polimorfismo em tempo de execução: Também conhecido como polimorfismo dinâmico, ocorre quando o método a ser chamado é determinado em tempo de execução, geralmente através de sobrescrita de métodos em classes derivadas.

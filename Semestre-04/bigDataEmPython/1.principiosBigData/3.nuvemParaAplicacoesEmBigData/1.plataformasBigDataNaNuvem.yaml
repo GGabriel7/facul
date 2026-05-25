@@ -1,0 +1,13 @@
+Plataforma de Big Data na Nuvem:
+  - É um conjunto de tecnologias de software e hardware que permite que o usuário contratante faça o gerenciamento de projetos de Big Data por meio de aplicações para desenvolbimento, implantação e operação de programas, além de uma infraestrutura voltada para Big Data. 
+
+  - Gestaão de dados: Disponibilzação de servidres de banco de dados para gerenciamento de Big Data, como o Amazon RDS, Google Cloud SQL e Azure SQL Database.
+  - Análose de dados: Inteligência de negócios por meio de programas utilitários para tratamento e extração de dados de Big Data, como o Amazon Redshift, Google BigQuery e Azure Synapse Analytics.
+  - Ferramentas de desenvolvimento: Oferta de ambiente de desenvolvimento de programas para fazer análises personalizadas que podem se integrar com outros sistemas, como o Amazon EMR, Google Cloud Dataproc e Azure HDInsight.
+
+  - Alguns dos perfis dos profissionais que trabalham com essas plataformas são:
+
+    - Engenheiro de dados: azem toda a gestão do fluxo dos dados - coleta, agregação, limpeza e estruturação dos dados, para que possam ser utilizados em análises.
+    - Cientista de dados: utilizam a plataforma para estudar padrões e descobrir relacionamentos em grandes conjuntos de dados.
+    - Analista de dados: utilizam a plataforma para criar relatórios e dashboards, além de realizar análises exploratórias dos dados.
+    - Arquiteto de dados: projetam a estrutura de armazenamento e processamento dos dados.

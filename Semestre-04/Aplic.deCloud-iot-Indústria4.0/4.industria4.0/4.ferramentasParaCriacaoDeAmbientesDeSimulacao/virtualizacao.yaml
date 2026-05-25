@@ -1,0 +1,10 @@
+Virtualização:
+  Definição: A virtualização é uma tecnologia que permite criar uma versão virtual de um recurso, como um servidor, sistema operacional, dispositivo de armazenamento ou rede, permitindo que múltiplas instâncias sejam executadas em um único hardware físico.
+
+  Tipos:
+    - Virtualização de Sistema Operacional: Permite que múltiplos sistemas operacionais sejam executados em um único hardware físico, cada um em uma máquina virtual isolada.
+    - Virtualização de Servidores: Permite criar servidores virtuais em um único servidor físico, otimizando o uso de recursos e facilitando a gestão.
+    - Virtualização de Desktop: Permite criar ambientes de desktop virtualizados, permitindo que os usuários acessem seus desktops de qualquer lugar.
+    - Virtualização de Aplicações: Permite que as aplicações sejam executadas em um ambiente virtualizado, isolando-as do sistema operacional subjacente.
+    - Virtualização de Armazenamento: Permite criar um pool de armazenamento virtualizado, facilitando a gestão e o provisionamento de recursos de armazenamento.
+    - Virtualização de Rede: Permite criar redes virtuais independentes da infraestrutura física, facilitando a gestão e a segurança da rede. Como a VPN (Virtual Private Network) e VLAN (Virtual Local Area Network).

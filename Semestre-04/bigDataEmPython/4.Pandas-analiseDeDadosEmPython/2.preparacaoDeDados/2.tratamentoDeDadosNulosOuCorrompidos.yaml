@@ -1,0 +1,9 @@
+Um problema muito comum na atividade de pré-processamento de dados é a qualidade dos dados. É possível que os dados venham com atributos faltantes, registros nulos, registros mal escritos (desformatados) etc. Para esses casos, existem diversas formas de resolver o problema: 
+
+  - Ignorando/descartando: Dados faltantes ou nulos em bases grandes (por volta da ordem de grandeza de 10.000 registros ou mais) podem ser resolvidos ignorando o registro todo, ou seja, removendo-o da base, se a proporção de nulos não for expressiva (não passar de 10% da quantidade de registros).
+
+  - Regressão/preenchimento automatico: Em bases grandes ou menores, fazemos o preenchimento automatico para dados numéricos ou de classificação para dados categóricos. O fato de a base ser grande ajuda o algoritmo de preenchimento automático, sendo claro que dados com variância alta podem prejudicar esse processo.
+
+  - Retomar o processo de coleta: para dados faltantes ou nulos em bases de dados precárias em que a exclusão do registro ou a interpolação é inviável, o correto é retomar diretamente ao processo de coleta, pois claramente os dados são insuficientes para o projeto.
+
+  - Eliminar: Para dados repetidos, normalmente a solução é simples, pois basta eliminá-los, a não ser que a repetição seja apenas para um subconjunto de atributos.

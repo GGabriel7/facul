@@ -1,0 +1,40 @@
+Tipos de processamento e vulnerabilidades:
+
+Motivação:
+  - Reduzir o consumo de energia mantendo uma produtividade alta 
+  - Quais as dificuldades práticas de implentar a virtualização na área de T.I?
+
+Tipos:
+  - Processamento em lote: 
+      Descrição: Execução de tarefas em grupos ou lotes, geralmente em horários específicos.
+      Vulnerabilidades:
+        - Falta de monitoramento em tempo real
+        - Atrasos na detecção de falhas
+
+  - Processamento em tempo real:
+      Descrição: Processamento imediato de dados à medida que são recebidos.
+      Vulnerabilidades:
+        - Latência e desempenho
+        - Ataques de negação de serviço (DoS)
+
+  - Processamento de Fluxo:
+      Descrição: Processamento contínuo de dados em movimento.
+      Vulnerabilidades:
+        - Interceptação de dados em trânsito
+        - Falhas na integridade dos dados
+  
+  - Processamento em Nuvem:
+      Descrição: Utilização de recursos de computação baseados na nuvem para processamento de dados.
+      Vulnerabilidades:
+        - Exposição a ataques externos
+        - Dependência do provedor de serviços
+
+
+Mitigação das Vulnerabilidadees do Processamento:
+  - Usar criptografia
+  - Protocolos de Segurança
+  - Backups regulares
+  - Desenvolver e Aplicar uma política de recuperação de desatres: 
+      - Identificar riscos potenciais
+      - Estabelecer procedimentos claros
+      - Treinar a equipe regularmente

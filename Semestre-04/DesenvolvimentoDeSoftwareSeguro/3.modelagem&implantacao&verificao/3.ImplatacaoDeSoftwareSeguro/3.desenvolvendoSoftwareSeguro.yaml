@@ -1,0 +1,15 @@
+Ciclo de vida da Implatação do Software:
+  -> Requisito -> Projeto -> Desenvolvimento -> Implatação e Manutenção ->
+
+Etapa 3 - Desenvolvimento:
+  - Escrever código e criam documentação. Práticas de segurança, como usar bibliotecas seguras.
+
+  - Boas práticas:
+    - Validação de entradas: Além do formato de dados, se preocupar com o tamanho para evitar buffer overflow.
+    - Armazenamento e transmissão segura de dados: Criptografia.
+    - Tratamento de erros e axceções: Não expor informações.
+
+  - Segurança:
+    - Controle de acesso: mecanismos de autenticação.
+    - Protocolos de Comunicalçao seguros: HTTPS.
+    

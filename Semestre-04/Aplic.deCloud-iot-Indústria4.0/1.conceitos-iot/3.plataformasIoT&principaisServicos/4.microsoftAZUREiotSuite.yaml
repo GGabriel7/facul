@@ -1,0 +1,18 @@
+Visão Geral:
+  - Modolo voltado para a plataforma de IoT da Microsoft, o Azure IoT Suite, que oferece uma variedade de serviços e ferramentas para facilitar a implementação de soluções IoT.
+
+Arquitetura da Microsoft Azure IoT Suite:
+  - Componentes Principais: 
+    - Azure IoT Hub: Serviço de nuvem que permite a conexão segura e gerenciamento entre dispositivos IoT e a nuvem.
+    - Azure Stream Analytics: Serviço de análise em tempo real que permite processar e analisar dados de dispositivos IoT.
+    - Azure Machine Learning: Serviço de aprendizado de máquina que permite criar modelos preditivos com base nos dados coletados dos dispositivos IoT.
+    - Azure Storage: Serviço de armazenamento em nuvem que permite armazenar grandes volumes de dados gerados pelos dispositivos IoT.
+  
+  - Funcionalidades: Integração de dispositivos, coleta e análise de dados, segurança...
+
+Painéis Customizáveis com Power BI e Gerenciamento de Dispositivos:
+  - Power BI: Ferramenta de visualização de dados que permite criar painéis customizáveis para monitorar e analisar os dados coletados dos dispositivos IoT.
+
+  - Gerenciamento de Dispositivos: Envio de comandos remotos, atualizações de firmware e monitoramento do status dos dispositivos IoT.
+
+  - Benefícios: Melhora a tomada de decisões com insigths visuais e permite controle centralizado dos dispositivos IoT, facilitando a manutenção e operação do sistema.

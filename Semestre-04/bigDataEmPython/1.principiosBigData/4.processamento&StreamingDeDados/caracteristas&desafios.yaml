@@ -1,0 +1,26 @@
+O streaming de dados:
+  - Definição: É o processo de transmissão de um fluxo contínuo de dados. Por sua vez, um fluxo de dados é formado por diversos elementos de dados que são ordenados no tempo. 
+ 
+  - Exemplo: temos a transmissão de dados de uma gravação de vídeo, pois as imagens que vemos são séries de dados que seguem uma ordem cronológica. 
+  
+  - Mais exemplos: Dados de sensores embarcados em equipamentos; Arquivos de logs de atividades de navegadores da web; Logs de transações financeiras; Monitores de saúde pessoais; Sistemas de segurança patrimonial.
+
+Caracteristicas de Streaming de dados:
+  - Sensibildiade ao tempo (velociddade): os dados são processados em tempo real ou quase em tempo real, permitindo que as organizações respondam rapidamente a eventos e mudanças.
+
+  - Continuidade (Disponibilidade): O sistema de processamento deve estar preparado para ser acionado sempre que for requisitado. Especialmente para processos de tempo real, os fluxos de dados são contínuos e acontecem sempre que um evento é disparado ou quando ocorre uma mudança de estado no sistema.
+
+  - Heterogeneidade (variedade de dados): Os dados de fluxo podem vir de diferentes fontes com diferentes formatos e que podem estar geograficamente distantes. formatos, fontes de dados e localização geográfica.
+
+  - Imperfeição: Muitos fatores podem influenciar para que os elementos de um fluxo de dados sejam prejudicados por perda e corrupção. Isso implica que o sistema precisa levar em consideração essas falhas e ter uma medida de tolerância para fazer ajustes, quando for possível, e o processamento dos dados.
+
+  - Volatilidade: Os dados de fluxo podem ser voláteis, o que significa que eles podem ser descartados ou perdidos se não forem processados em tempo hábil. Isso requer que os sistemas de processamento sejam projetados para lidar com a volatilidade dos dados e garantir que as informações importantes sejam capturadas e processadas antes que sejam perdidas.
+
+Desafios do processamento de streaming de dados:
+  - Escalabilidade: Os sistemas precisam ter flexibilidade para gerenciar o aumento brusco de volume de dados. Portanto, o projeto do sistema deve contemplar tais casos com estratégias para adição automática de mais capacidade computacional à medida que a demanda por recursos aumenta.
+
+  - Ordenação: Os dados de fluxo podem chegar fora de ordem, o que pode dificultar o processamento e a análise. Os elementos de um fluxo de dados estão associados a uma marcação no tempo. Essa marcação é fundamental para que os dados possam ser agrupados em estruturas sequenciais que façam sentido.
+
+  - Consistência e durabilidade: Os dados em um fluxo de dados são voláteis, mas, em muitas situações, é útil mantê-los armazenados, para que possamos analisá-los posteriormente. Para isso, precisamos aplicar técnicas que garantam a condição de originalidade dos dados, ou seja, que eles não foram modificados e que, além disso, tenham informações sobre sua qualidade.
+
+  - Tolerância a falhas e garantia de dados: Os sistemas são sujeitos a falhas. E quando falamos em sistema, precisamos visualizar toda a complexidade que envolve programas, dispositivos físicos e infraestrutura. Esse tipo de situação pode ser tratado por meio de algumas abordagens, como, por exemplo, redundância de elementos de transmissão e coleta; uso de sistemas não centralizados; análise estatística periódica dos dados para medir a sua qualidade.

@@ -1,0 +1,17 @@
+IOTPaaS: Plataforma como Serviço para internet das Coisas. Vamos ver exemplos de algumas middlewares para IoT.
+
+WSO2:
+  - Suporte para monitoramento; gerenciamento e interação de dispositivos de IoI; viabiliza o processo de comunicação entre os dispositivos e a nuvem.
+
+  - 5 camadas horizontais:
+    - Dispositivos IoT: recursos necessários para que os dispositivos possam se conectar à Internet, como protocolos de comunicação, conectividade e segurança.
+    - Comunicação: suporte para a conectividade dos dispositivos. Como HTTP/HTTPS, MQTT eProtocolo de aplicativo restrit
+    - Agregação: As comunicações entre os diferentes dispositivos são agregadas e roteadas para um dispositivo específico. Isso é feito através das transformações realizadas entre diferentes protocolos.
+    - Processamento de eventos e análises: Captura os eventos que ocorrem no dispositivo IoT e fornece, assim, a capacidade de processar e agir sobre esses eventos.
+    -  comunicações com clientes externos:
+
+  - 2 camadas trnasversais:
+    - Gerenciamento de dispostivos: Faz a comunicação com os dispositivos por meio de vários protocolos e fornece controle individual e de diversos dispositivos
+    - gerenciamento de acesso: gerenciamento de identificação e de acesso
+
+  

@@ -1,0 +1,7 @@
+É uma das técnicas no ramo do aprendizado de máquina que podem ser usadas na etapa de mdelagem do CRISP-DM, a qual corresponde à etapa de mineração de dados ou descoberta de padrões, que é o coração do processo de KDD.
+
+O aprendizado profundo tenta modelar abstrações de alto nível de dados, usando um grafo com várias camadas de processamento, compostas de várias transformações lineares e não lineares. Em outras palavras, trata-se de um modelo de aprendizado de máquina que decompõe dados complexos em representações mais bem compreendidas pela máquina, como vetores, matrizes e séries temporais.
+
+Cada camada da rede neural é um aspecto da observação, uma abstração do todo.
+
+Um Exemplo são as redes que reconhecem imagens, cada camada pode representar um aspecto da imagem - a primeira camada pode detectar linhas; a segunda, detectar círculos; e a terceira, identificar composições entre linhas e círculos.

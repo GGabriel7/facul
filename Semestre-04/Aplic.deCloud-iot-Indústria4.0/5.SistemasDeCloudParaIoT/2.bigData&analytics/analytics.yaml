@@ -1,0 +1,14 @@
+Analytics:
+  -  A análise de dados é fundamental para a indústria 4.0, pois permite identificar padrões, tendências e insights que podem ser usados para melhorar a eficiência, reduzir custos e aumentar a produtividade.
+
+  - Previsões: Usada para prever falhas em máquinas, otimizar a manutenção e melhorar a eficiência dos processos de produção, com base nos dados coletados por sensores e máquinas.
+
+  - Otimização: A análise de dados pode ser usada para otimizar processos de produção, identificando gargalos, melhorando a alocação de recursos e aumentando a eficiência geral da fábrica.
+
+  - Tipos:
+    - Análise Descritiva: foca em descrever o que aconteceu no passado, usando dados históricos para entender eventos e tendências.
+    - Análise Preditiva: foca em prever o que pode acontecer no futuro, usando técnicas de machine learning e estatísticas para fazer previsões com base em dados históricos.
+    - Análise Prescritiva: foca em recomendar ações a serem tomadas, usando algoritmos de otimização e simulação para sugerir as melhores decisões com base nos dados disponíveis.
+    - Análise Diagnóstica: foca em entender por que algo aconteceu, usando técnicas de análise de causa raiz para identificar as causas subjacentes de eventos ou problemas.
+
+  - Bigdata oferece uma grande quantidade de dados que podem ser usados para ANALISAR e interpretar informações, permitindo a tomada de decisões mais informadas e a otimização dos processos de produção.

@@ -1,0 +1,12 @@
+Etapas do MapReduce:
+  - Entrada de dados: Consiste no conjunto de dados que vamos fornecer para o programa. A entrada de dados é composta por elementos em uma lista que podem ser tratados de maneira independente ao longo das fases de processamento até que o processo conclua.
+
+  - Separação: Os dados são separados em listas, que serão processadas de modo independente.
+
+  - Mapeamento: Aplicar uma função a cada elemento de uma lista e coletar o resultado. Por exemplo, mapear palavras de um arquivo em um par chave e valor, considerando que a chave é a palavra e que o número de ocorrências é o valor.
+
+  - Embaralhamento: Agrupa todos os valores intermediários que possuem a mesma chave de saída. 
+
+  - Redução: Pegar os dados que foram introduzidos e reduzir para mostrar só o desejado
+
+  - Final: O processo apresenta o que foi solicitação

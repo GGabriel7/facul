@@ -1,0 +1,14 @@
+Plataformas na Nuvem:
+  - Amazon Web Services (AWS)
+  - Microsoft Azure
+  - Google Cloud Platform (GCP)
+  - IBM Cloud
+  - Oracle Cloud
+
+  - Como plataformas em nuvem funcionam para IoT:
+    - Coleta de Dados: Dispositivos IoT coletam dados do ambiente e os enviam para a nuvem.
+    - Armazenamento: A nuvem oferece armazenamento escalável, permitindo que grandes volumes de dados sejam armazenados e acessados facilmente.
+    - Processamento: Recursos de processamento para analisar os dados coletados, utilizando técnicas de machine learning e inteligência artificial.
+    - Integração: Permitem a integração com outros serviços e aplicativos, facilitando a criação de soluções completas para IoT.
+    - Segurança: Oferecem recursos de segurança para proteger os dados e dispositivos conectados à nuvem.
+    

@@ -1,0 +1,16 @@
+Drigramas Estruturais: arquitetura estática
+  - Visão clara e precisa da estrutura 
+  - Documentação
+
+  - Drigrama Classes
+  - Drigrama Estrutura
+  - Drigrama Implentação
+
+Drigramas Compor tamentais: dinamica e funcionamento interno de um sistema.
+   - Visão detalhada
+   - Modelagem de processos.
+
+   - Drigrama Casos de Uso
+   - Drigrama Sequencia
+   - Drigrama Estado
+   - Drigrama Atividade

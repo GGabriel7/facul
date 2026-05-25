@@ -1,0 +1,4 @@
+Pandas:
+  - É uma biblioteca em Python, criada para manipulação e análise de dados, oferecendo estruturas e operações para manipular tabelas numéricas e séries temporais.
+
+  - Os DataFrames são  painéis de dados, mas podemos encará-los como tabelas para fins de abstração. São muito utilizados em projetos de análise de dados como criação de dashboards, scripts de análise de dados e aplicações de aprendizado de máquina. A manipulação de dados em Python, em sua esmagadora maioria, é feita com DataFrames.

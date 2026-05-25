@@ -1,0 +1,43 @@
+Esforços de Padronização em IoT:
+  - Objetivo: Promover a interoperabilidade (capacidade de diferentes sistemas e organizações trabalharem juntos) e a adoção em larga escala de soluções IoT.
+  - mportância: Reduzir fragmentção e garantir compatibilidade entre dispositivos e sistemas.
+  - Exemplos:
+    - MQTT (Message Queuing Telemetry Transport): Protocolo leve de mensagens para comunicação entre dispositivos IoT.
+    - CoAP (Constrained Application Protocol): Protocolo de aplicação para dispositivos com recursos limitados.
+    - LoRaWAN (Long Range Wide Area Network): Protocolo de comunicação para redes de longa distância e baixo consumo de energia.
+
+Delineando Problemas e Limitações:
+  Fragmentação: Diversidade de protocolos, plataformas e fabricantes.
+  interoperabilidade: Dificuldade de comunicação entre dispositivos e sistemas de diferentes fabricantes.
+  Segurança e Privacidade: Falta de padrões robustos para proteger dados e garantir a privacidade dos usuários.
+  Custos: Complexidade aumenta os custos de desenvolvimento e implementação.
+
+Consórcios Formados para Padronização:
+  - Principais Consórcios:
+    - IoT Consortium: Focado em interoperabilidade e Segurança
+    - Open Connectivity Foundation (OCF): Desenvolve padrões abertos.
+    - Industrial Internet Consortium (IIC): Focado em aplicações industriais.
+  - Objetivos:
+    - Desenvolver padrões comuns.
+    - Facilitar a colaboração entre empresas e setores.
+    - Promover a adoção de soluções IoT padronizadas.
+  
+ThingStore:
+  - Descrição: Plataforma de código aberto para desenvolvimento e distribuição de aplicações IoT.
+  - Funcionalidades:
+    - Catálogo de aplicações prontas para uso.
+    - Ferrmentas para desenvolvedores criarem e compartilharem suas próprias aplicações.
+  - Benefícios:
+    - Redução de tempo de desenvolvimento.
+    - Promove a interoperabilidade e a adoção em larga escala.
+
+Impacto da Padronização no desenvolvimento IoT:
+  - Benefícios da Padronização:
+    - Interoperabilidade: Facilita a comunicação entre dispositivos e sistemas de diferentes fabricantes.
+    - Adoção em Larga Escala: Reduz a fragmentação e incentiva a adoção de soluções IoT.
+    - Redução de Custos: Simplifica o desenvolvimento e implementação, reduzindo custos.
+  - Visão Futura:
+    - Consolidação de Padrões Globais
+    - Integração com teconologias emergentes (5G, AI, etc.)
+    - Aumento da Segurança e Privacidade em soluções IoT.
+

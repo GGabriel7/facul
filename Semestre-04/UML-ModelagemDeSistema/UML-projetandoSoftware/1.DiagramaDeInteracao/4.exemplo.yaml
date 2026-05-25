@@ -1,0 +1,8 @@
+A situação:
+  - Cada cliente só pode alugar um veículo de cada vez, e o aluguel só pode ser feito por um funcionário acessando o sistema.
+  - Um cliente pode consultar remotamente os veículos disponíveis, que são categorizados por tipo.
+  - O cliente pode prorrogar remotamente o aluguel, sem necessidade de intervenção de algum funcionário.
+  - A devolução do veículo também só pode ser feita por um funcionário acessando o sistema, e não precisa ser o mesmo funcionário que registrou o aluguel.
+  - Existem 3 tipos de veículos: luxo, normal e popular.
+  - Os veículos de um mesmo tipo têm preços e características similares.
+  - Quando a locadora adquire um veículo, um funcionário deve cadastrá-lo no sistema.

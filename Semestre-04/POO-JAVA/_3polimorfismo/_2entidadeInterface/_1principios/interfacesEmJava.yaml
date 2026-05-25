@@ -1,0 +1,27 @@
+Interface em Java:
+  - Em Java, uma interface é um tipo de referência que define um conjunto de métodos abstratos que uma classe pode implementar. Ela é usada para especificar um contrato que as classes devem seguir, permitindo a criação de código mais flexível e modular.
+
+  - Declaração de uma interface:
+    - Para declarar uma interface em Java, usamos a palavra-chave "interface". Por exemplo:
+        interface Animal {
+          void eat();
+          void sleep();
+        }
+        
+      - Neste exemplo, a interface "Animal" define dois métodos abstratos - "eat()" e "sleep()" (sem implementação). Qualquer classe que implementar essa interface deve fornecer uma implementação para esses métodos.
+
+  - Implementação de uma interface em uma subclasse:
+    - Para implementar uma interface em uma classe, usamos a palavra-chave "implements". Por exemplo:
+        class Dog implements Animal {
+          @Override
+          public void eat() {
+            System.out.println("O cachorro está comendo.");
+          }
+          
+          @Override
+          public void sleep() {
+            System.out.println("O cachorro está dormindo.");
+          }
+        }
+        
+      - Neste exemplo, a classe "Dog" implementa a interface "Animal" e fornece implementações para os métodos "eat()" e "sleep()". A anotação "@Override" é usada para indicar que esses métodos estão sendo sobrescritos da interface.

@@ -1,0 +1,14 @@
+Motivação: 
+  - Até chegar o resultado final de um sistema, muitas etapas tiveram que ser cumpridas.
+  - A saída de dados é uma das etapas mais importantes, pois é o que o usuário verá.
+  - O resultado não pode ser adulterado ou corrompido.
+
+Fundamentos:
+  - Usar criptografia para proteger os dados de saída.
+  - Validar entradas
+  - Limpar saídas
+  - Usar registros
+  - Realizar testes
+  - Use protocolos de comunicação seguros
+  - Limitar a saída para usuários autorizados
+  

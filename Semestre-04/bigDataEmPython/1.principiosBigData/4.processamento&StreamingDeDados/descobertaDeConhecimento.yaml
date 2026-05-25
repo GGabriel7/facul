@@ -1,0 +1,13 @@
+Descoberta de Conhecimento a partir de Fluxo de Dados:
+  - Os dados de uma organização podem vir de diversas fontes, como registros de vendas, sistemas de controle de estoque e interações com usuários. Esses dados são armazenados em um data warehouse e, então, processados em lotes por um sistema de análise de dados.
+
+Práticas onde exige velocidade:
+  - Prestação de serviços essenciais: Como fornecimento de água, energia elétrica e gás.
+  - Monitoramento: De saúde e prestação de socorro a vítimas.
+  - Operação de equipamentos: Como transportadores de carga em aviões e caminhões aplicados à mineração.
+  - Ajustes ad hoc: De eventos de divulgação de produtos e de prestação de serviços que tenham como objetivo aumentar o engajamento do público.
+
+Resultado de análise de dados:
+  - Identificar perfis: O que nos permite direcionar estratégias mais eficientes para aumentar o engajamento de clientes e oferecer serviços personalizados.
+  - Fazer estimativas sobre a demanda: De modo que possamos dimensionar os recursos que precisamos alocar para operar com segurança.
+  - Detectar falhas e atividades anormais nos sistemas: Para que possamos intervir rapidamente.

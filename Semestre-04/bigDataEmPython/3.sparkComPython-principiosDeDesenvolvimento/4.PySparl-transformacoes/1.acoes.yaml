@@ -1,0 +1,8 @@
+Ações: Uma ação no Spark retorna o resultado dos cálculos no RDD. Para realizar o processamento, uma ação utiliza o DAG para carregar os dados no RDD original, realizar todas as transformações intermediárias e retornar os resultados para o Driver Program ou gravá-los no sistema de arquivos.
+
+Exemplos:
+  - fisrt(): retorna o primeiro elemento no RDD.
+  - take(): retorna um vetor com os primeiros X elementos do conjunto de dados.
+  - reduce(): Faz a agração dos elementos de um conjunto de dados por meio de funções.
+  - collect(): Retorna os elementos do conjunto de dados como um valor.
+  - count(): retorna a quantidade de elemtnos no RDD.

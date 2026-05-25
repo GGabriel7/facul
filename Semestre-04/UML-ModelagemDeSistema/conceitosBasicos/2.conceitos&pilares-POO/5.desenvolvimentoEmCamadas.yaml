@@ -1,0 +1,7 @@
+Desenvolvimento de Sistema em Camadas:
+  O desenvolvimento de sistema em Camadas se tornou importante para termos um código organlizado e cada camada ser isolada uma da outra, trazendo testes, manutenção e melhor reuso do código separadamente.
+
+Exemplo de 3 Camadas:
+  1. Aplicação - Ex.: ASP .NET Web Forms
+  2. Camada de Negócio - Ex.: Clases C
+  3. Camada Acesso Dados - Ex.: SGBD/Store Procedutes

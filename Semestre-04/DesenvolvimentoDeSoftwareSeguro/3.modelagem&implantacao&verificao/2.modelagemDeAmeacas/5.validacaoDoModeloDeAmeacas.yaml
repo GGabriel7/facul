@@ -1,0 +1,11 @@
+Fases para a Modelagem de Ameaças:
+  -> Definir objetivos -> Diagramar Fluxos de Dados -> Identificar Ameaças -> Mitigar Ameaças -> Validar modelo de Ameaças ->
+
+Etapa 5 - Validar Modelo de Ameças:
+  Revisar o Moedelo de Ameaças: Para refletir com precisão os requisitos de segurança do sistema. Isso inclui revisar o fiagrama de fluxo de dados, as ameaças identificadas e as contramedidas desenvolvidas para lidar com essas ameaças.
+
+  Testar contramedidas: Garamtir que seka, eficazes no tratamento das ameaças. Testar o sistema em um ambienete controlado e simular difernetes cenários de ataques.
+
+  Resolver Problemas: Os problemas identificados durante a revisão e o teste são resolvidos, atualizando o modelo e as contramedidas. Isso pode envolver adição de novas contramedidas ou o austa das existnetes para lidar melhor com as ameaças.
+
+  Comunicar Resultados: Comunicar a todas as partes interessadas. Documentar o modelo ameça atualizado e fornecer treinamentos.

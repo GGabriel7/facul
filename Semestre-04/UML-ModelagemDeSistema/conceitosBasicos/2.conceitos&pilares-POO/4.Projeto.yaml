@@ -1,0 +1,13 @@
+Projeto (desenho) de sistemas orientado a objetos:
+- Voltado a atender aos requisitos identificado na fase de Análise
+- Como o sistema funcionará: Arquitetura. padrão de interface gráfica, ambiente computacional, linguagens de programação, gerenciamento de banco de dados...
+
+Projeto da Arquitetura:
+  - Distribuir classes em componetes e distribuir os componentes pelos recurso de Hardware
+  - Componetes, Pacotes e Implantação
+
+Projeto  Detalhado:
+  - Colaborações entre objetos
+  - Projeto de intarface e banco de dados
+  - Aspectos computacionais de alto nivel
+  - Classes, interações, interfaces, Banco de Dados, Padrões do sistema

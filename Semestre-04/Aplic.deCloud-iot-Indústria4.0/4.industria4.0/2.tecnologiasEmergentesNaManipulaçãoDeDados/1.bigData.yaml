@@ -1,0 +1,16 @@
+Big Data (pilar da industria 4.0):
+  - Definição: Conjunto de dados complexos e enormes quantidades que exigem novas formas de processamento para extrair valor. Necessitam de tecnologias avançadas e velozes para análise e interpretação.
+
+  - Características:
+    - Volume: Quantidade massiva de dados gerados diariamente.
+    - Velocidade: Necessidade de processamento em tempo real ou quase real.
+    - Variedade: Diversidade de tipos de dados (estruturados, semiestruturados, não estruturados).
+    - Veracidade: Qualidade e confiabilidade dos dados.
+    - Valor: Potencial para gerar insights valiosos e tomar decisões informadas.
+
+  - Tipos de análise:
+    - Análise Descritiva: Resumo dos dados para entender o que aconteceu.
+    - Análise Preditiva: Uso de modelos estatísticos e machine learning para prever o que pode acontecer.
+    - Análise Prescritiva: Sugestão de ações com base nos dados analisados.
+
+  - Desvantagem: Alto investimento, além de desafios relacionados à privacidade e segurança dos dados.

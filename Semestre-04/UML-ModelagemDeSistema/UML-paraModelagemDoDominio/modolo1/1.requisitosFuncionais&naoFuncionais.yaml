@@ -1,0 +1,27 @@
+Requisitos: 
+  - É o ponto de partidade para todo processo de Desenvolvimento.
+  - 3. Engenharia de Software: Desenvolver sistemas
+  - 2. Dinamica do funcionamento: Entender o problema de negocios
+  - 1. Necessidades atendidas pelo sistema: Requiisitos
+
+Níveis de requisitos:
+  Requisitos de Usuário: São os serviços que o sietema de fornecer e quais restrições obedecer.
+  Requisitos de Software: Detalhamento das funções, serviloes e restrições operacionais do sistema.
+
+Classificação Técnicas:
+  Requisitos Funcionais: 
+    - Quais serviços devem ser oferecidos pelo sistema
+    - Exige interação com usuário.
+    - Como reagir com determinadas entradas
+    - Como se comportar em determinadas situações
+    - Exemplo: pesquisas; IDs unicos...
+
+  Não-funcionais: 
+    - Quais restrições esse sistema deve obedecer
+    - Como os requisitos serão entregues
+    - Qualidades e Restrições
+    - Tipos: 
+      - Produto: usuabilidade, eficiencia, desempenho, confiança, proteção.
+      - Organizacionais: Ambientais, operacionais, processos
+      - Externos: reguladores, eticos, legais, contábeis...
+    - Exemplos: disponibilidade, sitema de login, segurança..

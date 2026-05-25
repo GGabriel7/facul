@@ -1,0 +1,17 @@
+Data lake:
+  - É um repositório centralizado onde é possível armazenar grandes volumes de dados. Cada plataforma oferece uma tecnologia de data lake. Agora, veremos algumas dessas plataformas -
+
+Amazon Web Services (AWS):
+  - Amazon S3: serviço de armazenamento de objetos que pode ser usado como um data lake. Ele oferece alta durabilidade, escalabilidade e segurança para armazenar grandes volumes de dados. Utilizado por muitas empresas para desenvolvimento de soluções de Big Data na nuvem.
+
+Microsoft Azure:
+  - Azure Data Lake Storage: serviço de armazenamento de dados otimizado para análise de Big Data. Ele é projetado para lidar com grandes volumes de dados e oferece recursos avançados de segurança e gerenciamento. Muitas empresas utilizam-o para armazenar e processar dados em suas soluções de Big Data na nuvem.
+
+Google Cloud Platform:
+  - Google Cloud Storage: projetado para trabalhar com exabytes de dados.
+
+IBM Cloud:
+  - Também oferece oferece alta durabilidade, escalabilidade e segurança para armazenar grandes volumes de dados. Além disso, a IBM possui, na sua plataforma Watson, ferramentas analíticas que podem se integrar totalmente aos dados armazenados nos serviços em nuvem da IBM.
+
+Oracle Cloud: 
+  - Oracle Cloud Infrastructure Object Storage: O seu serviço de nuvem inclui armazenamento flexível e escalável junto com os serviços de análise e processamento de dados. Sua plataforma possui fortes recursos de segurança, como criptografia em tempo real de todos os dados enviados para a plataforma.

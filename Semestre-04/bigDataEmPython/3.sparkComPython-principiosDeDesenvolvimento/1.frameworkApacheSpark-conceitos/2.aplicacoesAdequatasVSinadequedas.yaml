@@ -1,0 +1,13 @@
+Cenários que são ADEQUADOS para o uso do Spark:
+  - Integragão de dados (extrair, transformar e carregar os dados): Uma situação rotineira em que é necessário realizar um tratamento dos dados antes de incorporá-los às bases de dados da organização.Spark pode ser usado para reduzir o custo e o tempo necessário para esse processo ETL (Extract Transform Load-extrair, transformar e carrega)., já que é comum que os dados originais não sejam consistentes.
+
+  - Processamento de Fluxo: Dados em tempo real é um desafio, como analisar os arquivos de log de diversos usuários. O Spark pode fazer o processamento desses fluxos de dados e identificar potenciais operações fraudulentas.
+
+  - Aprendizado da máquina: Funcionam melhor quando treinados por grande volume e variedade de dados. O spark é capaz de armezenar dados na memória e executar consultas eficientemente.
+
+  - Análise interativa: Spark a capacidade de gerar respostas rapidamente. Portanto, em vez de escutar consultas predefinidas, podemos lidar com os dados de maneira interativa.
+
+Cenários que são INADEQUADAS para o uso do Spark:
+  - Gerenciamento de cluster: Fazer o ajuste e a manutenção do Spark é uma taefa complexa. Essa dificuldade tem um grande impacto para garantir o alto desempenho do Spark para tratar de grandes volumes de dados, que é uma situação.
+
+  - Ambiente com limitação dos recursos computacionais: A principal causa para o alto desempenho de processamento de Spark é a utilização intensa da memória do cluster. Então, se o cluster ou as máquinas virtuais tiverem pouca capacidade de computação, o Spark não será uma escolha adequada. Em vez dele, pode-se utilizar o Apache Hadoop, por exemplo.

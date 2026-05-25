@@ -1,0 +1,16 @@
+RaspberryPi:
+  - Computador de baixo custo do tamanho de um cartão de crédito, que pode se conectar a um monitor e usar teclado e mouse. Ele é capaz de navegar na web, editar documentos, jogos, programar e muito mais. Ele possui fins educacionais, mas também é usado por profissionais para projetos de automação, robótica e IoT.
+
+  - Intalação: 
+    - Baixe a imagem do sistema operacional Raspberry Pi OS do site oficial.
+    - Use um software de gravação de imagem, como o balenaEtcher, para gravar a imagem em um cartão microSD.
+    - Insira o cartão microSD no Raspberry Pi, conecte um monitor, teclado e mouse, e ligue o dispositivo.
+  
+  - Configuração:
+    - Siga as instruções na tela para configurar o sistema operacional, incluindo a configuração de rede, idioma e fuso horário.
+    - Atualize o sistema usando o terminal com os comandos:
+      - sudo apt update
+      - sudo apt upgrade
+    - Instale software adicional conforme necessário, como navegadores, editores de texto ou ferramentas de desenvolvimento.
+  
+  

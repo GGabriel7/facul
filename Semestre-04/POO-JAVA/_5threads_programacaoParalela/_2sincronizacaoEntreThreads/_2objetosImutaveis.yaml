@@ -1,0 +1,27 @@
+Objetos Imutáveis:
+  - Definição: São aqueles cujo estado não pode ser alterado após sua criação.
+  - Exemplo em Java:
+    # public final class Alunos {
+    #   // final indica que a classe não pode ser estendida, e os atributos não podem ser modificados     após a inicialização. Após a criação do objeto, seus valores não podem ser alterados.
+
+    #   private final String nome;
+    #   private final long CPF;
+    #   private final int matricula;
+
+    #   //Métodos
+    #   protected Aluno (String nome, long CPF, int matricula) {
+    #     this.nome = nome;
+    #     this.CPF = CPF;
+    #     this.matricula = matricula;
+    #   }
+
+    #   protected String getNome() {
+    #     return this.nome;
+    #   }    
+    #   protected long getCPF() {
+    #     return this.CPF;
+    #   }
+    #   protected int getMatricula() {
+    #     return this.matricula;
+    #   }    
+    # }

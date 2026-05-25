@@ -1,0 +1,10 @@
+- Podemos importar bibliotecas criadas por outras pessoas - pip para baixar.
+
+- pip: usado para baixar qualquer biblioteca de terceiros. Na maioria das vezes,  que basta é digitarmos no terminal ou prompt de comando, o comando “pip install < nome do módulo >”
+  Atenção: É importante registrar a lista de bibliotecas para serem utilizados em outros projetos projeto. utilize pip freeze > requirements.txt para registrar & pip install -r requirements.txt para utilizar em outro projeto
+
+- venv: Ambientes virtual para rodar programas. Se os comandos pip forem rodados enquanto o ambiente estiver de pé, então as bibliotecas não serão instaladas globalmente, mas sim restritas ao ambiente virtua
+  - digitar venv para ativar e deactivate para desativar
+  obs: também temos o pyenv e o pipenv que, além de criar o ambiente virtual, podem gerenciar versões diferentes de Python no mesmo computador, mas diferentemente do virtualenv (venv), o Pyenv e o pipenv não vêm instalados junto ao Python.
+
+- Jupyet Notebook: Um ambiente de scripts Python, muito útil para análise exploratória. pip install jupyter para instalar. Para abrir um servidor local de Jupyter Notebook, basta digitarmos no terminal “jupyter notebook” na pasta do projeto em questão e pronto, o servidor será levantado e automaticamente o browser abrirá na IDE do Jupyter Notebook. Então, você poderá criar notebooks, que são scripts em células de Python, muito utilizados para prototipação e análises exploratórias.

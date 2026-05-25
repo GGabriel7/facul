@@ -1,0 +1,13 @@
+A expressão "Cadeia de Suprimentos" é bastante utilizada em problemas de lógica:
+
+Cadeia de Suprimentos de Software:
+  - Muitas empresas são especializadas em fornecer componentes de software, bibliotecas e frameworks que outras empresas utilizam para construir seus produtos.
+  - O uso de componentes de terceiros pode acelerar o desenvolvimento (trazendo o foco no negócio da empresa em si), mas também introduz riscos de segurança.
+  - Exemplos de vulnerabilidades em componentes de terceiros incluem:
+      - Acesso a dados confidenciais por falhas de criptografia.
+      - Dados disponiveis na memória por falhas de limpeza.
+      - Sistemas "inocentes" que roubam dados do usuário.
+      - Heartbleed: falha na biblioteca OpenSSL que permitia a extração de dados sensíveis da memória do servidor.
+      - Spectre e Meltdown: vulnerabilidades em processadores que permitiam acesso não autorizado a dados na memória.
+      - Violação de dados da Equifax: exploração de uma vulnerabilidade em uma biblioteca de código aberto que resultou no vazamento de informações pessoais de milhões de pessoas.
+      - Spyware Pegasus: software espião que explorava vulnerabilidades em sistemas operacionais móveis para acessar dados pessoais.

@@ -1,0 +1,38 @@
+Controles de Acesso:
+===================
+
+Motivação:
+  - Qualquer pessoa não autorizada não deve ter acesso a dados sensíveis ou funcionalidades críticas do sistema.
+  - Mesmo um usuário autorizado deve ter acesso apenas ao que é necessário para suas funções.
+
+Criação de Perfis:
+  - Defina perfis de usuário com base nas funções e responsabilidades.
+  - Cada perfil deve ter permissões específicas associadas. Como: 
+    - Leitura
+    - Escrita
+    - Execução
+    - Administração
+
+Princípio do Menor Privilégio:
+  - Conceda aos usuários apenas as permissões necessárias para realizar suas tarefas.
+  - Revise regularmente as permissões para garantir que estejam atualizadas.
+
+Separação de Funções:
+  - Separe funções críticas para evitar que um único usuário tenha controle total.
+  - Implemente controles para garantir que ações sensíveis exijam múltiplas aprovações.
+
+Autenticação de 2 Fatores (2FA):
+  - Adote autenticação de dois fatores para aumentar a segurança do acesso.
+  - Combine algo que o usuário sabe (senha) com algo que ele possui (token, celular, e-mail).
+
+Senha Segura:
+  - Combinação de letras maiúsculas, minúsculas, números e caracteres especiais.
+  - Comprimentto mínimo e máximo.
+  - Políticas de expiração e renovação periódica.
+  - Bloqueio de conta após múltiplas tentativas falhas de login.
+  - Não permitir reutilização de senhas antigas.
+
+Auditoria e Monitoramento:
+  - Registre todas as tentativas de acesso, bem-sucedidas ou não.
+  - Monitore atividades suspeitas e gere alertas para acessos não autorizados.
+  - Realize auditorias regulares para revisar os logs de acesso.

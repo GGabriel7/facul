@@ -1,0 +1,11 @@
+Processamento paralelo com threads:
+  - Ele permite executar várias tarefas simultaneamente, aproveitando melhor os recursos do sistema. Thread é uma unidade independente de execução dentro de um programa. Usando threads, podemos dividir um programa em partes menores que rodam ao mesmo tempo, melhorando a eficiência e a velocidade.
+  - Processos: programas em execução, cada um com seu próprio espaço de memória e recursos, isolados uns dos outros.
+  - Threads: menores unidades de execução dentro de um processo, compartilham o mesmo espaço de memória e recursos.
+
+O conceito de threads em Java:
+  - Em Java, cada thread possui seu próprio fluxo de execução, compartilhando o mesmo espaço de memória do processo principal. Isso possibilita dividir um programa em partes menores que podem ser executadas em paralelo, aproveitando melhor os recursos do sistema. Toda thread possui uma prioridade e a maior prioridade têm preferência na execução, porém é importante notar que ter preferência não é ter controle total.
+
+  - Java: é uma linguagem de programação multithread, o que significa que Java suporta o conceito de threads. há dois tipos de threads - 
+  - - Deadmon: São threads de baixa prioridade, sempre executadas em segundo plano. Essas threads provêm serviços para as threads de usuário (user threads), e sua existência depende delas, pois se todas as threads de usuário finalizarem, a MVJ (máquina virtual Java) forçará o encerramento da daemon thread, mesmo que suas tarefas não tenham sido concluídas. 
+  - - User: São criadas pela aplicação e finalizadas por ela. A MVJ (maquina virtual java) não força sua finalização e aguardará que as threads completem suas tarefas. Esse tipo de thread executa em primeiro plano e possui prioridades mais altas que as daemon threads. Isso não permite ao usuário ter certeza de quando sua thread entrará em execução.

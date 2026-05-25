@@ -1,0 +1,8 @@
+Fases para a Modelagem de Ameaças:
+  -> Definir objetivos -> Diagramar fluxos de dados -> Identificar Ameaças -> Mitigar Ameaças -> Validar modelo de Ameaças ->
+
+Etapa 1 - Definir Objetivos:
+  - Identificar Metas do Sistema: Inclui a funcionalidade que o sistema deve fornecer, observando o que o sistema faz e para que e quem ele faz. Entender a finalidade do sistema e os objetivos de seus usuários, identificando possíveis riscos.
+  - Identificar ativos: Levantar os ativos da empresa que precisam de proteção.
+  - Identificar Ameaças Potencias: Levantar ameaças potencias (internas e externas) que podem prejudicar os ativos. 
+  - Entender a Conformidade Regulamentar: Identificar e entender regulamentos e padrões normativos para garantir que o sistema seja projetado e implementado de acordo com local e setor.

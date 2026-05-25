@@ -1,0 +1,9 @@
+Passos para COnstrução do Diagrama: 
+  - Escolher um caso de Uso e identificação das operações (pode haver o descritivo textual)
+  - Identificar os objetos que fazem parte da interação em cada operação.
+  - Identificar relacionamentos e conexões.
+  - Categorizar os objetos (MVC)
+  - Idenitificar is tupos de mensagens e a sequencia
+  - Insira rotulos para todos os artefatos
+  - De um nome significativo para o diagrama
+

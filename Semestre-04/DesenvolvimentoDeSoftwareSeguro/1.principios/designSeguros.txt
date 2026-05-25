@@ -1,0 +1,29 @@
+Motivação:
+  Por mais avançado que seja a tecnologia, o fator humano continua sendo o elo mais fraco na segurança de software. Desenvolvedores, usuários e administradores podem cometer erros que comprometem a segurança do sistema
+
+O que é um Design Seguro:
+  Design de software seguro refere-se à prática de criar sistemas que são robustos contra ameaças e vulnerabilidades desde o início do processo de desenvolvimento. Isso envolve a aplicação de princípios e padrões de segurança durante a fase de design para minimizar riscos e proteger dados sensíveis, sendo essencial investir em formação e treinamentos de segurança para desenvolvedores e equipes técnicas.
+
+Design de um software seguro:
+  Deve possuir mecanismos que permitam controlar todas as ações realizadas no sistema, garantindo que apenas usuários autorizados possam acessar ou modificar informações sensíveis. Além disso, deve ser capaz de detectar e responder a tentativas de ataque, como injeção de código, ataques de negação de serviço (DoS) e outras ameaças comuns.
+
+Privilégio Mínimo:
+  Cada componente do sistema deve ter apenas os privilégios necessários para realizar suas funções, reduzindo o impacto de possíveis falhas ou ataques.
+
+Defesas em Profundidade:
+  Implementar múltiplas camadas de segurança para proteger o sistema, de modo que se uma camada for comprometida, outras ainda possam oferecer proteção.
+
+Padrões à Prova de Falhas:
+  Projetar o sistema para lidar graciosamente com falhas, garantindo que uma falha em um componente não comprometa a segurança geral do sistema.
+
+Secutity by Design:
+  Integrar considerações de segurança desde o início do processo de desenvolvimento, em vez de adicioná-las posteriormente como um complemento.
+
+Economia de Mecanismo:
+  Evitar a complexidade desnecessária no design do sistema, pois sistemas mais simples são geralmente mais fáceis de proteger e manter.
+
+Design Aberto:
+  Adotar padrões abertos e bem documentados para facilitar a revisão e auditoria de segurança por terceiros.
+
+Tratamento de Erros:
+  Implementar mecanismos robustos para lidar com erros e exceções, garantindo que falhas não exponham vulnerabilidades ou dados sensíveis.

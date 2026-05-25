@@ -1,0 +1,3 @@
+Princípios da substituição de Liskov: 
+  - Quando uma classe derivada pode substituir o objeto da classe base sem dar prejuizos para o funcionamento do software, criando um subtipo. Para que uma subclasse comum seja um subtipo da superclasse, todas as propriedades da superclasse devem ser válidas na subclasse.
+  

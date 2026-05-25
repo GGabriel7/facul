@@ -1,0 +1,43 @@
+Classes Abstratas:
+  - São classes que não podem ser instanciadas diretamente, ou seja, não é possível criar objetos a partir delas, não podendo servir de base para outras subclasses.
+  - Elas podem ter atributos e metodos que que pddem ser herdados e estendidos por outras classes, mas não podem ser utilizadas para criar objetos diretamente.
+  - Exemplo prático: Uma classe abstrata "Animal" pode ter métodos como "fazerSom()" e "mover()", mas não faz sentido criar um objeto diretamente a partir da classe "Animal". Em vez disso, classes concretas como "Cachorro" e "Gato" podem herdar de "Animal" e implementar os métodos de maneira específica para cada tipo de animal.
+
+Exemplo de Classe Abstrata em Java:
+  // classe abstrata
+  abstract class Animal {
+      // metodos abstratos
+      public abstract void fazerSom();
+
+      // metodos concretos
+      public void dormir() {
+          System.out.println("Zzzz.");
+      }
+  }
+
+  // subclasses concretas que herda de Animal
+  class Cachorro extends Animal {
+      puvlic void fazerSom() {
+          System.out.println("Au au!");
+      }
+  }
+
+  class Gato extends Animal {
+      public void fazerSom() {
+          System.out.println("Miau!");
+      }
+  }
+
+  // classe principal para testar as classes abstratas
+  public class Main {
+      public static void main(String[] args) {
+          Animal cachorro = new Cachorro();
+          Animal gato = new Gato();
+
+          cachorro.fazerSom(); // Saída: Au au!
+          gato.fazerSom(); // Saída: Miau!
+
+          cachorro.dormir(); // Saída: Zzzz.
+          gato.dormir(); // Saída: Zzzz.
+      }
+  }

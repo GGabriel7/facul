@@ -1,0 +1,17 @@
+Cenário Pático:
+  - A exploração de uma vulnerabilidade é realizada na prática por meio de um exploit, caracterizado por um pedaço de código. Pode ser escrito em várias lingyuagens como Pythom, C, assembly... O exploit carrega uma parte do código conhecido como payload.
+
+Payload:
+  - Um payload (carga últil) se refere a um código malicioso que é inserido em um sistema vulnerável para executar uma determinada ação. 
+  - Quando o exloit é executado com sucesso, o payload é então inserido no sistema e eexecuta para realizar a ação maliciosa desejada.
+  - Um payload geralmente é usado em conjunto com uma técnica de injeção de código para permitirr que o atancate execute comandos no sistema comprometido.
+
+  - Exemplo de técnica de injeção de código: SQL INJECTION
+    - Técnica de explorção de vulnerabildiade, normalmente em aplicativos web, que consiste na inserção de um payload malicioso que realiza consutas na base de dados de uma aplicação, expondo dados sensíveis.
+
+Shelcoide:
+  - É um conjunto de instruções (comandos) e comandos criados para serem execultados assim que o código é injetado.
+  - Deve ser encarado com um tipo específico de payload que é projetado para executar um shell (iinterface de linha de comando) no sistema comprometido.
+  - É geralmente escrito em linguagem assembly e executado diretamente na memória do sistema comprometido.
+  - O objeto principal do shellcode é permitir que o invasor execute coandos no sistema comprometido, obtendo controle total sobre ele.
+  - Exemplo: Buffer Overflow

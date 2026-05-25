@@ -1,0 +1,36 @@
+Criptografia de dados:
+Descrição: A criptografia de dados é uma técnica essencial para proteger informações sensíveis contra acessos não autorizados. Ela envolve a transformação de dados legíveis em um formato codificado, que só pode ser decodificado por aqueles que possuem a chave correta. A implementação de criptografia eficaz é crucial para garantir a confidencialidade, integridade e autenticidade dos dados durante o armazenamento e a transmissão.
+======================
+
+Motivação:
+  Tanto um profissional de segurança quanto um desenvolvedor de software devem entender a importância da criptografia de dados para proteger informações sensíveis contra acessos não autorizados. A criptografia eficaz ajuda a garantir a confidencialidade, integridade e autenticidade dos dados, o que é crucial em um ambiente digital cada vez mais ameaçado por ataques cibernéticos.
+
+A criptografia:
+  - transformação de dados legíveis em um formato codificado
+  - Vários algoritmos de criptografia (simétrica e assimétrica)
+  - Uso de chaves para codificação e decodificação
+  - Garante a confidencialidade, integridade e autenticidade dos dados
+
+Algoritmos de criptografia:
+  - Simétrica:
+      - Usa a mesma chave para codificação e decodificação
+      - Exemplos: AES, DES
+  - Assimétrica:
+      - Usa um par de chaves (pública e privada)
+      - Exemplos: RSA, ECC
+
+  - Deve ter uma implementação segura
+  - Deve ter integração com outros sistemas de segurança
+  - Gerenciamento de certificados digitais
+  - Atualizações regulares para enfrentar novas ameaças
+
+  - hash:
+    - Função que transforma dados em um valor fixo
+    - Um código hash se parece com isso: "5d41402abc4b2a76b9719d911017c592"
+    - Usado para verificar a integridade dos dados
+    - Exemplos: SHA-256, MD5
+
+  - TLS/SSL:
+    - Protocolos para comunicação segura na internet
+    - Usam criptografia para proteger dados em trânsito
+    - Exemplos: HTTPS, FTPS

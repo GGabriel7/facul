@@ -1,0 +1,14 @@
+Data Lake (AWS cloud, azuere, google cloud, ...):
+  - O Data Lake é composto por camadas e níveis. As camadas agrupam as funcionalidades comuns. São elas: 
+    - Camada de governança: controlar o acesso aos dados, esta camada utiliza mecanismos de segurança para que apenas usuários acessem apenas as funções previamente mapeada para cada perfil.
+
+    - Camada de metdadados: marcar e identificar os dados com informações que auxiliem sobre a importância deles.
+
+    - Camada de ferenciamento do ciclo de vida da informação: Estabelece as regras de armazenamento dos dados e por quanto tempo devem permanecer no sistema até perderem o valor.
+
+  - Já os níveis são uma forma didática de agrupar aspectos semelhantes de uma funcionalidade. São eles:
+    - Nível de admissão/ingestão: possui todos os serviços para aquisição de dados de fontes externas. Esses dados podem vir em lotes (batch), microlotes (micro batch) e fluxos de dados em tempo real (real time streams)
+
+    - Nível de gerenciamento: organizar os dados por meio de aplicação de metadados e relacionamento que auxiliem na sua indetificação e localização.
+
+    - Nível de consumo: Os dados do nível anterior são consumidos por aplicaç~es relaionadas à análise de negócios.

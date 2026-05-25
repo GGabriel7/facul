@@ -1,0 +1,18 @@
+IOTPaaS: Plataforma como Serviço para internet das Coisas. Vamos ver exemplos de algumas middlewares para IoT.
+
+Thingspeak:
+  - tem como base a tecnologia de nuvem pública. Ela permite que seja feita a coleta de dados em tempo real e a transmissão de forma privada para a nuvem. Esses dados podem ser analisados por aplicações desenvolvidas em Matlab e Arduino, por exemplo, e, se necessário, uma ação pode ser tomada de acordo com o que for programado a partir da detecção de certos padrões de eventos.
+
+  - Principais caracteristicas:
+    - Recursos para fazer agragação. vizualização e analise de fluxos de dados em tempo real na nuvem.
+    - facilidade em configuração de dispostivos para usar protocolos IoT.
+    - visualização dos dados dos sensores em tempo real.
+    - Agragar dados sob demanda de fontes de terceiros.
+    - Integração com o MATLAB
+    - Aplicar o IoT analystics 
+    - prototipar e constuir sistemas IoT sem a necessidade de configurar servidore, ou desenvolver software web.
+
+  - Vantagens: Acesso à nuvem; API para armazemanto e analise de dados; suporte às operações matematicas
+  - Desvantagens: Pouco suporte para conexao simultanea de dispostivos.
+
+  

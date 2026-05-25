@@ -1,0 +1,11 @@
+
+Etapa 3 - Identificar Ameaças:
+  Identificar Agentes e ameaça ao sistema: Identificar quem ou o que pode ser uma ameaça ao sistema. hackers, malwares e funcionários sem treinamento adequado ou mal intensionado.
+
+  Identificar Vetores de Ameaça: Como um agente de ameaça pode obter acesso ao sistema e seus componentes. Idenitificar possíveis pontos de entrada, como pela rede, interface do usuário ou componentes de terceiros.
+
+  Idenitificar Ações de Ameaça: Idenitificar as ações que um agente de ameaça pode executar depois de obter acesso ao sistema. Roubo de dados, modificação do sistema ou lançamento de ataques de negação de serviço.
+
+  Categorizar Ameaças: Após identiifcar todas as possíveis ameaças, necessário cateroriza-las com base em sua gravidade e probabilidade de ocorrência.
+
+  Documentar Ameaças: Documentar junto com seu impactor potencial no sistema.

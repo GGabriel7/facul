@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nome": "Ana",
+        "idade": 23,
+        "cidade": "Fortaleza",
+        "salario": 2500
+    },
+    {
+        "id": 2,
+        "nome": "Bruno",
+        "idade": 35,
+        "cidade": "São Paulo",
+        "salario": 4000
+    },
+    {
+        "id": 3,
+        "nome": "Carlos",
+        "idade": 29,
+        "cidade": "Rio de Janeiro",
+        "salario": 3200
+    },
+    {
+        "id": 4,
+        "nome": "Daniela",
+        "idade": 41,
+        "cidade": "Recife",
+        "salario": 5000
+    },
+    {
+        "id": 5,
+        "nome": "Eduardo",
+        "idade": 30,
+        "cidade": "Salvador",
+        "salario": 2800
+    }
+]

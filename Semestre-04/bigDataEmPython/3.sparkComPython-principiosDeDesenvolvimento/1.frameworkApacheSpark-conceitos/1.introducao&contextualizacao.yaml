@@ -1,0 +1,15 @@
+Contexto:
+  - Com a evolução da Big Data, o Hadoop foi criado e, posteriormente, foi criado o SPARK.
+
+Spark:
+  - É um framework de código aberto de computação distribuída para uso geral, usado para aplicações de Big Data. O Spark é muito mais eficiente do que o Hadoop para gerenciar e processar tarefas devido à utilização de cache de memória e algoritmo de processamento otimizado. Ele fornece APIs de desenvolvimento para as linguagens de programação Python, Java, Scala e R. Além disso, o Spark fornece recursos para o desenvolvimento de aplicações de aprendizado de máquina, SQL, análise gráfica e bibliotecas de streaming.
+
+  - Grande objetivo: Trabalar com grande volumes de dados em tempo real.
+
+  - MapReduce: Essa tecnologia de computação em cluster é baseada no modelo MapReduce do Hadoop.
+
+  - Objetivos:
+    - Velocidade: Produz um alto desempenho para processamento de dados em lote e em fluxo (streaming).
+    - Fácil usar: Além de oferecer APIs para programação em Java, Scala, Python, R e SQL, o Spark também disponibiliza componentes de aplicação como Hive, Pig, Sqoop, HBase.
+    - Bibliotecas com diversas fidelidades: incluem SQL, funcionalidades para aprendizado de máquina, algoritmos de grafos e Spark Streaming.
+    - Custo: O Spark é um framework de código aberto, portanto, sua licença é gratuita, assim como é o caso do Hadoop.

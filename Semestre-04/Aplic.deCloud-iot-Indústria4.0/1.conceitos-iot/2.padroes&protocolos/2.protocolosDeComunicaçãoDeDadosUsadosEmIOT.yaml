@@ -1,0 +1,28 @@
+Formas de Comunicação em IoT:
+  Comunicação Direta:
+    - Dispositivos se comunicam diretamente entre si, sem a necessidade de um intermediário.
+    - Exemplo: Bluetooth, Zigbee (Zigbee é um protocolo de comunicação sem fio baseado em IEEE 802.15.4, projetado para aplicações de baixo consumo de energia e curta distância, como automação residencial e controle de iluminação.
+  
+  Comunicação via Gateway:
+    - Dispositivos se comunicam através de um gateway, que atua como intermediário para transmitir dados entre os dispositivos e a rede.
+    - Exemplo: LoRaWAN, Sigfox (Sigfox é uma tecnologia de comunicação sem fio de baixa potência e longo alcance, que exigem transmissão de dados esporádica e de baixo volume, como monitoramento ambiental e rastreamento de ativos.
+
+  Comunicação com a Nuvem:
+    - Dispositivos se comunicam diretamente com a nuvem para enviar dados e receber comandos.
+    - Exemplo: MQTT, HTTP.
+
+Protocolo HTTP/HTTPS:
+  - Protocolo amplamente usado para comunicação WEB.
+  - Caracteristicas: Baseado em requisições e respostas, onde os dispositivos IoT podem enviar dados para servidores ou receber comandos. HTTPS adiciona uma camada de segurança usando SSL/TLS.
+  - Vatangem: Ideal para aplicações que requerem interações humana.
+  - Desvatagem: Não é ideal para dispostivos com recursos limitados.
+
+Protocolo MQTT:
+  - Protocolo leve de mensagens, projetado para comunicação máquina a máquina (M2M).
+  - Caracteristicas: Baseado em um modelo de publicação/assinatura, onde os dispositivos publicam mensagens em tópicos e outros dispositivos se inscrevem nesses tópicos para receber as mensagens. Baixo consumo de energia e banda larga
+  - Vantagem: Suporta comunicação em tempo real e escalabilidade.
+  - Desvantagem: Requer um broker (intermediário) MQTT para gerenciar as mensagens.
+
+Escolhendo o Protocolo:
+  - HTTP/HTTPS: Adequado para aplicações WEB que exigem interação humana
+  - MQTT: Ideal para dispositivos com recursos limitados e comunicação em tempo real.

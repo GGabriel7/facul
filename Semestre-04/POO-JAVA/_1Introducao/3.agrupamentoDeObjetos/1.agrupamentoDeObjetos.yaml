@@ -1,0 +1,3 @@
+Fundamentos do Agrupamento de Objetos:
+  No agrupamento, buscamso construir uma função tal que, a partir de um universo de objetos de entrada, tenha como saída 'n' pares ordenados formados pela chave de particionamento e a lista de objetos agrupamento - 
+    F(U) = {[k1, <lista agrupada>], [k2. <lista agrupada>], ..., [kn, <lista agrupada>]}

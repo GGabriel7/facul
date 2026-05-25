@@ -1,0 +1,7 @@
+Simução:
+  - Definição: Processo de criar um modelo computacional de um sistema real ou hipotético para estudar seu comportamento e tomar decisões informadas. A simulação é usada para analisar sistemas complexos, prever resultados e otimizar processos.
+
+  - Tipos de Simulação:
+    - Simulação Discreta: Modela sistemas onde eventos ocorrem em momentos específicos no tempo, como filas de espera ou processos de manufatura.
+    - Simulação Contínua: Modela sistemas onde as mudanças ocorrem continuamente ao longo do tempo, como o fluxo de fluidos ou o crescimento populacional.
+    - Simulação Estocástica: Incorpora elementos de aleatoriedade e incerteza, permitindo a modelagem de sistemas onde os resultados são influenciados por variáveis imprevisíveis.

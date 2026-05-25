@@ -1,0 +1,19 @@
+Java Colection Framework:
+  - Framework que oferece uma interface padrão que facilita o reuso de código e oferece estrturas de dados e algoritimos. Ela traz mecanismos para trabalhar com as principais estruturas de dados, como lista, árvores, conjuntos... Sua finalidade é armazenar, manipular e comunicar dados agregados
+
+Métodos disponíveis: 
+  - add(): Insere um elemento na coleção.
+  - addAll(): Adiciona os elementos de uma coleção em outra.
+  - clear(): Limpa ou remove os elementos de uma coleção
+  - contains(): Verifica se um dado elemento está presente na coleção
+  - contaisAll(): Verifica se todos os elemtnos de uma coleção estão presentes em outra.
+  - equals(): Verifica se dois objetos são iguais.
+  - hashCode(): Retorna o hash de uma coleção.
+  - isEmpty(): Retorna verdadeiro se a coleção estiver vazia.
+  - Iterator(): Retorna um iterador.
+  - remove(): Remove um determinado elemento da coleção.
+  - removeAll(): remove todos os elementos da coleção.
+  - retainAll(): Remove todos os elementos de uma coleção, execeto o que for colocado nos paramentros
+  - size(): Retorna o numero de elementos da coleção.
+  - toArray(): Retorna os elementos de uma coleção em um vetor
+  - Objetct[]toArray(): Retorna um vetor que contem todos os elemetnos de coleção que o invoca

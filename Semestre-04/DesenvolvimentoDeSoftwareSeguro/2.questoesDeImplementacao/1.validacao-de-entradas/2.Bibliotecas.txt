@@ -1,0 +1,41 @@
+Motivação:
+  - É muito difícil mapear todos os tipos de entrada de um usuário no sistema
+  - É um grande desvio de foco para desenvolvedores se preocupar excessivamente com verificação e validação de entradas
+  - Bibliotecas de validação de entradas ajudam a reduzir o esforço necessário para validar entradas
+
+Bibliotecas de validação de entrada:
+  - Disponiveis nativamente em linguagens de programação (ex: Java, Python, JavaScript)
+  - Diversas funções bem documentadas
+  - Fornecem mecanismos para validar tipos de dados, formatos e tamanhos
+
+Exemplos:
+  OSWAP ESAPI de Segurança:
+    - Biblioteca de segurança de código aberto
+    - Fornece funções para validação de entradas, codificação e criptografia
+    - Suporta várias linguagens de programação
+  
+  InputSanitizer (Python):
+    - Biblioteca Python para validação e sanitização de entradas
+    - Permite definir regras de validação personalizadas
+    - Suporta tipos de dados comuns, como strings, números e listas
+
+  Apache Commons Validator (Java):
+    - Biblioteca Java para validação de entradas
+    - Fornece validação de formatos comuns, como e-mails, URLs e números de telefone
+    - Permite a criação de regras de validação personalizadas
+
+  Django Forms (Python):
+    - Parte do framework Django
+    - Fornece mecanismos para validação de formulários web
+    - Suporta validação de tipos de dados, tamanhos e formatos
+
+  Laravel Validation (PHP):
+    - Parte do framework Laravel
+    - Fornece uma variedade de regras de validação para entradas de formulários
+    - Permite a criação de regras de validação personalizadas
+
+Considerações:
+  - Escolher bibliotecas bem mantidas e amplamente utilizadas
+  - Verificar a compatibilidade com a linguagem e o framework utilizados
+  - Testar as regras de validação para garantir que atendam aos requisitos de segurança e funcionalidade
+  - Manter as bibliotecas atualizadas para evitar vulnerabilidades conhecidas

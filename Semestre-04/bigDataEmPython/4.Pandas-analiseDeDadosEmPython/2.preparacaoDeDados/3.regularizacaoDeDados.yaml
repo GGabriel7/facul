@@ -1,0 +1,5 @@
+Os dados coletados, além de poderem ter sido corrompidos ou simplesmente estar faltando, podem estar com ruídos, ou pelo menos com pontos fora da curva, os chamados outliers. Por exemplo, na série [1,1,2,3,4,5,6,100,7,8,9,50], podemos dizer que 50 e 100 são outliers, uma vez que são muito distantes do restante. Técnicas de regularizar:
+
+  - Remoção:  remover os dados destoantes do conjunto, assim limpando o sistema.
+
+  - Regularizar: colocar seus atributos em escala; assim, o conjunto não sofrerá tanto com um ponto fora da curva, bem como se adaptará a novos valores que venham a ser incorporados. Dentre as opções de regularização, temos o método min max, que seria pegar um dado e comparar com o maior valor e o menor valor da escala e adicionar ele no local correto.

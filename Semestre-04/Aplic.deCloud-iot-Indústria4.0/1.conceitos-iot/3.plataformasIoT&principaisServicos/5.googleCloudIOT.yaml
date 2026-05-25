@@ -1,0 +1,26 @@
+Visão Geral:
+  - Plataforma Google para conectar e gerenciar dispositivos IoT.
+  - Google cloud IoT Core foi lançado em 2017 e descontinuado em 2023.
+  - Oferecia gerenciamento de dispositivos, ingestão de dados e integração com outros serviços do Google Cloud.
+
+Arquitetura:
+  Componentes Prinicipais:
+    - Cloud IoT Core: Conexão segura e gerenciamento de dispositivos.
+    - Cloud Pub/Sub: Ingestão e processamento de dados em tempo real.
+    - BigQuery: Análise de dados em larga escala.
+    - Cloud Dataflow: Processamento de fluxos de dados.
+    - Cloud Machine Learning Engine: Treinamento e implantação de modelos de aprendizado de máquina.
+  Funcionalidades:
+    Integrção de dispostiviso, coleta de dados, análise em tempo real e segurança robusta.
+
+Motivos da Descontinuação:
+  - Baixa adoção e competição acirrada no mercado de IoT.
+  - Foco do Google em outras áreas estratégicas, como inteligência artificial e computação em nuvem.
+  - Dificuldades em manter a plataforma atualizada e competitiva.
+
+Alternativas ao Google Cloud IoT Core:
+  - AWS IoT Core: Plataforma de IoT da Amazon Web Services.
+  - Microsoft Azure IoT Hub: Solução de IoT da Microsoft.
+  - IBM Watson IoT Platform: Plataforma de IoT da IBM.
+  - Oracle IoT Cloud: Solução de IoT da Oracle.
+  - Plataformas de código aberto como Eclipse IoT e ThingsBoard.

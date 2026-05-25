@@ -1,0 +1,3 @@
+Auditoria de Software: Processo de analise de codigo (no formato fonte ou binario) para descobrir vulnerabilaidede que possam ser explorados por invasores. Com esse processo de analise sendo feito por time amigo é possível identificar e fechar brechas de segurança que, de outra forma, colocariam dados confidenciais e recursos de negocios em risco desnecessários. 
+
+Teste de Caixa Preta: Método de avaliação de um sistema de software manipulando apenas suas interfaces expostas. Normalmente, esse processo envolve a geração de entradas especialmente criadas que provavelmente farão com que o aplicativo execute algum comportamento inesperado, como falha ou exposição de dados confidencias.

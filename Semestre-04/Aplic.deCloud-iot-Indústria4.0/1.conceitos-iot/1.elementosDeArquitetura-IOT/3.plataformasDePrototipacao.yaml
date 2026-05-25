@@ -1,0 +1,19 @@
+1. Arduino:
+  - Descrição: Plataforma de hardware e software aberto para prototipagem eletrônica.
+  - Características: Microcontroladores simples de programar; Grande comunidade; Muitas bibliotecas disponíveis.
+  - Aplicações: Projetos educacionais (robótica), protótipos IoT.
+
+2. Rasberry Pi:
+  Descrição: Computador de placa única com capacidade de rodar sistemas operacionais completos.
+  Características: mMis potente do que Microcontroladores (arduino); Suporta Wi-Fi, Bluetooth e GPIO;
+  Aplicações: Projetos IoT mais complexos, como servidores locais ou gateways.
+
+3. Intel Edison:
+  - Descrição: Plataforma de computação compacta e poderosa e IoT, desenvolvida pela Intel.
+  - Características: Processador de baixo consumo (Intel Atom); Suporte para Wi-Fi e Bluetooth; Compatível com Arduino; Suporte a sistemas operacionais como Linux e Yocto.
+  - Aplicações: Wearebles (IoT vestível, como smartwatches), projetos avançados, soluções industriais.
+
+4. ESP8266:
+  - Descrição: Microcontrolador com Wi-Fi integrado de baixo custo e fácil integração para projetos IoT.
+  - Características: Microcontrolador integrado com suporte Wi-Fi; Programável usando a IDE do Arduino; Custo acesivel e facil de programar
+  - Aplicações: Dispositivos IoT simples, como sensores remotos, automação residencial.

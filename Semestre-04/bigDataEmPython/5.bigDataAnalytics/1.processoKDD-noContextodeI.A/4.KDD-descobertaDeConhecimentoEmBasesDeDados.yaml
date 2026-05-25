@@ -1,0 +1,22 @@
+Mineração de dados:
+  - Dado: valor que isoladamente não significa muita coisa.
+  - Informação: é o dado processado, ou seja, o dado ao qual é feita uma atribuição e tem um contexto.
+  - Sistema de Informação:  uma coleção de partes que recebe dados como insumo, processa-os por meio de dinâmicas internas das partes e devolve informação relevante ao usuário final.
+  - Mineração de Dados: é um sistema de informação para Descoberta de Conhecimento em Bases de Dados, como o KDD, do inglês Knowledge Discovery in Databases.
+
+  - KDD: 
+    - um processo que tem uma definição similar à de sistema, ou seja, um conjunto de eventos ou partes, na maioria das vezes subsequentes, que recebem um insumo e devolvem um resultado processado dele.
+    
+    - 1° Etapa - COLETA DE DADOS: Capturados dados de uma organização para a resulução de um problema. Aqui, temos Big Data, uma massa de dados que traz muita informação relevante (e irrelevantes).
+
+    - 2° Etapa - SELEÇÃO:  Separar informações relevantes das irrelevantes. Aqui escolhemos quais características dessa grande massa de dados devemos considerar, com base na sua relevância para o negócio.
+
+    - 3° Etapa - PRÉ-PROCESSAMENTO: Limpeza nos dados, remoção de dados faltantes e corrmpidos, incorporação de dados de outra base etc. Normalmente, é a fase mais longa, um cientista de dados passe 70% do seu tempo de trabalho.
+
+    - 4° Etapa- TRANSFORMAÇÃO: O cientista regulariza a escala dos dados, reduz a dimensionalidade do conjunto e aplica outras técnicas de seleção de atributos automática. necessário para obter o conjunto de dados mais consistente e regular.
+
+    - 5° Etapa - MINERAÇÃO DE DADOS OU DESCOBERTA DE PADRÕES: o conjunto de dados é passado para um algoritmo de aprendizado de máquina, como o KDD. Aqui se estuda uma grande parte do conjunto e mede seus conhecimentos em outra parte.
+
+    - 6° Etapa - AVALIAÇÃO E APRESENTAÇÃO DE RESULTADOS: vamos entender quais padrões o modelo do algoritmo escolhido conseguiu aprender e com qual confiança ele o fez, ou seja, vamos avaliar se o modelo é confiável e de fato aprendeu, ou apenas decorou, ou simplesmente não aprendeu nada. Fazemos isso por meio das métricas e visualizações, em que as métricas mostram o comportamento do modelo e as visualizações nos permitem ver o impacto mais concreto para o negócio.
+
+    - No final: Obetemos um padrão descoberto a partir de dados que provêm informações, resultando em conhecimento, que poderá ser utilizado por outros sistemas para resolver problemas, tornando-se, assim, sabedoria.

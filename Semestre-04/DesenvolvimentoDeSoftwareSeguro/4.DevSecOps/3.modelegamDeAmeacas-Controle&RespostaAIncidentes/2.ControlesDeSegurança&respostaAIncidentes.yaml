@@ -1,0 +1,27 @@
+Controles de seguranças: 
+  - São medidas que devem ser implementadas para mitigar riscos e proteger sistemas contra possíveis ameaças e vulnerabilidades.
+
+  - Principais controles de segurança:
+    - ISO/IEC 27001:2013: Trata do tema de sistema de gestão de segurança da informação.
+    - ISO/IEC 27002/2022: Trata do tema segurança da informação, cibersegurança e proteção de privacidade - Controles de segurança da informação.
+    - ISO/IEC 27005/2018: Trata do tema gestão de risco de segurança da informação.
+    - ISO/IEC 27017/2015: Trata do tema código de prática para segurança da informação em nuvem.
+
+  - Exemplos de controles de Segurana:
+    - Controle de acesso: autenticação, autorização e criptografia para militar o acesso ao sistema e seus dados.
+    - Monitoramento: Armazenamento de log para analisar e detectar eventos suspeitos.
+    - Backups e recuperação: para garantir disponibildiade e integridade.
+    - Controle de segurança: firewall e mecanismos de detecção de intrusos na rede, proteção contra malwares e ameaças externas.
+
+Planejamento de resposta a incidentes: 
+  - Plano de ação para tratar incidentes de segurança, caso ocorram. Tem como objetivo minimizar os danos causados pelo incidente, restaurar o pleno funcionamento dos sistemas afetados o mais rápido possível, além de investigar a causa raiz que permitiu que o incidente ocorresse, identificando solução e melhorias nos processos afetados para garantir que o incidente não ocorra novamente no futuro.
+
+  - Principais normas:
+    - ISSO/IEC 279035: Information Technology - Security Techniques - Information Security Incident Management
+    - NIST SP 800-61r2: Computer Security Incident Handling Guide
+    - SANS Institute: Incident handling Step-by-Step Guide
+
+  - Exemplo de técnicas:
+    - Notificação e comunicação: notificar e comunicar quando ocorrer um incidente
+    - Identificação e isolamento: Identificar os sistemas afetados e isola-los para outros sistemas não serem afetados.
+    - Recuperação de desastres: Restaurar as operações normais com a coleta, análise e preservação de evidências do incidentes para ações de prevenção futura.

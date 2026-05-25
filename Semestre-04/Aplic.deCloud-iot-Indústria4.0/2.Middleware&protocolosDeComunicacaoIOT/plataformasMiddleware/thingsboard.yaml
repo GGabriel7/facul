@@ -1,0 +1,8 @@
+IOTPaaS: Plataforma como Serviço para internet das Coisas. Vamos ver exemplos de algumas middlewares para IoT.
+
+Thingsboard:
+  plataforma de IoT de código aberto para coleta, processamento de dados, visualização e gerenciamento de dispositivos.
+
+  - Ela oferece suporte de conexão a protocolos IoT, como MQTT, CoAP, HTTP.
+
+  

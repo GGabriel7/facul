@@ -1,0 +1,3 @@
+A fim de lidarmos com os dados de forma elegante, deve ser criada uma pasta no nível da raiz do projeto, para armazenamento dos arquivos; por convenção, podemos chamá-la de assets (ativos). Tal pasta pode ainda ser subdividida por categorização preestabelecida dos ativos de dados. Essa subdivisão é muito comum em projetos de FrontEnd (projetos de interface gráfica, principalmente de websites), em que os desenvolvedores guardam ícones e outros dados estáticos.
+
+Os ativos de dados podem ser usados para servir de base de dados temporária ou de testes/experimentação de certos sistemas, ou também como recursos que alimentam bibliotecas importadas, por exemplo, licenças de software.

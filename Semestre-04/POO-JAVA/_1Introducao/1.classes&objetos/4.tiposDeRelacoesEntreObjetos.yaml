@@ -1,0 +1,6 @@
+Tipos de Relações entre Objetos:
+  - Associação: Refere-se a objetos que usam serviços ou funcionalidades de outros objetos. Exemplo - Um objeto "Carro" pode usar um objeto "Motor" para funcionar.
+
+  - Agregação: Ocorre entre dois ou mais objetos. com cada um tendo seu próprio ciclo de vid, mas com o objeto pai contendo os demais filhos. Exemplo - Um objeto "Departamento" pode conter vários objetos "Funcionário", mas cada funcionário pode existir independentemente do departamento.
+
+  - Composição: Ocorre quando há uma relação de dependência entre os filhos e o objeto pai. Caso o pai deixe de existir, necessariamente o filho será destruído. Exemplo - Um objeto "Casa" pode conter um objeto "Quarto". Se a casa for destruída, o quarto também será destruído.

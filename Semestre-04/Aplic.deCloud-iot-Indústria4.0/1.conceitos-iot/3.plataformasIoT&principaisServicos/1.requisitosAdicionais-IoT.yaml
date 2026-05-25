@@ -1,0 +1,29 @@
+Requisitos de Negócios:
+  Definição: Requisitos alinhados aos objetivos estratégicos e operacionais da empresa.
+  Exemplos: Redução de custos operacionais, aumento da eficiência, melhoria da experiência do cliente.
+  Importância: Garante que o sistema IoT atenda às necessidades de negócios.
+
+Requisitos de Sistema e Desempenho:
+  Definição: Requisitos relacionados à infraestrutura e ao desempenho do sistema IoT.
+  Exemplos: Escalabilidade, confiabilidade, tempo de resposta, capacidade de processamento.
+  Importância: Garantem que o sistema funcione de forma eficiente e suporte a carga de trabalho.
+
+Requisitos Funcionais:
+  Definição: Requisitos que descrevem as funcionalidades específicas do sistema IoT.
+  Exemplos: Coleta de dados, comunicação entre dispostivos, automação de processos.
+  Importância: Especificam o que o sistema deve fazer para atender às necessidades dos usuários.
+
+Requisitos Não Funcionais:
+  Definição: Requisitos relacionados a aspectos como segurança, privacidade, usabilidade e manutenção.
+  Exemplos: Criptografia de dados, autenticação de usuários, interface amigável, facilidade de manutenção.
+  Importância: Garantem que o sistema seja seguro, fácil de usar e sustentável a longo prazo.
+
+Gerencioamento de Dados IoT:
+  Definição: Requisitos relacionados à coleta, armazenamento, processamento e análise de dados gerados pelos dispositivos IoT.
+  Exemplos: Armazenamento em nuvem, volume de dados, velocidade de processamento, privacidade, integridade.
+  Importância: Essenciais devido ao grande volume e complexidade dos dados gerados pelos dispositivos IoT.
+
+Requisitos Adicionais:
+  Definição: Requisitos específicos que podem variar dependendo do contexto e das necessidades do projeto IoT.
+  Exemplos: Integração com sistemas legados, conformidade regulatória, suporte a múltiplos protocolos de comunicação.
+  Importância: Garantem que o sistema IoT seja adaptável e atenda a requisitos específicos do projeto.

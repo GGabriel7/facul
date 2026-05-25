@@ -1,0 +1,11 @@
+Plataformas IoT:
+  - Quando trabalhamos com um sistema de IoT, precisamos de plataformas de desenvolvimento que nos ofereçam recursos de software e hardware que nos auxiliem a trabalhar com a interoperabilidade e a conectividade dos dispositivos à rede. 
+
+Arduino:
+  Ele oferece um ecossistema de hardware, linguagem de programação, bibliotecas e dispositivos que nos ajudam a desenvolver projetos que podem ter diversas aplicações. Uma das principais características do Arduino é que todas as suas placas e seu software são de código aberto.
+
+NodeMCU:
+  Ele é uma plataforma de desenvolvimento baseada no microcontrolador ESP8266, que é um chip Wi-Fi de baixo custo. O NodeMCU é conhecido por sua facilidade de uso e por ser compatível com a linguagem de programação Lua, além de suportar a programação em C/C++ através do ambiente de desenvolvimento do Arduino.
+
+Raspberry Pi:
+  É uma plataforma de computação de placa única. Seu propósito inicial foi a aplicação no ensino de ciência da computação, evoluindo para funções mais amplas. Possui uma interface de baixo nível de controle auto-operado por portas de entrada-saída, chamado GPIO (General Purpose Input-Output), e usa o Linux como seu sistema operacional padrão.

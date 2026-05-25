@@ -1,0 +1,13 @@
+IOTPaaS: Plataforma como Serviço para internet das Coisas. Vamos ver exemplos de algumas middlewares para IoT.
+
+Xively (plataforma da Google):
+  - Plataforma para implantação de aplicações de IOT na nuvem, permitindo empresas conectar e gerenciar produtos na rede e, assim, transmitir e analisar dados produzidos em outros sistemas. Trata-se de uma infraestrutura de coleta, gerenciamento e distribuição de dados, com uma interface web. Ela fornece ferramentas para demodelar a conexão entre as diversas partes de um negócio.
+
+  - Dispositivo Xively: Dispositivo, ou projeto IoT que será conectado na rede, para que funicine como um envelope contendo os dados.
+  - Canais: É o fluxo de dados relacionados aos sensores. Normalmente, o número do canal é igual ao número do sensor.
+
+  - Vantagens:
+    - Suporte direto do Google
+    - Fácil integração com dispostivos usando API RESTful.
+  - Desvantagens:
+    - Pouco suporte para notificações.

@@ -1,0 +1,19 @@
+Polimorfismo:
+  - O que é Polimorfismo:
+      - Definição: Capacidade de um objeto assumir muitas formas.
+      - Importância: Permite que objetos de diferentes classes sejam tratados como objetos de uma classe comum.
+
+  - Tipos de Polimorfismo:
+      - Polimorfismo de Sobrecarga: Várias formas de um método com o mesmo nome, mas parâmetros diferentes.
+      - Polimorfismo de Inclusão: Subclasses podem ser tratadas como instâncias da superclasse.
+
+  - Benefícios do Polimorfismo:
+      - Flexibilidade: Permite a criação de código mais flexível e reutilizável.
+      - Manutenção: Facilita a manutenção do código, pois mudanças em uma classe não afetam outras classes que a utilizam.
+  
+  - Em java:
+      - Exemplo de Polimorfismo de Inclusão:
+          - Classe Animal: Método fazerSom()
+          - Classe Cachorro extends Animal: Sobrescreve fazerSom() para latir.
+          - Classe Gato extends Animal: Sobrescreve fazerSom() para miar.
+          - Uso: Animal animal = new Cachorro(); animal.fazerSom(); // Saída - "Latido"

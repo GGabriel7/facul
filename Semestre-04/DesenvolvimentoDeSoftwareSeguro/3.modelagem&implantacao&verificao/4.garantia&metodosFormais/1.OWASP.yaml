@@ -1,0 +1,10 @@
+OWASP - Open Wordwide Application Security Project: Fundação sem fins lucrativos que trabalham para melhorar a segurança de software. Promovem projetos de software de código aberto, desenvolvendo lideraças locais, promovem conferências educacionais.
+
+Modelo da contrução de segurança para o software:
+  1. Requisitos de Segurança: Identificar os requisitos de segurança e identificar possíveis riscos e ameaças.
+  2. Modelo de Ameaças: Idenitificar e documentar possíveis ameaças e vulnarabildiades. Usuários mal intecionados ou sem conhecimento, rede insegura ou vulrabildiades.
+  3. Design Seguro: Aplicativo é revisado eos recursos de segurança são adicionados. Controle de acesso, validação de entrada e criptografia.
+  4. Implantações: Sistema é desenvolvido usando práticas de codificações seguras. Diretrizes de codificação segura, para que o sistema esteja apto a passar nos testes de segurança.
+  5. Verificação: É testada a vulnerabildiade do sistema usando várias técnicas de teste, como teste de penetração (PENTEST) e varredura de vulnerabilidae.
+  6. Lançamento do Sistema: Liberado para produção e garantir segurança.
+  7. Pós-lançamento: Sistema é monitorado. Avaliaçções regulares, resposta a incidentes de segurança e atualização do aplicativo com correções e correções de segurança

@@ -1,0 +1,20 @@
+Visões de Casos de Uso:
+  - Interações: sistemas e usuários
+  - Funcionalidades: acões que o usuário poderão realizar no sistema
+  - Diagramas de casos de uso
+
+Visões de Projeto ou Lógica:
+  - Estrura e relacionamento: Maneira em que as classes, intarfaces, onjetos... irão estar estruturados e relaconados
+
+Visões de processos:
+  - Representação visual dos processos, fluxos de dados, interações entre componetes e a lógica do negócio
+
+Visões de Implementação ou Desenvolvimento:
+  - Traduzir o design do sistema em código executável
+  - Como o sistema será construindo e implemtado
+
+Visões de Implementação oui Física:
+  - Infraestutura física na qual o sistema será implantado e executado
+  - Recursos de hardware e softaware para hospedar o sistema
+  - Topologia de rede
+  - Representação visital da Infraestutura

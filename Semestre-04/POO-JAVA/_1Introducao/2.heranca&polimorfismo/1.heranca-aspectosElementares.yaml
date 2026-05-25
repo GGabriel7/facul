@@ -1,0 +1,15 @@
+Elementos Básicos da Herença:
+  - Generalização de comportamentos: A herança permite que uma classe (chamada de classe filha ou subclasse) herde atributos e métodos de outra classe (chamada de classe pai ou superclasse). Isso promove a reutilização de código e a criação de hierarquias de classes.
+  - Supoerclasses e classes herdeiras: A classe pai (superclasse) define os atributos e métodos comuns, enquanto as classes filhas (subclasses) podem adicionar seus próprios atributos e métodos ou sobrescrever os métodos da superclasse para fornecer uma implementação específica.
+  - Manutenção simplificada: Mudanças feitas na superclasse são automaticamente refletidas em todas as subclasses, o que facilita a manutenção do código.
+
+Como tratar mais de uma Superclasse:
+  - O Java não oferece suporte para herença múltipla de classes, ou seja, uma classe não pode herdar diretamente de mais de uma classe. No entanto, é possível alcançar um comportamento semelhante usando interfaces. Uma classe pode implementar várias interfaces, permitindo que ela herde comportamentos de múltiplas fontes.
+  - Essa herença múltipla via interfaces é uma maneira de contornar a limitação da herança simples, permitindo que uma classe tenha múltiplas "superclasses" em termos de comportamento, sem os problemas associados à herança múltipla tradicional, como ambiguidade de métodos.
+
+Como gazer herança de Interfaces em Java:
+  ´´´java:
+    public intarface InterfaceA {
+        extends InterfaceB, InterfaceC {
+            // Métodos da InterfaceA
+        }

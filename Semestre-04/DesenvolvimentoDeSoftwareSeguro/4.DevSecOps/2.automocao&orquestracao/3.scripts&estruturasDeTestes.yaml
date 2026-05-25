@@ -1,0 +1,18 @@
+- Scripts: São arquivos que possuem uma sequência de comandos e instruções que podem ser interpretados e executados por um programa ou sistema operacional. Esses comandos e instruções são escritos em uma linguagem de script, que é uma linguagem de programação projetada para ser facilmente legível por humanos e executável por computadores. Os scripts são usados para automatizar tarefas e processos repetitivos em sistemas de computador, como instalação de software, configuração do sistema, gerenciamento de arquivos e pastas, entre outros. 
+
+  - No contexto de DevSecOps, os scripts são comumente usados para realizar testes de segurança automatizados e para integrar as ferramentas de segurança ao pipeline de entrega contínua.
+
+- Estrutura de testes: São conjuntos de ferramentas, bibliotecas e convenções que fornecem uma estrutura padronizada para criar e executar testes automatizados de software. As estruturas de teste fornecem um ambiente consistente para testes, permitindo que desenvolvedores e testadores criem e executem testes de maneira mais simples e rápida.
+
+  Estruturas de teste disponíveis para diferentes linguagens de programação e tecnologias:
+    - JUnit para Java
+    - NUnit para .NET
+    - PyTest para Python
+    - Jasmine para JavaScript
+
+  Tipos de estruturas de testes:
+    - Testes de unidade: Verificam se cada componete do software está funcionando corretamtne de forma isolada.
+    - Testes de aceitação: Validam se o software atende aos requisitos do usuário e se funcinona bem.
+    - Testes de performace: Medem o desempenho em relação a tempos de resposata, uso de recuros, capacidade de carga...
+    - Testes de segurança: Verificam possiveis vulnerabilidades, como falhas de autenticação, injeção de código, cross-site cscripting...
+    - Testes de conformidade: avaliam se o sistema está e conformidade com a lei, como a Lei Geral de Proteção de Dados (LGPD), PCI-DSS, HIPAA, entre outros.

@@ -1,0 +1,21 @@
+Teste e Revisão do Código de Validação de Entradas:
+
+Motivação:
+  - Nem todo código precisa ser um processo creativo, muitas vezes é necessário apenas seguir boas práticas e padrões estabelecidos.
+  - A definião dos requisitos e o planejamento adequado são essenciais para garantir que o código atenda às necessidades do sistema.
+
+Teste e Revisão:
+  - TODO código deve ser testado e revisado para garantir sua qualidade e segurança, manualmente e com ferramentas automatizadas.
+  - O teste deve ter várias etapas, incluindo testes unitários, de integração e de sistema.
+  - A revisão do código deve ser feita por outras pessoas para identificar possíveis falhas e melhorias.
+
+Etapas:
+  - Verificar a qualidade das regras de validação implementadas.
+  - Testar entradas inválidas para garantir que sejam corretamente rejeitadas.
+  - Testar entradas válidas para garantir que sejam corretamente aceitas.
+  - Teste de estresse: submeter o sistema a um grande volume de entradas para verificar sua robustez.
+  - Use técnicas de fuzzing: enviar entradas aleatórias ou malformadas para identificar vulnerabilidades.
+  - Revisar o código para garantir que siga as melhores práticas de segurança e codificação.
+  - Usar bibliotecas e frameworks confiáveis para validação de entradas, evitando a reinvenção da roda.
+  - Documentar os testes realizados e os resultados obtidos para futuras referências.
+

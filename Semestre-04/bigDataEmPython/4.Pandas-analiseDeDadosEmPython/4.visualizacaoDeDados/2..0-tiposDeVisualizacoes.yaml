@@ -1,0 +1,7 @@
+Tipos de Vizualização: Para cada tipo de dado, temos visualizações mais adequadas ou que ressaltam melhor o significado por trás do conjunto de dados.
+
+Visualização de dados numéricos: usualmente queremos que sejam demonstradas suas proporções, distribuições e correlações. Exemplos - Graficos de histograma e dispersão
+
+Visualização de dados categóricos: Queremos mostrar as categorias e suas proporções, ou colorir outros gráficos. Gráfico de Histograma e pizza
+
+Vizualização de dados temporais: Uma solução natural é representarmos tais dados a partir do gráfico de linhas.

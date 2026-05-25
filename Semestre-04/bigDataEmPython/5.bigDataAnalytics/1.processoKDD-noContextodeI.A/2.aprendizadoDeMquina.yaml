@@ -1,0 +1,13 @@
+Aprendizado de Máquina: 
+  - forma como implementamos os processos cognitivos que a inteligência artificial tenta simular, pois assim como nós temos diferentes processos cognitivos para determinadas tarefas do dia a dia, a IA também tem para a resolução de classes de problemas similares.
+
+  - Métodos de Aprendizado de Máquina:
+    - Supervisionado: O modelo aprende a partir de exemplos positivos e negativos pré-rotulados, para que a máquina possa mapear o padrão de entrada e saída esperado.
+    - Não supervisionado: É o aprendizado autodidata dos modelos. Ao invpes de o modelo ter um conjundo pré-mapeado, é apresentado a ele um conjunto sem marcações prévias. Assim, por meio de análises de critérios de similaridade, encontra por si só rótulos e padrões automaticamente.
+    - Semissupervisionado: Uma parte dos dados é rotulada previamento e outra é não rotulada. A maioria do conjunto é não rotulada, e o modelo de aprendizado de máquina tenta, a partir do subconjunto menor, generalizar padrões para o conjunto maior ainda não rotulado.
+    - Por esforço: É o aprendizado com o ambiente. A máquina aprende políticas de ações com base em interações com o a,biente no qual ele é implementado, a partir de recomenpensas ou punições, dependendo de cada ação.
+
+  - Técnicas de Aprendizado de Máquina mais Populares:
+    - Classificação: Técnica do aprendizado de máquina supervisionado. Faz com que o modelo consiga entender como caregorizar observações do conjunto de dados com base em registros históricos, bem como suas caracteristicas.
+    - Regressão: Contraparte numérica da classificação categórica. Também é uma técnica de aprendizado supervisionado, em que o modelo aprende o mapeamento de entrada e saída para inferir um valor numérico ao invés de uma classe categórica.
+    - Agrupamento: Técnica de aprendizado não supervisionado. De forma autodidata aprende a separar as observaçõess seguindo critérios de similaridade predefinidos, com o intuito de formar frutos de observações similares.

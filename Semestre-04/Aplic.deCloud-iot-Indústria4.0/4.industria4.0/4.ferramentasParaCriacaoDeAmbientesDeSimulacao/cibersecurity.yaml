@@ -1,0 +1,18 @@
+CiberSecurity:
+  - Definição: É a prática de proteger sistemas, redes e programas contra ataque digitais. A cibersegurança é importante para proteger informações sensíveis, garantir a privacidade e manter a integridade dos sistemas.
+
+  - Importância: Com o aumento da dependência de tecnologia, a cibersegurança tornou-se crucial para proteger dados pessoais, financeiros e empresariais contra ameaças cibernéticas, como hackers, malware e phishing.
+
+  - Vunerabilidades: Podem incluir falhas do sistema, erros humanos, software desatualizado, falta de treinamento, senhas fracas, entre outros.
+
+  - Medidas de Cibersegurança:
+    - Firewall: Sistema de segurança de rede.
+    - Antivírus: Software para detectar e remover malware.
+    - Criptografia: Técnica de codificação de dados para protegê-los.
+    - Autenticação de Dois Fatores: Requer dois métodos de verificação para acessar uma conta.
+    - Backups Regulares: Cópias de segurança para recuperar dados em caso de perda.
+    - Atualizações de Software: Manter sistemas e aplicativos atualizados para corrigir vulnerabilidades.
+    - Treinamento de Funcionários: Educar os funcionários sobre práticas de segurança cibernética.
+    - Monitoramento de Rede: Acompanhar o tráfego de rede para detectar atividades suspeitas.
+    - Políticas de Segurança: Estabelecer diretrizes e procedimentos para proteger os ativos de informação.
+    - Resposta a Incidentes: Ter um plano para lidar com violações de segurança e ataques cibernéticos.

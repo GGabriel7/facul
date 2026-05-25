@@ -1,0 +1,24 @@
+Limitação e Capacidade do Sistema:
+  - Definição: Requisitos não funcionais que determinam o que o sistema pode ou não fazer, ou seja, são requistitos que não envolve funcionalidades específicas, mas sim características do sistema.
+  - Exemplos: Disponibilidade, confibilidade, recuperação de desastres, segurança, desempenho, escalabilidade, usabilidade, portabilidade...
+  - Importância: Grantir que o sistema atenda às expectativas dos usuários e funcione de maneira eficiente e segura. Eles ajudam a definir as restrições e as capacidades do sistema, garantindo que ele seja confiável, seguro e fácil de usar.
+
+Disponibilidade:
+  - Definição: Requisito que determina o tempo em que o sistema deve estar disponível para uso.
+  - Exemplos: 99,9% de disponibilidade, redundância de servidores, backup de dados, monitoramento de falhas...
+  - Importância: Evitar interrupções e garantir que os usuários possam acessar o sistema quando necessário.
+
+Confiabilidade:
+  - Definição: Requisito que determina a capacidade do sistema de funcionar corretamente e sem falhas.
+  - Exemplos: Testes de software, monitoramento de erros, manutenção preventiva...
+  - Importância: Garantir que o sistema funcione de maneira consistente e confiável, evitando falhas e erros que possam afetar a experiência do usuário.
+
+Recuperação de Desastres:
+  - Definição: Requisito que determina a capacidade do sistema de se recuperar de desastres, como falhas de hardware, ataques cibernéticos ou desastres naturais;
+  - Exemplos: Backup de Dados, planos de contingência, Sistema de restauração...
+  - Importância: Garantir que o sistema possa se recuperar rapidamente de desastres, minimizando o impacto para os usuários e garantindo a continuidade dos negócios;
+
+Segurança e Proteção de Dados:
+  - Definição: Proteger os dados dos usuários e garantir a segurança do sistema contra ameaças cibernéticas.
+  - Exemplos: Criptografia, autenticação de usuários, firewalls, monitoramento de segurança...
+  - Importância: Garantir que os dados dos usuários estejam protegidos contra acesso não autorizado e que o sistema seja seguro contra ameaças cibernéticas.

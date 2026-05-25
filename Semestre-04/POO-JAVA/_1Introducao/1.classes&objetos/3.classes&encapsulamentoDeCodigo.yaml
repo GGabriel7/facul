@@ -1,0 +1,6 @@
+Encapsulamento POO:
+  - Definição: Consiste em ocultar os detalhes internos de uma classe e expor apenas o necessário para o uso externo. Ele permite que os dados e os métodos de uma classe sejam protegidos contra acesso direto, garantindo a integridade e a segurança dos dados.
+  - No Java, exite 3 modificadores de acesso para controlar o encapsulamento:
+    - public: O membro é acessível de qualquer lugar.
+    - private: O membro é acessível apenas dentro da própria classe.
+    - protected: O membro é acessível dentro do mesmo pacote e por subclasses.

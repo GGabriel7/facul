@@ -1,0 +1,27 @@
+Java Database Connectivity - JDBC:
+  - Definição: É uma API (Application Programming Interface) que permite a conexão e interação com bancos de dados relacionais usando a linguagem de programação Java. Com o banco criado na idle, podemos codificar o front-end em Java, utilizando os componentes do middleware JDBC, os quais são disponibilizados com a importação do pacote java.sql.
+
+
+  - Drivers JDBC:
+    - JDBC-ODBC Bridge: Faz a conexão por meio do Open Database Connectivity (ODBC). O ODBC é uma especificação para uma API de banco de dados. Essa API é independente de qualquer SGBD ou sistema operacional e linguagem. A API ODBC baseia-se nas especificações da CLI do Open Group e do ISO/IEC. ODBC 3. x implementa totalmente essas duas especificações.
+    
+    - JDBC-Native API: Utiliza o cliente do banco de dados para a conexão.
+    
+    - JDBC-Net: Acessa servidores de middleware via Sockets, em uma arquitetura de três camadas.
+    
+    - Pure Java: Com a implementação completa em Java, não precisa de cliente instalado. Também chamado de Thin Driver.
+
+  - Exemplo de utilização: 
+    # Class.forName("org.apache.derby.jdbc.ClientDriver"); // Carrega o driver JDBC do Apache Derby. Em oython seria como import sqlite3, mas em Java é necessário carregar o driver explicitamente.
+
+    # Connection c1 = DriverManager.getConnection(
+    #   "jdbc:derby://localhost:1527/escola",
+    # "escola", "escola"); // Estabelece a conexão com o banco de dados. O URL especifica o tipo de banco (derby), o host (localhost), a porta (1527) e o nome do banco (escola). O segundo e terceiro parâmetros são o nome de usuário e a senha para acessar o banco. Em Python, isso seria equivalente a criar uma conexão usando sqlite3.connect('escola.db').
+
+    # Statement st = c1.createStatement(); // Cria um objeto Statement para executar comandos SQL. Em Python, isso seria equivalente a criar um cursor usando cursor = conn.cursor().
+
+    # st.executeUpdate(
+    #   "INSERT INTO ALUNO VALUES('E2018.5004','DENIS',2018)"); // Executa um comando SQL para inserir um novo registro na tabela ALUNO. O comando SQL é passado como uma string para o método executeUpdate. Em Python, isso seria equivalente a executar uma consulta SQL usando cursor.execute("INSERT INTO ALUNO VALUES('E2018.5004','DENIS',2018)").
+
+    # st.close(); // Fecha o objeto Statement para liberar recursos. Em Python, isso seria equivalente a fechar o cursor usando cursor.close().
+    # c1.close();  // Fecha a conexão com o banco de dados para liberar recursos. Em Python, isso seria equivalente a fechar a conexão usando conn.close().

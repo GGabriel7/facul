@@ -1,0 +1,11 @@
+Formas de Uso:
+  - Criação de esboços
+  - Transforma a ideia em uma represetação do sistema
+  - Com ferramentas CASE, pode ser pego o diagrama e transoformar em programação
+
+Idependetente de Linguagem e processo: Ela é uma ferramenta para criação de digramas
+
+Em cascata: 
+Interativo: sistema divido em subconjuntos de funcionalidades e as atividade de analise, projeto, implemtanção, teste e implantação são realizada a cada subconjunto
+Agil: Modelagem em menor escala para focar na comunicação entre usuário e desenvolvedores. Pouca funcionalidade.
+RUP (Rational Unified Process): Estrutura de processo para processos interativos. Gerencia projetos completos dividindo o ciclo de vida em 4 fases - concepção, elaboração, construção e incremental.

@@ -1,0 +1,31 @@
+Arquitetura de Sistemas IoT:
+  Dispositivos: Sencores, atuadores, dispositivos de borda, etc - Servem para a coleta de dados.
+  Conectividade: Wi-Fi, Bluetooth, Zigbee, etc - Permite a comunicação entre os dispositivos e a nuvem.
+  Processamento: nuvem, edge computing, etc - Responsável por processar os dados coletados.
+  Aplicação: apps, dashboards, softwares - Interface do usuário
+
+Tipos e Funções:
+  - Tipos de Dispositivos: Sensores (temperatura, umidade, movimento), Atuadores (luzes, motores), Dispositivos de Borda (gateways, roteadores).
+  - Funções: Coleta de dados, Processamento de dados, Comunicação, Interface do usuário.
+  
+Hardware (Componetes Essenciais):
+  - Componetes Prinicipais: Microcontroladores (ESP32, Arduino); Módulos de Comunicação (Wi-FI, Bluetootj, LoRa); Fontes de Energia (baterias, energia solar)
+
+  - Imporância: Base física para operação dos sistemas IoT
+
+Sensores (Coleta de Dados no IoT):
+  - Tipos de Sensores: temperatura, umidade, pressão, movimento, luz, etc.
+  - Funciionamento: Convertem fenômenos físicos em sinais elétricos para coleta de dados.
+  - Exemplos de Aplicação:
+    - Agricultura: Sensores de umidade do solo para monitoramento de irrigação.
+    - Saúde: Sensores de frequência cardíaca para monitoramento de pacientes.
+    - Cidades Inteligentes: Sensores de qualidade do ar para monitoramento ambiental.
+    - Industria: Sensores de vibração para monitoramento de máquinas.
+
+Placas Comerciais (Plataformas de Desenvolvimento):
+  - Placas Populares:
+    - Arduino: ideal para prototipagem
+    - Raspberry: Potência para Projetos Complexos.
+    - ESP32: Conectividade Wi-Fi e Bluetooth integrada.
+    
+  - Vantagens: Facilidade de uso, comunidade ativa, suporte a diversos sensores e atuadores.

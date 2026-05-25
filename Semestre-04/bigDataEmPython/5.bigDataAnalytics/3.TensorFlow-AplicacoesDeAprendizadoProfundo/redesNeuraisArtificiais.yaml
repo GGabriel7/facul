@@ -1,0 +1,8 @@
+Redes Neurais Artificias:
+  - Processamento de dados com aimulavação de um neurônio. Tem entradas e saídas por onde os estímulos/dados passavam, e uma função de ativação que levava entradas a um domínio desejado (segundo o conjunto de dados). 
+
+  - Um dos primeiros modelos foi o perceptron, criado por Frank Rosenblatt pra se uma I.A subsimbólica (o aprendizado é feito direto dos dados ou da experiência).
+
+  - Redes neurais convolucionais: muito utilizadas em processamento de imagens. Sua arquitetura é composta de camadas de entrada, de saída e camadas escondidas ou ocultas, diferenciadas dos demais tipos por contarem com filtros (normalmente matrizes que “deslizam” sobre a entrada de dados). A maior vantagem desse tipo de rede neural é sua maior autonomia, por exemplo, a rede não precisa ter filtros preestabelecidos pelo cientista de dados, uma vez que ela consegue apreender o melhor núcleo de filtragem
+
+  - Redes reurais recorrentes: usadas em problemas sequenciais ou temporais. Tendo a estrutura de um grafo direcionado com ciclos, essa rede é capaz de recorrentemente fazer laço(s) sobre as entradas, permitindo a compreensão de sequenciamento dos dados.

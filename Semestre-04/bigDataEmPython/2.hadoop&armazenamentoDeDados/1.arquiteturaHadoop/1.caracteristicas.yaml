@@ -1,0 +1,26 @@
+Hadoop:
+  - É uma tecnologia de framework de software livre desevolvida pela Apache Foudation, usada no armazenamento e o processamento de dados de grandes volumes, ou seja, em Big Data. Além da distribuição livre do Apache, o hadoop possui outras distribuições que suas soluções baseadas no Hadoop Apache, como:
+    - Cloudera;
+    - Hortworks;
+    - MapR;
+    - IBM;
+    - Microsoft Azure;
+    - AWS Elasti MapReduce Hadoop Distribuition. 
+
+  - Cluster:
+    - A tecnologia Haddop possui um sistema de cluster que funciona basicamente como uma arquitetura mestre-escravo. Essa estrutura permite armazenar e processar grandes volumes de dados em paralelo. É um único nó do tipo mestre (master) com vários nós escravos (slave).
+    - Nó mestre possui:
+      - rastreador de trabalho (job tracker)
+      - rastreador de tarefas (task tracker)
+      - Name Node
+      - Data Node.
+    
+    - Nós escravos posseum:
+      - DataNode e TaskNode:
+    
+    
+  - A arquitetura: 
+    - MapReduce (modelo de programação parela)
+    - HDFS (sistema de arquivos distribuídos do Hadoop)
+    - YARN (Yet Another Resource Negociator)
+    - Hadoop Common (Utilitários Comuns do Hadoop)

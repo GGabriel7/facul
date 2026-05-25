@@ -1,0 +1,35 @@
+Big Data:
+  - Grande volume de dados que não pode ser processado por métodos tradicionais, necessitando de aplicação de métodos estatísticos e outras análises para extrair informações úteis em um tempo aceitável.
+
+Arquitetura básica de Big Data:
+  - Fontes de dados (data sources): Além das fontes de dados tradicionais, os sistemas de Big Data também podem coletar dados da nuvem e são produzidos por sistemas de IoT, sendo que, em muitos casos, esse processo ocorrem em tempo real. Trata-se de processo de aquisição de dados.
+
+  - Armazenamento de dados (data storage): Os dados precisam ser armazenados de forma eficiente para otimizar o seu acesso e segurança. Pode ser feito de diversas maneiras na nuvem ou em banco de ddos estruturados ou não estruturados que tenham - Escalabilidade; Disponibilidade; Segurança; Padronização...
+
+  - Processamento em lote (batch processing): É o processo de armazenar od dados em lotes, para, então, fazer o seu processamento. Isso é feito para lidar com grandes volumes de dados, não sendo viável faer o processamentos dos dados em fluxos contínuos.
+
+  - Ingestão de mensagens (message ingestion): Agrupar os dados e trazê-los para um sistema de processamento de dados, onde ser armazenados, analisados e acessados.
+
+  - Processamento de fluxo (stream processing): O processamento de fluxo é o processo de analisar os dados em tempo real, à medida que eles são gerados. Isso é útil para casos em que a velocidade dos dados é crítica, como em sistemas de monitoramento ou detecção de fraudes. As aplicações desses dados são chamadas de bussiness intelligence (BI) - inteligência de negócios.
+
+  - Análise e relatórios (analysis and reporting): O processo de análise e relatórios é o processo de extrair informações úteis dos dados, para, então, gerar relatórios e visualizações que possam ser usados para tomar decisões informadas. Isso pode incluir a aplicação de técnicas de aprendizado de máquina, mineração de dados e outras análises avançadas.
+    Predefinidos: são relatórios prontos para uso que podem ser entregues de forma recorrente a um grupo de usuários finais.
+    painéis (dashboards): presentam uma visão abrangente do desempenho dos negócios. Ele é composto por indicadores de desempenho, conhecidos, principalmente, pela sigla KPI (key performance indicator) que ajudam a medir a eficiência de um processo.
+    Alertas: emitir notificações sempre que determinada condição previamente estabelecida ocorra.
+
+KPI (key performance indicator):
+  - Indicadores de desempenho que ajudam a medir a eficiência de um processo. Eles são usados para avaliar o sucesso de uma organização ou de um projeto específico, fornecendo informações sobre o desempenho em relação a metas e objetivos estabelecidos. 3 tipos;
+  - Estratégicos: Oferecem uma visão geral do negócio e são utilizados pela presidência e diretoria de uma empresa, como faturamento bruto de uma empresa.
+  - Táticos: São um detalhamento dos KPI estratégiciso e têm como público-alvo a gerência da empresa, como o faturamento das vendas de um determindo produto.
+  - Operacionais: Ajudam no acompanhamento detalhado de uma atividade da empresa. Podemos citar o KPI MTBS (mean time between stopages - tempo médio entre falhas) que é usados para medir o tempo médio que um equipamento está disponível para uso até que ele pare para manutenção.
+
+Os 5 Vs do Big Data:
+  - Volume: Refere-se à quantidade de dados gerados e armazenados. O Big Data lida com grandes volumes de dados, que podem ser estruturados, semiestruturados ou não estruturados.
+
+  - Velocidade: Refere-se à rapidez com que os dados são gerados, processados e analisados. O Big Data exige a capacidade de lidar com fluxos contínuos de dados em tempo real.
+
+  - Variedade: Refere-se à diversidade de tipos de dados que são gerados e armazenados. O Big Data lida com uma ampla variedade de dados, incluindo texto, imagens, vídeos, dados de sensores e muito mais.
+
+  - Veracidade: Refere-se à qualidade e confiabilidade dos dados. O Big Data pode conter dados imprecisos, incompletos ou inconsistentes, o que pode afetar a precisão das análises e decisões baseadas nesses dados.
+
+  - Valor: Refere-se ao valor que pode ser extraído dos dados. O Big Data tem o potencial de fornecer insights valiosos e oportunidades de negócios, mas é necessário ter as ferramentas e habilidades adequadas para extrair esse valor.

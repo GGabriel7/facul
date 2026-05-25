@@ -1,0 +1,30 @@
+Validação de Entrada de um Software Seguro:
+==============================================================
+Motivação:
+  - É a porta de entrada de um sistema, onde dados externos são recebidos.
+  - O usuário precisa ser guiado para fornecer dados corretos e seguros.
+  - O que acontece quando se trata de usuário invasores tentando explorar vulnerabilidades?
+
+Gundamento da Validação de Entrada:
+  - Login/senha
+  - Testes adicionais: formato, tamanho, tipo de dados
+  - Biometria
+  - Excesso de Complexidade: Evitar regras excessivamente complexas que podem confundir os usuários.
+  - Evitar excesso indevido
+  - Recaptcha: Implementar mecanismos como reCAPTCHA para distinguir entre usuários humanos e bots.
+  - Feedback claro: Fornecer mensagens de erro claras e específicas para ajudar os usuários a corrigir suas entradas.
+  - Validação no lado do cliente e do servidor: Implementar validação tanto no cliente (navegador) quanto no servidor para garantir a integridade dos dados.
+  - Sanitização de dados: Remover ou codificar caracteres especiais para prevenir ataques de injeção.
+  - Listas de permissões: Utilizar listas de permissões para aceitar apenas entradas que correspondam a critérios específicos.
+  - Monitoramento e logging: Registrar tentativas de entrada inválidas para detectar padrões suspeitos
+
+Verificação e Validação:
+  Requisitos: O sistema deve validar entradas de acordo com as regras definidas. 
+  Verificação: Testes unitários e de integração para garantir que a validação funcione corretamente.
+  Validação: Testes de penetração para identificar possíveis vulnerabilidades na validação de entrada.
+
+Vulnerabilidades na Entrada de Dados:
+  - Possibilidades: Injeção de SQL, Cross-Site Scripting (XSS), Buffer Overflow
+  - Execução de códigos maliciosos
+  - Exposição de dados sensíveis
+  - Crimes

@@ -1,0 +1,21 @@
+Microsoft Security Development Lifecyce - MicrosoftSDL: 16 práticas.
+
+Práticas:
+  - Fornecer Treinamento: treinamento contínuo sobre segurança cobernética para todos os envolvidos.
+  - Definir Requisito de Segurança:
+    - Square (Security Quality Requirementes Engineering), que é um processo de 9 etapas para a criar seguranças nos estágios inciais do clico de produção.
+    - Framework KAOS (Keep ALl Objectives Satisfied), baseada em objetos baseada em anntimodelos.
+    - Secure i* estrutura para modelagem e análise de compensações de segurança e alinha os requistos de segurança com outros.
+  - Definir Métricas e Relatórios de Conformidade: 
+  - Executar Modelagem de Ameaças: Aplicar um modelo próprio da Microsft chamada de STRIDE. Modelo conceito para ajudar a identificar e entender as difernete categorias de ameaças durante o processo de desenvolvimento de software.
+    STRIDE:
+      Spoofing: atacante se passando por entidade
+      Tampering: atacante modifica, corrompe ou manipula algo do sistema 
+      Repudiation: Atacacnte nega ou repudia ações realizada, como transações ou interações
+      Information Disciosure: informações confidenciais expostas indevidamente
+      Denial of Service: atacante interrope o serviço de um sistema, tornando-o inacessivel ou inoperante
+      Elevation of Privilege: Atacante obtem privelefios ou acessos não autorizados a recursos e informações
+
+  - Estabelecer requisitos de projeto: cumprimento dos principios de segurança atemporais, ou seja, conceitos praticamente imutaveis - simplicidade, controle de acesso baseado em permissão. priveligio minimo; defesa em profundidad; segurança não baseadana obscuridade e sim em restrições.
+
+  - Outras práticas: padroes de criptografia; gerenciamento de riscos; ferramentas homologados; teste estáticos de codigo (SAST - Static analysus Securitu TEsting); teste dinamicos (SAST - Dynamic analysus Securitu TEsting); Pentest (teste de penetração); resposta a incidentes

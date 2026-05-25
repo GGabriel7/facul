@@ -1,0 +1,13 @@
+HDFS (Sistema de arquivos distribuídos Hadoop):
+  - Responsável pelo armazenamento de dados em um cluster do hadoop. Projetado para trabalhar com grande volumes de dados em hardware comuns, como PCs.
+
+  - Componentes:
+    - A arquitetura do HDFS, por meio dos componentes NameNode e DataNode, utiliza um sistema de arquivos distribuídos que proporciona alto desempenho no acesso aos dados em clusters Hadoop.
+
+    - NameNode: Desempenha o papel de MESTRE em um cluster Hadoop que gerencia o Datanode (nós ESCRAVOS). Ele armazena os dados sobre os dados, ou seja, os METADADOS, como os LOGS. Os NameNode gerenciam o DataNodes por meio das operações de abrir, excluir, criar, replicar, renomear e fechar arquivos.
+
+    - Metadados: São os dados dos dados. Possuem informações sobre arquivos, como nome, tamanho, localização... do DataNode em que o NameNome faz o armazenamento. As operações ficam mais rápidas pois essas informações são úteis para encontrar DataNode mais próximo.
+
+    - DataNode: Desempenha o papel de ESCRAVO. Ele armazena os dados em um cluster Hadoop. A quantidade de DataNodedes pode ser muito grande, aumentando, assim a capacidade de armazenamento que o cluster Hadoop pode realizar.
+
+    Ou seja: DataNome = Dado; NameNode = informações para chegar no dado.
